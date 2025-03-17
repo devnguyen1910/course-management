@@ -1,4 +1,11 @@
+﻿using DigComp.Models;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
+
+// Đăng ký DbContext và cấu hình chuỗi kết nối
+builder.Services.AddDbContext<DCE_DbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DCEConnectString"))); // Sử dụng chuỗi kết nối từ appsettings.json
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "rijWbaWAVndNbU6BwJ3ma9wKMsXX3SuBJxBNgNSP4gU=",
+  "Hash": "iHsTbP/CPEWGRTMXv2pZWKggM4ypsnP1WedWwABM+HU=",
   "Source": "DigComp",
   "BasePath": "_content/DigComp",
   "Mode": "Default",
@@ -1844,12 +1844,12 @@
       "OriginalItemSpec": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\assets\\fonts\\stroke-gap-icons\\index.html"
     },
     {
-      "Identity": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\obj\\Debug\\net9.0\\compressed\\urzsd1132u-6ms3dwa8hp.gz",
+      "Identity": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\obj\\Debug\\net9.0\\compressed\\urzsd1132u-wqvwv313if.gz",
       "SourceId": "DigComp",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/DigComp",
-      "RelativePath": "assets/css/style#[.{fingerprint=6ms3dwa8hp}]?.css.gz",
+      "RelativePath": "assets/css/style#[.{fingerprint=wqvwv313if}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -1858,8 +1858,8 @@
       "RelatedAsset": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\assets\\css\\style.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "vmolmcz6tz",
-      "Integrity": "96UwTOXaE/EwP3yIfefkdI9lAOIDCXhNkZtTH+dUPxs=",
+      "Fingerprint": "52uwfzvx88",
+      "Integrity": "LWu9as5pVFQ5YEBXx+1r09L0k8fsDLlhKksUI8RgOqk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\assets\\css\\style.css"
@@ -2383,8 +2383,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "6ms3dwa8hp",
-      "Integrity": "Yv/93K+5GozpB06n307YmT7zbdBQjg02fxG8FvYar1k=",
+      "Fingerprint": "wqvwv313if",
+      "Integrity": "SFzmOVGLqQiHSqiNUg8B/5FRMdScJbnyhud9W33YLgc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\css\\style.css"
@@ -10954,13 +10954,13 @@
       ]
     },
     {
-      "Route": "assets/css/style.6ms3dwa8hp.css",
-      "AssetFile": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\obj\\Debug\\net9.0\\compressed\\urzsd1132u-6ms3dwa8hp.gz",
+      "Route": "assets/css/style.css",
+      "AssetFile": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\obj\\Debug\\net9.0\\compressed\\urzsd1132u-wqvwv313if.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000052501706"
+          "Quality": "0.000046266309"
         }
       ],
       "ResponseHeaders": [
@@ -10970,19 +10970,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "19046"
+          "Value": "21613"
         },
         {
           "Name": "ETag",
-          "Value": "\"96UwTOXaE/EwP3yIfefkdI9lAOIDCXhNkZtTH+dUPxs=\""
+          "Value": "\"LWu9as5pVFQ5YEBXx+1r09L0k8fsDLlhKksUI8RgOqk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 16 Mar 2025 11:10:11 GMT"
+          "Value": "Mon, 17 Mar 2025 14:31:18 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -10998,26 +10998,18 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"Yv/93K+5GozpB06n307YmT7zbdBQjg02fxG8FvYar1k=\""
+          "Value": "W/\"SFzmOVGLqQiHSqiNUg8B/5FRMdScJbnyhud9W33YLgc=\""
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "6ms3dwa8hp"
-        },
-        {
-          "Name": "label",
-          "Value": "assets/css/style.css"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-Yv/93K+5GozpB06n307YmT7zbdBQjg02fxG8FvYar1k="
+          "Value": "sha256-SFzmOVGLqQiHSqiNUg8B/5FRMdScJbnyhud9W33YLgc="
         }
       ]
     },
     {
-      "Route": "assets/css/style.6ms3dwa8hp.css",
+      "Route": "assets/css/style.css",
       "AssetFile": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\assets\\css\\style.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -11027,7 +11019,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "138363"
+          "Value": "164592"
         },
         {
           "Name": "Content-Type",
@@ -11035,11 +11027,156 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Yv/93K+5GozpB06n307YmT7zbdBQjg02fxG8FvYar1k=\""
+          "Value": "\"SFzmOVGLqQiHSqiNUg8B/5FRMdScJbnyhud9W33YLgc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 16 Mar 2025 11:10:11 GMT"
+          "Value": "Mon, 17 Mar 2025 14:31:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SFzmOVGLqQiHSqiNUg8B/5FRMdScJbnyhud9W33YLgc="
+        }
+      ]
+    },
+    {
+      "Route": "assets/css/style.css.gz",
+      "AssetFile": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\obj\\Debug\\net9.0\\compressed\\urzsd1132u-wqvwv313if.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "21613"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LWu9as5pVFQ5YEBXx+1r09L0k8fsDLlhKksUI8RgOqk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Mar 2025 14:31:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LWu9as5pVFQ5YEBXx+1r09L0k8fsDLlhKksUI8RgOqk="
+        }
+      ]
+    },
+    {
+      "Route": "assets/css/style.wqvwv313if.css",
+      "AssetFile": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\obj\\Debug\\net9.0\\compressed\\urzsd1132u-wqvwv313if.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000046266309"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "21613"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LWu9as5pVFQ5YEBXx+1r09L0k8fsDLlhKksUI8RgOqk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Mar 2025 14:31:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"SFzmOVGLqQiHSqiNUg8B/5FRMdScJbnyhud9W33YLgc=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wqvwv313if"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/css/style.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SFzmOVGLqQiHSqiNUg8B/5FRMdScJbnyhud9W33YLgc="
+        }
+      ]
+    },
+    {
+      "Route": "assets/css/style.wqvwv313if.css",
+      "AssetFile": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\assets\\css\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "164592"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SFzmOVGLqQiHSqiNUg8B/5FRMdScJbnyhud9W33YLgc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Mar 2025 14:31:18 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11049,7 +11186,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "6ms3dwa8hp"
+          "Value": "wqvwv313if"
         },
         {
           "Name": "label",
@@ -11057,13 +11194,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Yv/93K+5GozpB06n307YmT7zbdBQjg02fxG8FvYar1k="
+          "Value": "sha256-SFzmOVGLqQiHSqiNUg8B/5FRMdScJbnyhud9W33YLgc="
         }
       ]
     },
     {
-      "Route": "assets/css/style.6ms3dwa8hp.css.gz",
-      "AssetFile": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\obj\\Debug\\net9.0\\compressed\\urzsd1132u-6ms3dwa8hp.gz",
+      "Route": "assets/css/style.wqvwv313if.css.gz",
+      "AssetFile": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\obj\\Debug\\net9.0\\compressed\\urzsd1132u-wqvwv313if.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11072,7 +11209,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "19046"
+          "Value": "21613"
         },
         {
           "Name": "Content-Type",
@@ -11080,11 +11217,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"96UwTOXaE/EwP3yIfefkdI9lAOIDCXhNkZtTH+dUPxs=\""
+          "Value": "\"LWu9as5pVFQ5YEBXx+1r09L0k8fsDLlhKksUI8RgOqk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 16 Mar 2025 11:10:11 GMT"
+          "Value": "Mon, 17 Mar 2025 14:31:18 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11102,7 +11239,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "6ms3dwa8hp"
+          "Value": "wqvwv313if"
         },
         {
           "Name": "label",
@@ -11110,144 +11247,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-96UwTOXaE/EwP3yIfefkdI9lAOIDCXhNkZtTH+dUPxs="
-        }
-      ]
-    },
-    {
-      "Route": "assets/css/style.css",
-      "AssetFile": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\obj\\Debug\\net9.0\\compressed\\urzsd1132u-6ms3dwa8hp.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000052501706"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "19046"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"96UwTOXaE/EwP3yIfefkdI9lAOIDCXhNkZtTH+dUPxs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 16 Mar 2025 11:10:11 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"Yv/93K+5GozpB06n307YmT7zbdBQjg02fxG8FvYar1k=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Yv/93K+5GozpB06n307YmT7zbdBQjg02fxG8FvYar1k="
-        }
-      ]
-    },
-    {
-      "Route": "assets/css/style.css",
-      "AssetFile": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\assets\\css\\style.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "138363"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Yv/93K+5GozpB06n307YmT7zbdBQjg02fxG8FvYar1k=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 16 Mar 2025 11:10:11 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Yv/93K+5GozpB06n307YmT7zbdBQjg02fxG8FvYar1k="
-        }
-      ]
-    },
-    {
-      "Route": "assets/css/style.css.gz",
-      "AssetFile": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\obj\\Debug\\net9.0\\compressed\\urzsd1132u-6ms3dwa8hp.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "19046"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"96UwTOXaE/EwP3yIfefkdI9lAOIDCXhNkZtTH+dUPxs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 16 Mar 2025 11:10:11 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-96UwTOXaE/EwP3yIfefkdI9lAOIDCXhNkZtTH+dUPxs="
+          "Value": "sha256-LWu9as5pVFQ5YEBXx+1r09L0k8fsDLlhKksUI8RgOqk="
         }
       ]
     },

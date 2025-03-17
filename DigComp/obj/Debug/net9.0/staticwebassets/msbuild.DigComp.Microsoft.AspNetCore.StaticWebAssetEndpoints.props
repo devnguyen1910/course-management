@@ -120,17 +120,17 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"trn40s14zi"},{"Name":"integrity","Value":"sha256-WVHQ3go\u002BW5xkoCDiz8ngc/3ePeiyUo0USEFAgV7qNxY="},{"Name":"label","Value":"_content/DigComp/assets/css/stroke-gap-icons.css"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"115261"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022WVHQ3go\u002BW5xkoCDiz8ngc/3ePeiyUo0USEFAgV7qNxY=\u0022"},{"Name":"Last-Modified","Value":"Wed, 14 May 2014 08:04:12 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/DigComp/assets/css/style.6ms3dwa8hp.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\css\style.css'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"6ms3dwa8hp"},{"Name":"integrity","Value":"sha256-Yv/93K\u002B5GozpB06n307YmT7zbdBQjg02fxG8FvYar1k="},{"Name":"label","Value":"_content/DigComp/assets/css/style.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"138363"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022Yv/93K\u002B5GozpB06n307YmT7zbdBQjg02fxG8FvYar1k=\u0022"},{"Name":"Last-Modified","Value":"Sun, 16 Mar 2025 11:10:11 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/DigComp/assets/css/style.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\css\style.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Yv/93K\u002B5GozpB06n307YmT7zbdBQjg02fxG8FvYar1k="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"138363"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022Yv/93K\u002B5GozpB06n307YmT7zbdBQjg02fxG8FvYar1k=\u0022"},{"Name":"Last-Modified","Value":"Sun, 16 Mar 2025 11:10:11 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-SFzmOVGLqQiHSqiNUg8B/5FRMdScJbnyhud9W33YLgc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"164592"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022SFzmOVGLqQiHSqiNUg8B/5FRMdScJbnyhud9W33YLgc=\u0022"},{"Name":"Last-Modified","Value":"Mon, 17 Mar 2025 14:31:18 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DigComp/assets/css/style.wqvwv313if.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\css\style.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"wqvwv313if"},{"Name":"integrity","Value":"sha256-SFzmOVGLqQiHSqiNUg8B/5FRMdScJbnyhud9W33YLgc="},{"Name":"label","Value":"_content/DigComp/assets/css/style.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"164592"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022SFzmOVGLqQiHSqiNUg8B/5FRMdScJbnyhud9W33YLgc=\u0022"},{"Name":"Last-Modified","Value":"Mon, 17 Mar 2025 14:31:18 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/DigComp/assets/fonts/allison_tessa/AllisonTessa-ExtraexpandedExtra.70k21nbryh.ttf">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\fonts\allison_tessa\AllisonTessa-ExtraexpandedExtra.ttf'))</AssetFile>
