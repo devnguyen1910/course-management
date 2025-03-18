@@ -1,0 +1,82 @@
+﻿@{
+    ViewData["Title"] = "Thông tin tài khoản";
+    Layout = "_Layout";
+}
+
+<!-- breadcrumb_section - start -->
+<div class="breadcrumb_section">
+    <div class="container">
+        <ul class="breadcrumb_nav ul_li">
+            <li><a asp-controller="Home" asp-action="Index">Trang chủ</a></li>
+            <li>Thông tin tài khoản</li>
+        </ul>
+    </div>
+</div>
+<!-- breadcrumb_section - end -->
+<!-- account_section - start -->
+<section class="account_section section_space">
+    <div class="container">
+        <div class="row">
+            <div class="col col-lg-3">
+                <div class="account_menu">
+                    <h2 class="title_text">Tài khoản của tôi</h2>
+                    <ul class="account_menu_list ul_li_block">
+                        <li><a asp-controller="Home" asp-action="Account">Tổng quan tài khoản</a></li>
+                        <li class="active"><a href="#">Thông tin tài khoản</a></li>
+                        <li><a asp-controller="Home" asp-action="ChangePassword">Đổi mật khẩu</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col col-lg-9">
+                <div class="account_content_area">
+                    <h3>Thông tin tài khoản</h3>
+
+                    @if (!string.IsNullOrEmpty(ViewBag.SuccessMessage))
+                    {
+                        <div class="alert alert-success">@ViewBag.SuccessMessage</div>
+                    }
+
+                    <form asp-action="AccountInfo" method="post">
+                        <div class="form-group">
+                            <label for="fullname_input">Họ và Tên</label>
+                            <input type="text" id="fullname_input" name="Fullname" value="@ViewBag.Fullname" class="form-control" readonly>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email_input">Email</label>
+                            <input type="email" id="email_input" name="Email" value="@ViewBag.Email" class="form-control" readonly>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="username_input">Tên đăng nhập</label>
+                            <input type="text" id="username_input" name="Username" value="@ViewBag.Username" class="form-control" readonly>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="birthday_input">Ngày sinh</label>
+                            <input type="date" id="birthday_input" name="Birthday" value="@ViewBag.Birthday?.ToString("yyyy-MM-dd")" class="form-control" readonly>
+                        </div>
+
+                        <div class="text-start mt-3">
+                            <button type="button" class="btn btn-warning" id="edit_btn">Chỉnh sửa thông tin</button>
+                            <button type="submit" class="btn btn-primary" id="save_btn" style="display: none;">Lưu Thay Đổi</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- account_section - end -->
+
+<script>
+    document.getElementById("edit_btn").addEventListener("click", function () {
+        document.getElementById("fullname_input").removeAttribute("readonly");
+        document.getElementById("email_input").removeAttribute("readonly"); // Cho phép chỉnh sửa Email
+        document.getElementById("birthday_input").removeAttribute("readonly");
+
+        document.getElementById("edit_btn").style.display = "none";
+        document.getElementById("save_btn").style.display = "inline-block";
+    });
+</script>

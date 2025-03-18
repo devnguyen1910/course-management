@@ -25,15 +25,11 @@ public partial class DCE_DbContext : DbContext
     {
         modelBuilder.Entity<DceUser>(entity =>
         {
-            entity
-                .HasKey(u => u.Id);
-                
+            entity.ToTable("DCE_Users");
 
+            entity.Property(e => e.Id).HasColumnName("ID");
             entity.Property(e => e.Email).HasMaxLength(200);
             entity.Property(e => e.Fullname).HasMaxLength(100);
-            entity.Property(e => e.Id)
-                .ValueGeneratedOnAdd()
-                .HasColumnName("ID");
             entity.Property(e => e.Password).HasMaxLength(50);
             entity.Property(e => e.Username).HasMaxLength(50);
         });

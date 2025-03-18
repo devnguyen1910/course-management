@@ -124,13 +124,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\css\style.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-SFzmOVGLqQiHSqiNUg8B/5FRMdScJbnyhud9W33YLgc="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"164592"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022SFzmOVGLqQiHSqiNUg8B/5FRMdScJbnyhud9W33YLgc=\u0022"},{"Name":"Last-Modified","Value":"Mon, 17 Mar 2025 14:31:18 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"164592"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022SFzmOVGLqQiHSqiNUg8B/5FRMdScJbnyhud9W33YLgc=\u0022"},{"Name":"Last-Modified","Value":"Tue, 18 Mar 2025 08:36:13 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/DigComp/assets/css/style.wqvwv313if.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\css\style.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"wqvwv313if"},{"Name":"integrity","Value":"sha256-SFzmOVGLqQiHSqiNUg8B/5FRMdScJbnyhud9W33YLgc="},{"Name":"label","Value":"_content/DigComp/assets/css/style.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"164592"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022SFzmOVGLqQiHSqiNUg8B/5FRMdScJbnyhud9W33YLgc=\u0022"},{"Name":"Last-Modified","Value":"Mon, 17 Mar 2025 14:31:18 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"164592"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022SFzmOVGLqQiHSqiNUg8B/5FRMdScJbnyhud9W33YLgc=\u0022"},{"Name":"Last-Modified","Value":"Tue, 18 Mar 2025 08:36:13 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/DigComp/assets/fonts/allison_tessa/AllisonTessa-ExtraexpandedExtra.70k21nbryh.ttf">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\fonts\allison_tessa\AllisonTessa-ExtraexpandedExtra.ttf'))</AssetFile>

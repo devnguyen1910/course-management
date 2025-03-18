@@ -17,76 +17,189 @@ namespace DigComp.Controllers
 
         public IActionResult Index()
         {
+            ViewBag.Username = HttpContext.Session.GetString("Username"); // Kiểm tra xem user có đăng nhập không
+            ViewBag.SuccessMessage = TempData["SuccessMessage"] as string; // Lấy thông báo từ TempData
             return View();
         }
 
-      
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
 
-        // Phương thức xử lý đăng nhập
+        // Hiển thị trang đăng nhập
+        public IActionResult Login()
+        {
+            ViewBag.SuccessMessage = TempData["SuccessMessage"] as string;
+            return View();
+        }
+
+        // Hiển thị trang đăng ký
+        public IActionResult Register()
+        {
+            return View();
+        }
+
+        // Xử lý đăng nhập
         [HttpPost]
         public IActionResult Login(string Username, string Password)
         {
-            // Tìm người dùng dựa trên Username và Password
             var user = _context.DceUsers
                 .FirstOrDefault(u => u.Username == Username && u.Password == Password);
 
             if (user != null)
             {
-                // Nếu người dùng tồn tại, đăng nhập thành công
-                // (Bạn có thể sử dụng Session, Cookies, hoặc Redirect)
-                return RedirectToAction("Index"); // Chuyển hướng đến trang Dashboard sau khi đăng nhập
+                // Lưu thông tin người dùng vào session
+                HttpContext.Session.SetString("Username", user.Username);
+
+                TempData["SuccessMessage"] = "Đăng nhập thành công!";
+                return RedirectToAction("Index");
             }
             else
             {
-                // Nếu không tìm thấy người dùng, đăng nhập thất bại
                 ModelState.AddModelError("", "Sai tên đăng nhập hoặc mật khẩu");
-                return View("Index");
+                return View();
             }
         }
 
-        // Phương thức xử lý đăng ký
+        // Xử lý đăng ký
         [HttpPost]
-        public IActionResult Register(string Username, string Password, string Email)
+        public IActionResult Register(string Fullname, string Username, string Password, string Email)
         {
-            // Kiểm tra xem tên đăng nhập đã tồn tại chưa
             var existingUser = _context.DceUsers.FirstOrDefault(u => u.Username == Username);
 
             if (existingUser != null)
             {
-                // Nếu tên đăng nhập đã tồn tại, thông báo lỗi
                 ModelState.AddModelError("", "Tên đăng nhập đã tồn tại");
-                return View("Index");
+                return View();
             }
 
-            // Tạo người dùng mới
             var newUser = new DceUser
             {
+                Fullname = Fullname,
                 Username = Username,
-                Password = Password, // Mã hóa mật khẩu trước khi lưu vào DB trong thực tế
+                Password = Password, // Nên mã hóa mật khẩu
                 Email = Email,
-                Fullname = "Chưa có tên", // Bạn có thể cập nhật sau
-                Gender = true, // Giới tính mặc định
-                Birthday = DateOnly.FromDateTime(DateTime.Now) // Ngày sinh mặc định
+                Birthday = null
             };
 
-            // Thêm người dùng mới vào cơ sở dữ liệu
             _context.DceUsers.Add(newUser);
             _context.SaveChanges();
 
-            // Chuyển hướng đến trang đăng nhập sau khi đăng ký thành công
+            TempData["SuccessMessage"] = "Đăng ký thành công! Vui lòng đăng nhập.";
+            return RedirectToAction("Login");
+        }
+
+        // Xử lý logout
+        public IActionResult Logout()
+        {
+            HttpContext.Session.Remove("Username"); // Xóa session đăng nhập
+            TempData["SuccessMessage"] = "Bạn đã đăng xuất thành công!";
             return RedirectToAction("Index");
         }
 
-
-
-        public async Task<IActionResult> Register()
+        public IActionResult Account()
         {
+            if (string.IsNullOrEmpty(HttpContext.Session.GetString("Username")))
+            {
+                return RedirectToAction("Login"); // Chuyển hướng đến trang đăng nhập nếu chưa đăng nhập
+            }
+
+            var username = HttpContext.Session.GetString("Username");
+            var user = _context.DceUsers.FirstOrDefault(u => u.Username == username);
+
+            if (user == null)
+            {
+                return RedirectToAction("Login");
+            }
+
+            ViewBag.Username = user.Username;
+            ViewBag.Fullname = user.Fullname;
+            ViewBag.Email = user.Email;
+
             return View();
         }
+
+
+        public IActionResult AccountInfo()
+        {
+            if (string.IsNullOrEmpty(HttpContext.Session.GetString("Username")))
+            {
+                return RedirectToAction("Login");
+            }
+
+            var username = HttpContext.Session.GetString("Username");
+            var user = _context.DceUsers.FirstOrDefault(u => u.Username == username);
+
+            if (user == null)
+            {
+                return RedirectToAction("Login");
+            }
+
+            ViewBag.Username = user.Username;
+            ViewBag.Fullname = user.Fullname;
+            ViewBag.Email = user.Email;
+            ViewBag.Birthday = user.Birthday;
+
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult AccountInfo(string Fullname, DateOnly? Birthday)
+        {
+            if (string.IsNullOrEmpty(HttpContext.Session.GetString("Username")))
+            {
+                return RedirectToAction("Login");
+            }
+
+            var username = HttpContext.Session.GetString("Username");
+            var user = _context.DceUsers.FirstOrDefault(u => u.Username == username);
+
+            if (user == null)
+            {
+                return RedirectToAction("Login");
+            }
+
+            // Cập nhật thông tin tài khoản
+            user.Fullname = Fullname;
+            user.Birthday = Birthday;
+            _context.SaveChanges();
+
+            TempData["SuccessMessage"] = "Cập nhật thông tin thành công!";
+            return RedirectToAction("AccountInfo");
+        }
+
+
+        public IActionResult ChangePassword()
+        {
+            if (string.IsNullOrEmpty(HttpContext.Session.GetString("Username")))
+            {
+                return RedirectToAction("Login"); // Nếu người dùng chưa đăng nhập, chuyển đến trang đăng nhập
+            }
+
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult ChangePassword(string OldPassword, string NewPassword)
+        {
+            var username = HttpContext.Session.GetString("Username");
+            var user = _context.DceUsers.FirstOrDefault(u => u.Username == username);
+
+            if (user == null || user.Password != OldPassword)
+            {
+                TempData["SuccessMessage"] = "Mật khẩu hiện tại không đúng!";
+                return RedirectToAction("ChangePassword");
+            }
+
+            user.Password = NewPassword;
+            _context.SaveChanges();
+
+            TempData["SuccessMessage"] = "Đổi mật khẩu thành công!";
+            return RedirectToAction("ChangePassword");
+        }
+
     }
 }

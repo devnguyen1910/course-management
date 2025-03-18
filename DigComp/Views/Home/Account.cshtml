@@ -1,0 +1,56 @@
+﻿@{
+    ViewData["Title"] = "Tài khoản";
+    Layout = "_Layout";
+}
+
+<!-- breadcrumb_section - start -->
+<div class="breadcrumb_section">
+    <div class="container">
+        <ul class="breadcrumb_nav ul_li">
+            <li><a asp-controller="Home" asp-action="Index">Trang chủ</a></li>
+            <li>Tài khoản</li>
+        </ul>
+    </div>
+</div>
+<!-- breadcrumb_section - end -->
+<!-- account_section - start -->
+<section class="account_section section_space">
+    <div class="container">
+        <div class="row">
+            <div class="col col-lg-3">
+                <div class="account_menu">
+                    <h2 class="title_text">Tài khoản của tôi</h2>
+                    <ul class="account_menu_list ul_li_block">
+                        <li class="active"><a>Tổng quan tài khoản</a></li>
+                        <li><a asp-controller="Home" asp-action="AccountInfo">Thông tin tài khoản</a></li>
+                        <li><a asp-controller="Home" asp-action="ChangePassword">Đổi mật khẩu</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col col-lg-9">
+                <div class="account_content_area">
+                    <h3>Dashboard Tài Khoản</h3>
+                    <ul class="content_layout ul_li_block">
+                        <li>
+                            <h4><strong>Xin chào, @ViewBag.Username!</strong></h4>
+                            <p>
+                                Từ trang quản lý tài khoản, bạn có thể xem các thông tin cá nhân và cập nhật thông tin của mình.
+                            </p>
+                        </li>
+                        <li>
+                            <h4>Thông tin liên hệ</h4>
+                            <p><strong>@ViewBag.Fullname</strong></p>
+                            <a>@ViewBag.Email</a>
+                            <ul class="btns_group ul_li">
+                                <li><a class="btn btn_gray" asp-controller="Home" asp-action="AccountInfo">Chỉnh sửa thông tin</a></li>
+                                <li><a class="btn btn_gray" asp-controller="Home" asp-action="ChangePassword">Đổi mật khẩu</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- account_section - end -->
