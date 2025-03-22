@@ -75,7 +75,7 @@
                     <div class="row align-items-center">
                         <div class="col col-lg-2 col-5">
                             <div class="brand_logo">
-                                <a class="brand_link" href="index.html">
+                                <a class="brand_link" asp-controller=Home asp-action="Index">
                                     <img src="~/assets/images/logo/DCE-logo.png" alt="DigComp Education - Đổi mới tương lai">
                                 </a>
                             </div>
@@ -84,10 +84,20 @@
                             <nav class="main_menu navbar navbar-expand-lg">
                                 <div class="main_menu_inner collapse navbar-collapse justify-content-center" id="main_menu_dropdown">
                                     <ul class="main_menu_list ul_li">
-                                        <li><a href="">Khóa học</a></li>
-                                        <li><a href="">Dịch vụ</a></li>
-                                        <li><a href="">Giảng viên</a></li>
-                                        <li><a href="">Giới thiệu</a></li>
+                                        <li><a asp-controller="Course" asp-action="Index">Khóa học</a></li>
+                                        <li><a asp-controller="Service" asp-action="Index">Dịch vụ</a></li>
+                                        <li><a asp-controller="Home" asp-action="ListTeacher">Giảng viên</a></li>
+                                        <li><a asp-controller="Home" asp-action="AboutCompany">Giới thiệu</a></li>
+                                        <li class="dropdown">
+                                            <a class="nav-link" href="#" id="shop_info_submenu" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                Danh sách yêu thích
+                                            </a>
+                                            <ul class="dropdown-menu" aria-labelledby="shop_info_submenu">
+                                                <li><a asp-controller="Course" asp-action="WLCourse" >Khóa học</a></li>
+                                                <li><a asp-controller="Service" asp-action="WLService">Sản phẩm dịch vụ</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a asp-controller="Home" asp-action="Contact">Liên hệ</a></li>
                                     </ul>
                                 </div>
                             </nav>
@@ -147,11 +157,11 @@
                                 <div class="allcategories_collapse collapse" id="allcategories_collapse">
                                     <div class="card card-body">
                                         <ul class="allcategories_list ul_li_block"> 
-                                             <li><a ><i class="fa-duotone fa-rocket-launch"></i> Khóa học</a></li> 
-                                             <li><a ><i class="fa-duotone fa-earth-americas"></i> Dịch vụ</a></li> 
-                                             <li><a ><i class="fa-duotone fa-star-christmas"></i> Đội ngũ giảng viên</a></li>
-                                             <li><a ><i class="fa-duotone fa-mobile-screen"></i> Giới thiệu công ty</a></li> 
-                                             <li><a ><i class="fa-duotone fa-computer-classic"></i> Danh sách yêu thích</a></li> 
+                                             <li><a asp-controller="Course" asp-action="Index"><i class="fa-duotone fa-rocket-launch"></i> Khóa học</a></li>
+                                            <li><a asp-controller="Service" asp-action="Index"><i class="fa-duotone fa-earth-americas"></i> Dịch vụ</a></li>
+                                            <li><a asp-controller="Home" asp-action="ListTeacher"><i class="fa-duotone fa-star-christmas"></i> Đội ngũ giảng viên</a></li>
+                                            <li><a asp-controller="Home" asp-action="AboutCompany"><i class="fa-duotone fa-mobile-screen"></i> Giới thiệu công ty</a></li>
+                                            <li><a ><i class="fa-duotone fa-computer-classic"></i> Danh sách yêu thích</a></li> 
                                              <li><a ><i class="fa-solid fa-lightbulb-cfl"></i> FAQ & Hỗ trợ</a></li>
                                         </ul>
                                     </div>

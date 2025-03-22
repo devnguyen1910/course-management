@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "hNTnacwDBWzQ4r0vxMsjycmilmkOWQG89Gly3+GeAk8=",
+  "Hash": "ffWE5epJvK0C3cJYm9XaVy2oGsovF7DOW7DGLjXYUFg=",
   "Source": "DigComp",
   "BasePath": "_content/DigComp",
   "Mode": "Default",
@@ -1844,12 +1844,12 @@
       "OriginalItemSpec": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\assets\\fonts\\stroke-gap-icons\\index.html"
     },
     {
-      "Identity": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\obj\\Debug\\net9.0\\compressed\\urzsd1132u-wqvwv313if.gz",
+      "Identity": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\obj\\Debug\\net9.0\\compressed\\urzsd1132u-2xjlvhvagx.gz",
       "SourceId": "DigComp",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/DigComp",
-      "RelativePath": "assets/css/style#[.{fingerprint=wqvwv313if}]?.css.gz",
+      "RelativePath": "assets/css/style#[.{fingerprint=2xjlvhvagx}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -1858,8 +1858,8 @@
       "RelatedAsset": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\assets\\css\\style.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "52uwfzvx88",
-      "Integrity": "LWu9as5pVFQ5YEBXx+1r09L0k8fsDLlhKksUI8RgOqk=",
+      "Fingerprint": "lpbeq8dgf0",
+      "Integrity": "N4PfRtKwhITVU5Okb7hg7vCe/BzxVA4MyDbd5hiqMXE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\assets\\css\\style.css"
@@ -2383,8 +2383,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "wqvwv313if",
-      "Integrity": "SFzmOVGLqQiHSqiNUg8B/5FRMdScJbnyhud9W33YLgc=",
+      "Fingerprint": "2xjlvhvagx",
+      "Integrity": "6tSrWMJZ9D3pGoNtWSUnaj6lYWYz+XYJZnMAxNAWubc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\css\\style.css"
@@ -4364,6 +4364,27 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\latest_product\\latest_product_4.png"
     },
     {
+      "Identity": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\assets\\images\\logo\\campaign-creators-gMsnXqILjp4-unsplash-1024x683.jpg",
+      "SourceId": "DigComp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\",
+      "BasePath": "_content/DigComp",
+      "RelativePath": "assets/images/logo/campaign-creators-gMsnXqILjp4-unsplash-1024x683#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mxfwv7kk90",
+      "Integrity": "VqxwToiWkf/2ReW6HBASX8x75EonY2wfypXEDFBLAoc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\logo\\campaign-creators-gMsnXqILjp4-unsplash-1024x683.jpg"
+    },
+    {
       "Identity": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\assets\\images\\logo\\DCE-logo.png",
       "SourceId": "DigComp",
       "SourceType": "Discovered",
@@ -4404,6 +4425,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\images\\logo\\NEW_-GfE-Badges-Horizontal_Certified-Trainer-1.png"
+    },
+    {
+      "Identity": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\assets\\images\\logo\\Webinar-pana-1-1024x683.png",
+      "SourceId": "DigComp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\",
+      "BasePath": "_content/DigComp",
+      "RelativePath": "assets/images/logo/Webinar-pana-1-1024x683#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xq9tsy77qg",
+      "Integrity": "Z5XMyBxl27rUxi6Q0FHIOHnjuNgG0fF7zh2KDHw69b0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\logo\\Webinar-pana-1-1024x683.png"
     },
     {
       "Identity": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\assets\\images\\payments_icon.png",
@@ -6987,6 +7029,321 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\image\\course\\GfE-Badges-Vertical_Certified-Educator-Level1.png",
+      "SourceId": "DigComp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\",
+      "BasePath": "_content/DigComp",
+      "RelativePath": "image/course/GfE-Badges-Vertical_Certified-Educator-Level1#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ay6sp6ft6j",
+      "Integrity": "zixKKsP4EKGXQAqHWgOGFGjJ+E0YH9SKAuaWaqNqB24=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\course\\GfE-Badges-Vertical_Certified-Educator-Level1.png"
+    },
+    {
+      "Identity": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\image\\course\\google-workspace-education-fundamentals.jpg",
+      "SourceId": "DigComp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\",
+      "BasePath": "_content/DigComp",
+      "RelativePath": "image/course/google-workspace-education-fundamentals#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "yyntq9d7qm",
+      "Integrity": "ZjNnL68EMOKlr4qluhuJWQ/Mw9prEsYiiEVmWUo4jBY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\course\\google-workspace-education-fundamentals.jpg"
+    },
+    {
+      "Identity": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\image\\course\\images.png",
+      "SourceId": "DigComp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\",
+      "BasePath": "_content/DigComp",
+      "RelativePath": "image/course/images#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "glhzsvthzd",
+      "Integrity": "1Mv+PwCd9AhFngWiD64qgWBI4myZIyeY4nYiyNWMfy4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\course\\images.png"
+    },
+    {
+      "Identity": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\image\\course\\screen-shot-2016-12-11-at-6-45-28-pm.jpg",
+      "SourceId": "DigComp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\",
+      "BasePath": "_content/DigComp",
+      "RelativePath": "image/course/screen-shot-2016-12-11-at-6-45-28-pm#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ouigmcgps0",
+      "Integrity": "cIkAAAjdzUEINbzdO6jQrJfjzTak6MP24T0rVJRTvUs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\course\\screen-shot-2016-12-11-at-6-45-28-pm.jpg"
+    },
+    {
+      "Identity": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\image\\doanxuanhien\\1.jpg",
+      "SourceId": "DigComp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\",
+      "BasePath": "_content/DigComp",
+      "RelativePath": "image/doanxuanhien/1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7nw5bmllyp",
+      "Integrity": "g8e1TNv/OCtupYMA/41Q51XXfzzVEaQTVGNIgsDhSfc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\doanxuanhien\\1.jpg"
+    },
+    {
+      "Identity": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\image\\doanxuanhien\\1.png",
+      "SourceId": "DigComp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\",
+      "BasePath": "_content/DigComp",
+      "RelativePath": "image/doanxuanhien/1#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bzb313bbj7",
+      "Integrity": "Z1w96TIvxCNq9RvxRM64kRtKfTYHBOUeZ8YGpYiMXCQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\doanxuanhien\\1.png"
+    },
+    {
+      "Identity": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\image\\doanxuanhien\\2.jpg",
+      "SourceId": "DigComp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\",
+      "BasePath": "_content/DigComp",
+      "RelativePath": "image/doanxuanhien/2#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ajcixv83c1",
+      "Integrity": "9uyXXGZ4j41seh594CtNibBuiCszD9muhIshAWDYfBo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\doanxuanhien\\2.jpg"
+    },
+    {
+      "Identity": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\image\\doanxuanhien\\3.jpg",
+      "SourceId": "DigComp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\",
+      "BasePath": "_content/DigComp",
+      "RelativePath": "image/doanxuanhien/3#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "i1symtsxq8",
+      "Integrity": "diyXx1T5cAw2oXU2z+j6rAvDPVMeHpPW0axD7UOd9FA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\doanxuanhien\\3.jpg"
+    },
+    {
+      "Identity": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\image\\doanxuanhien\\4.jpg",
+      "SourceId": "DigComp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\",
+      "BasePath": "_content/DigComp",
+      "RelativePath": "image/doanxuanhien/4#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ac5l2hq4v2",
+      "Integrity": "titRXZH/heemaGt0RifcVF7zZj70rne7rBaXarkKZnI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\doanxuanhien\\4.jpg"
+    },
+    {
+      "Identity": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\image\\doanxuanhien\\5.jpg",
+      "SourceId": "DigComp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\",
+      "BasePath": "_content/DigComp",
+      "RelativePath": "image/doanxuanhien/5#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fd2huixfyc",
+      "Integrity": "vaP6jQxGBYuRvwMxFN5uNDA1t7NOF6t4qulqU1aVxG8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\doanxuanhien\\5.jpg"
+    },
+    {
+      "Identity": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\image\\khiettran\\1.jpg",
+      "SourceId": "DigComp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\",
+      "BasePath": "_content/DigComp",
+      "RelativePath": "image/khiettran/1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "t77wd8rh6o",
+      "Integrity": "iSmIJtTU2Nh7ancI3B+pwRtmI38X8G/qZvPs4blW2HQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\khiettran\\1.jpg"
+    },
+    {
+      "Identity": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\image\\lenguyenkhang\\1.jpg",
+      "SourceId": "DigComp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\",
+      "BasePath": "_content/DigComp",
+      "RelativePath": "image/lenguyenkhang/1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vh7yg8te6t",
+      "Integrity": "c9r9c/iQdH4EE064DfKeL5IAI74D6u3KoJQ5thENkjc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\lenguyenkhang\\1.jpg"
+    },
+    {
+      "Identity": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\image\\service\\gg for education fundamental.png",
+      "SourceId": "DigComp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\",
+      "BasePath": "_content/DigComp",
+      "RelativePath": "image/service/gg for education fundamental#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "86zz1le8k7",
+      "Integrity": "0JHXjqNvYFUElVKhkynQR2xYwcakwTyuuyQ8c5DmMFM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\service\\gg for education fundamental.png"
+    },
+    {
+      "Identity": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\image\\service\\gg for education plus.jpg",
+      "SourceId": "DigComp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\",
+      "BasePath": "_content/DigComp",
+      "RelativePath": "image/service/gg for education plus#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "uxok4tgaje",
+      "Integrity": "QlPEkiUHmoBcVKVlqYgXfeAaEGNZxP7GAUIQl5JKAzg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\service\\gg for education plus.jpg"
+    },
+    {
+      "Identity": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\image\\service\\gg for education standard.jpg",
+      "SourceId": "DigComp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\",
+      "BasePath": "_content/DigComp",
+      "RelativePath": "image/service/gg for education standard#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jjc688im6q",
+      "Integrity": "AbPi+ss8ZaXJGCFhGRd7fejJP+7CoMfemqDoDOKDSSU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\service\\gg for education standard.jpg"
     },
     {
       "Identity": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\js\\site.js",
@@ -10954,13 +11311,13 @@
       ]
     },
     {
-      "Route": "assets/css/style.css",
-      "AssetFile": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\obj\\Debug\\net9.0\\compressed\\urzsd1132u-wqvwv313if.gz",
+      "Route": "assets/css/style.2xjlvhvagx.css",
+      "AssetFile": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\obj\\Debug\\net9.0\\compressed\\urzsd1132u-2xjlvhvagx.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000046266309"
+          "Quality": "0.000046279156"
         }
       ],
       "ResponseHeaders": [
@@ -10970,19 +11327,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "21613"
+          "Value": "21607"
         },
         {
           "Name": "ETag",
-          "Value": "\"LWu9as5pVFQ5YEBXx+1r09L0k8fsDLlhKksUI8RgOqk=\""
+          "Value": "\"N4PfRtKwhITVU5Okb7hg7vCe/BzxVA4MyDbd5hiqMXE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 18 Mar 2025 08:36:13 GMT"
+          "Value": "Fri, 21 Mar 2025 09:53:04 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Encoding",
@@ -10998,18 +11355,26 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"SFzmOVGLqQiHSqiNUg8B/5FRMdScJbnyhud9W33YLgc=\""
+          "Value": "W/\"6tSrWMJZ9D3pGoNtWSUnaj6lYWYz+XYJZnMAxNAWubc=\""
         }
       ],
       "EndpointProperties": [
         {
+          "Name": "fingerprint",
+          "Value": "2xjlvhvagx"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/css/style.css"
+        },
+        {
           "Name": "integrity",
-          "Value": "sha256-SFzmOVGLqQiHSqiNUg8B/5FRMdScJbnyhud9W33YLgc="
+          "Value": "sha256-6tSrWMJZ9D3pGoNtWSUnaj6lYWYz+XYJZnMAxNAWubc="
         }
       ]
     },
     {
-      "Route": "assets/css/style.css",
+      "Route": "assets/css/style.2xjlvhvagx.css",
       "AssetFile": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\assets\\css\\style.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -11019,7 +11384,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "164592"
+          "Value": "164594"
         },
         {
           "Name": "Content-Type",
@@ -11027,121 +11392,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"SFzmOVGLqQiHSqiNUg8B/5FRMdScJbnyhud9W33YLgc=\""
+          "Value": "\"6tSrWMJZ9D3pGoNtWSUnaj6lYWYz+XYJZnMAxNAWubc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 18 Mar 2025 08:36:13 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-SFzmOVGLqQiHSqiNUg8B/5FRMdScJbnyhud9W33YLgc="
-        }
-      ]
-    },
-    {
-      "Route": "assets/css/style.css.gz",
-      "AssetFile": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\obj\\Debug\\net9.0\\compressed\\urzsd1132u-wqvwv313if.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "21613"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"LWu9as5pVFQ5YEBXx+1r09L0k8fsDLlhKksUI8RgOqk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 18 Mar 2025 08:36:13 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-LWu9as5pVFQ5YEBXx+1r09L0k8fsDLlhKksUI8RgOqk="
-        }
-      ]
-    },
-    {
-      "Route": "assets/css/style.wqvwv313if.css",
-      "AssetFile": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\obj\\Debug\\net9.0\\compressed\\urzsd1132u-wqvwv313if.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000046266309"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "21613"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"LWu9as5pVFQ5YEBXx+1r09L0k8fsDLlhKksUI8RgOqk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 18 Mar 2025 08:36:13 GMT"
+          "Value": "Fri, 21 Mar 2025 09:53:04 GMT"
         },
         {
           "Name": "Cache-Control",
           "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"SFzmOVGLqQiHSqiNUg8B/5FRMdScJbnyhud9W33YLgc=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "wqvwv313if"
+          "Value": "2xjlvhvagx"
         },
         {
           "Name": "label",
@@ -11149,13 +11414,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-SFzmOVGLqQiHSqiNUg8B/5FRMdScJbnyhud9W33YLgc="
+          "Value": "sha256-6tSrWMJZ9D3pGoNtWSUnaj6lYWYz+XYJZnMAxNAWubc="
         }
       ]
     },
     {
-      "Route": "assets/css/style.wqvwv313if.css",
-      "AssetFile": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\assets\\css\\style.css",
+      "Route": "assets/css/style.2xjlvhvagx.css.gz",
+      "AssetFile": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\obj\\Debug\\net9.0\\compressed\\urzsd1132u-2xjlvhvagx.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11164,7 +11429,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "164592"
+          "Value": "21607"
         },
         {
           "Name": "Content-Type",
@@ -11172,56 +11437,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"SFzmOVGLqQiHSqiNUg8B/5FRMdScJbnyhud9W33YLgc=\""
+          "Value": "\"N4PfRtKwhITVU5Okb7hg7vCe/BzxVA4MyDbd5hiqMXE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 18 Mar 2025 08:36:13 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "wqvwv313if"
-        },
-        {
-          "Name": "label",
-          "Value": "assets/css/style.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-SFzmOVGLqQiHSqiNUg8B/5FRMdScJbnyhud9W33YLgc="
-        }
-      ]
-    },
-    {
-      "Route": "assets/css/style.wqvwv313if.css.gz",
-      "AssetFile": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\obj\\Debug\\net9.0\\compressed\\urzsd1132u-wqvwv313if.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "21613"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"LWu9as5pVFQ5YEBXx+1r09L0k8fsDLlhKksUI8RgOqk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 18 Mar 2025 08:36:13 GMT"
+          "Value": "Fri, 21 Mar 2025 09:53:04 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11239,7 +11459,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "wqvwv313if"
+          "Value": "2xjlvhvagx"
         },
         {
           "Name": "label",
@@ -11247,7 +11467,144 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-LWu9as5pVFQ5YEBXx+1r09L0k8fsDLlhKksUI8RgOqk="
+          "Value": "sha256-N4PfRtKwhITVU5Okb7hg7vCe/BzxVA4MyDbd5hiqMXE="
+        }
+      ]
+    },
+    {
+      "Route": "assets/css/style.css",
+      "AssetFile": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\obj\\Debug\\net9.0\\compressed\\urzsd1132u-2xjlvhvagx.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000046279156"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "21607"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"N4PfRtKwhITVU5Okb7hg7vCe/BzxVA4MyDbd5hiqMXE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Mar 2025 09:53:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"6tSrWMJZ9D3pGoNtWSUnaj6lYWYz+XYJZnMAxNAWubc=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6tSrWMJZ9D3pGoNtWSUnaj6lYWYz+XYJZnMAxNAWubc="
+        }
+      ]
+    },
+    {
+      "Route": "assets/css/style.css",
+      "AssetFile": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\assets\\css\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "164594"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6tSrWMJZ9D3pGoNtWSUnaj6lYWYz+XYJZnMAxNAWubc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Mar 2025 09:53:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6tSrWMJZ9D3pGoNtWSUnaj6lYWYz+XYJZnMAxNAWubc="
+        }
+      ]
+    },
+    {
+      "Route": "assets/css/style.css.gz",
+      "AssetFile": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\obj\\Debug\\net9.0\\compressed\\urzsd1132u-2xjlvhvagx.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "21607"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"N4PfRtKwhITVU5Okb7hg7vCe/BzxVA4MyDbd5hiqMXE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Mar 2025 09:53:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-N4PfRtKwhITVU5Okb7hg7vCe/BzxVA4MyDbd5hiqMXE="
         }
       ]
     },
@@ -21120,6 +21477,88 @@
       ]
     },
     {
+      "Route": "assets/images/logo/campaign-creators-gMsnXqILjp4-unsplash-1024x683.jpg",
+      "AssetFile": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\assets\\images\\logo\\campaign-creators-gMsnXqILjp4-unsplash-1024x683.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "114135"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VqxwToiWkf/2ReW6HBASX8x75EonY2wfypXEDFBLAoc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Mar 2025 09:17:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-VqxwToiWkf/2ReW6HBASX8x75EonY2wfypXEDFBLAoc="
+        }
+      ]
+    },
+    {
+      "Route": "assets/images/logo/campaign-creators-gMsnXqILjp4-unsplash-1024x683.mxfwv7kk90.jpg",
+      "AssetFile": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\assets\\images\\logo\\campaign-creators-gMsnXqILjp4-unsplash-1024x683.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "114135"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VqxwToiWkf/2ReW6HBASX8x75EonY2wfypXEDFBLAoc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Mar 2025 09:17:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mxfwv7kk90"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/images/logo/campaign-creators-gMsnXqILjp4-unsplash-1024x683.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-VqxwToiWkf/2ReW6HBASX8x75EonY2wfypXEDFBLAoc="
+        }
+      ]
+    },
+    {
       "Route": "assets/images/logo/DCE-logo.fn933ed6fk.png",
       "AssetFile": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\assets\\images\\logo\\DCE-logo.png",
       "Selectors": [],
@@ -21280,6 +21719,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-82eaexMSZQxgszhGeKG7KxZ06zX64RMUrMvSDUmlDG4="
+        }
+      ]
+    },
+    {
+      "Route": "assets/images/logo/Webinar-pana-1-1024x683.png",
+      "AssetFile": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\assets\\images\\logo\\Webinar-pana-1-1024x683.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "337548"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Z5XMyBxl27rUxi6Q0FHIOHnjuNgG0fF7zh2KDHw69b0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Mar 2025 08:44:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Z5XMyBxl27rUxi6Q0FHIOHnjuNgG0fF7zh2KDHw69b0="
+        }
+      ]
+    },
+    {
+      "Route": "assets/images/logo/Webinar-pana-1-1024x683.xq9tsy77qg.png",
+      "AssetFile": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\assets\\images\\logo\\Webinar-pana-1-1024x683.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "337548"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Z5XMyBxl27rUxi6Q0FHIOHnjuNgG0fF7zh2KDHw69b0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Mar 2025 08:44:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xq9tsy77qg"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/images/logo/Webinar-pana-1-1024x683.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Z5XMyBxl27rUxi6Q0FHIOHnjuNgG0fF7zh2KDHw69b0="
         }
       ]
     },
@@ -36066,6 +36587,1236 @@
         {
           "Name": "integrity",
           "Value": "sha256-jcY0RXFOlcp4VNTCcYQtWVZZBlr+ZY+AOv6/0S5dnF8="
+        }
+      ]
+    },
+    {
+      "Route": "image/course/GfE-Badges-Vertical_Certified-Educator-Level1.ay6sp6ft6j.png",
+      "AssetFile": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\image\\course\\GfE-Badges-Vertical_Certified-Educator-Level1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "28255"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zixKKsP4EKGXQAqHWgOGFGjJ+E0YH9SKAuaWaqNqB24=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Mar 2025 09:44:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ay6sp6ft6j"
+        },
+        {
+          "Name": "label",
+          "Value": "image/course/GfE-Badges-Vertical_Certified-Educator-Level1.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zixKKsP4EKGXQAqHWgOGFGjJ+E0YH9SKAuaWaqNqB24="
+        }
+      ]
+    },
+    {
+      "Route": "image/course/GfE-Badges-Vertical_Certified-Educator-Level1.png",
+      "AssetFile": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\image\\course\\GfE-Badges-Vertical_Certified-Educator-Level1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "28255"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zixKKsP4EKGXQAqHWgOGFGjJ+E0YH9SKAuaWaqNqB24=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Mar 2025 09:44:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zixKKsP4EKGXQAqHWgOGFGjJ+E0YH9SKAuaWaqNqB24="
+        }
+      ]
+    },
+    {
+      "Route": "image/course/google-workspace-education-fundamentals.jpg",
+      "AssetFile": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\image\\course\\google-workspace-education-fundamentals.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "80994"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZjNnL68EMOKlr4qluhuJWQ/Mw9prEsYiiEVmWUo4jBY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Mar 2025 09:43:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZjNnL68EMOKlr4qluhuJWQ/Mw9prEsYiiEVmWUo4jBY="
+        }
+      ]
+    },
+    {
+      "Route": "image/course/google-workspace-education-fundamentals.yyntq9d7qm.jpg",
+      "AssetFile": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\image\\course\\google-workspace-education-fundamentals.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "80994"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZjNnL68EMOKlr4qluhuJWQ/Mw9prEsYiiEVmWUo4jBY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Mar 2025 09:43:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yyntq9d7qm"
+        },
+        {
+          "Name": "label",
+          "Value": "image/course/google-workspace-education-fundamentals.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZjNnL68EMOKlr4qluhuJWQ/Mw9prEsYiiEVmWUo4jBY="
+        }
+      ]
+    },
+    {
+      "Route": "image/course/images.glhzsvthzd.png",
+      "AssetFile": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\image\\course\\images.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4294"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1Mv+PwCd9AhFngWiD64qgWBI4myZIyeY4nYiyNWMfy4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Mar 2025 09:44:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "glhzsvthzd"
+        },
+        {
+          "Name": "label",
+          "Value": "image/course/images.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1Mv+PwCd9AhFngWiD64qgWBI4myZIyeY4nYiyNWMfy4="
+        }
+      ]
+    },
+    {
+      "Route": "image/course/images.png",
+      "AssetFile": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\image\\course\\images.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4294"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1Mv+PwCd9AhFngWiD64qgWBI4myZIyeY4nYiyNWMfy4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Mar 2025 09:44:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1Mv+PwCd9AhFngWiD64qgWBI4myZIyeY4nYiyNWMfy4="
+        }
+      ]
+    },
+    {
+      "Route": "image/course/screen-shot-2016-12-11-at-6-45-28-pm.jpg",
+      "AssetFile": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\image\\course\\screen-shot-2016-12-11-at-6-45-28-pm.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "59092"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cIkAAAjdzUEINbzdO6jQrJfjzTak6MP24T0rVJRTvUs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Mar 2025 09:44:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cIkAAAjdzUEINbzdO6jQrJfjzTak6MP24T0rVJRTvUs="
+        }
+      ]
+    },
+    {
+      "Route": "image/course/screen-shot-2016-12-11-at-6-45-28-pm.ouigmcgps0.jpg",
+      "AssetFile": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\image\\course\\screen-shot-2016-12-11-at-6-45-28-pm.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "59092"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cIkAAAjdzUEINbzdO6jQrJfjzTak6MP24T0rVJRTvUs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Mar 2025 09:44:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ouigmcgps0"
+        },
+        {
+          "Name": "label",
+          "Value": "image/course/screen-shot-2016-12-11-at-6-45-28-pm.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cIkAAAjdzUEINbzdO6jQrJfjzTak6MP24T0rVJRTvUs="
+        }
+      ]
+    },
+    {
+      "Route": "image/doanxuanhien/1.7nw5bmllyp.jpg",
+      "AssetFile": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\image\\doanxuanhien\\1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "382987"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"g8e1TNv/OCtupYMA/41Q51XXfzzVEaQTVGNIgsDhSfc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Mar 2025 08:59:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7nw5bmllyp"
+        },
+        {
+          "Name": "label",
+          "Value": "image/doanxuanhien/1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-g8e1TNv/OCtupYMA/41Q51XXfzzVEaQTVGNIgsDhSfc="
+        }
+      ]
+    },
+    {
+      "Route": "image/doanxuanhien/1.bzb313bbj7.png",
+      "AssetFile": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\image\\doanxuanhien\\1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33344"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Z1w96TIvxCNq9RvxRM64kRtKfTYHBOUeZ8YGpYiMXCQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Mar 2025 10:55:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bzb313bbj7"
+        },
+        {
+          "Name": "label",
+          "Value": "image/doanxuanhien/1.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Z1w96TIvxCNq9RvxRM64kRtKfTYHBOUeZ8YGpYiMXCQ="
+        }
+      ]
+    },
+    {
+      "Route": "image/doanxuanhien/1.jpg",
+      "AssetFile": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\image\\doanxuanhien\\1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "382987"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"g8e1TNv/OCtupYMA/41Q51XXfzzVEaQTVGNIgsDhSfc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Mar 2025 08:59:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-g8e1TNv/OCtupYMA/41Q51XXfzzVEaQTVGNIgsDhSfc="
+        }
+      ]
+    },
+    {
+      "Route": "image/doanxuanhien/1.png",
+      "AssetFile": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\image\\doanxuanhien\\1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33344"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Z1w96TIvxCNq9RvxRM64kRtKfTYHBOUeZ8YGpYiMXCQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Mar 2025 10:55:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Z1w96TIvxCNq9RvxRM64kRtKfTYHBOUeZ8YGpYiMXCQ="
+        }
+      ]
+    },
+    {
+      "Route": "image/doanxuanhien/2.ajcixv83c1.jpg",
+      "AssetFile": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\image\\doanxuanhien\\2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "557165"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9uyXXGZ4j41seh594CtNibBuiCszD9muhIshAWDYfBo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Mar 2025 10:54:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ajcixv83c1"
+        },
+        {
+          "Name": "label",
+          "Value": "image/doanxuanhien/2.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9uyXXGZ4j41seh594CtNibBuiCszD9muhIshAWDYfBo="
+        }
+      ]
+    },
+    {
+      "Route": "image/doanxuanhien/2.jpg",
+      "AssetFile": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\image\\doanxuanhien\\2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "557165"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9uyXXGZ4j41seh594CtNibBuiCszD9muhIshAWDYfBo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Mar 2025 10:54:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9uyXXGZ4j41seh594CtNibBuiCszD9muhIshAWDYfBo="
+        }
+      ]
+    },
+    {
+      "Route": "image/doanxuanhien/3.i1symtsxq8.jpg",
+      "AssetFile": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\image\\doanxuanhien\\3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "394758"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"diyXx1T5cAw2oXU2z+j6rAvDPVMeHpPW0axD7UOd9FA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Mar 2025 10:54:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "i1symtsxq8"
+        },
+        {
+          "Name": "label",
+          "Value": "image/doanxuanhien/3.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-diyXx1T5cAw2oXU2z+j6rAvDPVMeHpPW0axD7UOd9FA="
+        }
+      ]
+    },
+    {
+      "Route": "image/doanxuanhien/3.jpg",
+      "AssetFile": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\image\\doanxuanhien\\3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "394758"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"diyXx1T5cAw2oXU2z+j6rAvDPVMeHpPW0axD7UOd9FA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Mar 2025 10:54:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-diyXx1T5cAw2oXU2z+j6rAvDPVMeHpPW0axD7UOd9FA="
+        }
+      ]
+    },
+    {
+      "Route": "image/doanxuanhien/4.ac5l2hq4v2.jpg",
+      "AssetFile": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\image\\doanxuanhien\\4.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "559856"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"titRXZH/heemaGt0RifcVF7zZj70rne7rBaXarkKZnI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Mar 2025 10:54:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ac5l2hq4v2"
+        },
+        {
+          "Name": "label",
+          "Value": "image/doanxuanhien/4.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-titRXZH/heemaGt0RifcVF7zZj70rne7rBaXarkKZnI="
+        }
+      ]
+    },
+    {
+      "Route": "image/doanxuanhien/4.jpg",
+      "AssetFile": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\image\\doanxuanhien\\4.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "559856"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"titRXZH/heemaGt0RifcVF7zZj70rne7rBaXarkKZnI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Mar 2025 10:54:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-titRXZH/heemaGt0RifcVF7zZj70rne7rBaXarkKZnI="
+        }
+      ]
+    },
+    {
+      "Route": "image/doanxuanhien/5.fd2huixfyc.jpg",
+      "AssetFile": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\image\\doanxuanhien\\5.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "151494"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vaP6jQxGBYuRvwMxFN5uNDA1t7NOF6t4qulqU1aVxG8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Mar 2025 11:00:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fd2huixfyc"
+        },
+        {
+          "Name": "label",
+          "Value": "image/doanxuanhien/5.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vaP6jQxGBYuRvwMxFN5uNDA1t7NOF6t4qulqU1aVxG8="
+        }
+      ]
+    },
+    {
+      "Route": "image/doanxuanhien/5.jpg",
+      "AssetFile": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\image\\doanxuanhien\\5.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "151494"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vaP6jQxGBYuRvwMxFN5uNDA1t7NOF6t4qulqU1aVxG8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Mar 2025 11:00:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vaP6jQxGBYuRvwMxFN5uNDA1t7NOF6t4qulqU1aVxG8="
+        }
+      ]
+    },
+    {
+      "Route": "image/khiettran/1.jpg",
+      "AssetFile": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\image\\khiettran\\1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "460874"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iSmIJtTU2Nh7ancI3B+pwRtmI38X8G/qZvPs4blW2HQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Mar 2025 08:31:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-iSmIJtTU2Nh7ancI3B+pwRtmI38X8G/qZvPs4blW2HQ="
+        }
+      ]
+    },
+    {
+      "Route": "image/khiettran/1.t77wd8rh6o.jpg",
+      "AssetFile": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\image\\khiettran\\1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "460874"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iSmIJtTU2Nh7ancI3B+pwRtmI38X8G/qZvPs4blW2HQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Mar 2025 08:31:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "t77wd8rh6o"
+        },
+        {
+          "Name": "label",
+          "Value": "image/khiettran/1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-iSmIJtTU2Nh7ancI3B+pwRtmI38X8G/qZvPs4blW2HQ="
+        }
+      ]
+    },
+    {
+      "Route": "image/lenguyenkhang/1.jpg",
+      "AssetFile": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\image\\lenguyenkhang\\1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "72426"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c9r9c/iQdH4EE064DfKeL5IAI74D6u3KoJQ5thENkjc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Mar 2025 08:32:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-c9r9c/iQdH4EE064DfKeL5IAI74D6u3KoJQ5thENkjc="
+        }
+      ]
+    },
+    {
+      "Route": "image/lenguyenkhang/1.vh7yg8te6t.jpg",
+      "AssetFile": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\image\\lenguyenkhang\\1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "72426"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c9r9c/iQdH4EE064DfKeL5IAI74D6u3KoJQ5thENkjc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Mar 2025 08:32:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vh7yg8te6t"
+        },
+        {
+          "Name": "label",
+          "Value": "image/lenguyenkhang/1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-c9r9c/iQdH4EE064DfKeL5IAI74D6u3KoJQ5thENkjc="
+        }
+      ]
+    },
+    {
+      "Route": "image/service/gg for education fundamental.86zz1le8k7.png",
+      "AssetFile": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\image\\service\\gg for education fundamental.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "369487"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0JHXjqNvYFUElVKhkynQR2xYwcakwTyuuyQ8c5DmMFM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Mar 2025 10:00:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "86zz1le8k7"
+        },
+        {
+          "Name": "label",
+          "Value": "image/service/gg for education fundamental.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0JHXjqNvYFUElVKhkynQR2xYwcakwTyuuyQ8c5DmMFM="
+        }
+      ]
+    },
+    {
+      "Route": "image/service/gg for education fundamental.png",
+      "AssetFile": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\image\\service\\gg for education fundamental.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "369487"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0JHXjqNvYFUElVKhkynQR2xYwcakwTyuuyQ8c5DmMFM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Mar 2025 10:00:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0JHXjqNvYFUElVKhkynQR2xYwcakwTyuuyQ8c5DmMFM="
+        }
+      ]
+    },
+    {
+      "Route": "image/service/gg for education plus.jpg",
+      "AssetFile": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\image\\service\\gg for education plus.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10006"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QlPEkiUHmoBcVKVlqYgXfeAaEGNZxP7GAUIQl5JKAzg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Mar 2025 09:58:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QlPEkiUHmoBcVKVlqYgXfeAaEGNZxP7GAUIQl5JKAzg="
+        }
+      ]
+    },
+    {
+      "Route": "image/service/gg for education plus.uxok4tgaje.jpg",
+      "AssetFile": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\image\\service\\gg for education plus.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10006"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QlPEkiUHmoBcVKVlqYgXfeAaEGNZxP7GAUIQl5JKAzg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Mar 2025 09:58:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "uxok4tgaje"
+        },
+        {
+          "Name": "label",
+          "Value": "image/service/gg for education plus.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-QlPEkiUHmoBcVKVlqYgXfeAaEGNZxP7GAUIQl5JKAzg="
+        }
+      ]
+    },
+    {
+      "Route": "image/service/gg for education standard.jjc688im6q.jpg",
+      "AssetFile": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\image\\service\\gg for education standard.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "76926"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AbPi+ss8ZaXJGCFhGRd7fejJP+7CoMfemqDoDOKDSSU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Mar 2025 09:59:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jjc688im6q"
+        },
+        {
+          "Name": "label",
+          "Value": "image/service/gg for education standard.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-AbPi+ss8ZaXJGCFhGRd7fejJP+7CoMfemqDoDOKDSSU="
+        }
+      ]
+    },
+    {
+      "Route": "image/service/gg for education standard.jpg",
+      "AssetFile": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\image\\service\\gg for education standard.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "76926"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AbPi+ss8ZaXJGCFhGRd7fejJP+7CoMfemqDoDOKDSSU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Mar 2025 09:59:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-AbPi+ss8ZaXJGCFhGRd7fejJP+7CoMfemqDoDOKDSSU="
         }
       ]
     },

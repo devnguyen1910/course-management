@@ -3,6 +3,58 @@
   "WorkspaceRootPath": "D:\\Th\u1EF1c t\u1EADp 2025\\DigComp Project\\DigComp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0003A1FD-EF8E-4A89-9B40-C6B559EC0590}|DigComp\\DigComp.csproj|d:\\th\u1EF1c t\u1EADp 2025\\digcomp project\\digcomp\\digcomp\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0003A1FD-EF8E-4A89-9B40-C6B559EC0590}|DigComp\\DigComp.csproj|solutionrelative:digcomp\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0003A1FD-EF8E-4A89-9B40-C6B559EC0590}|DigComp\\DigComp.csproj|d:\\th\u1EF1c t\u1EADp 2025\\digcomp project\\digcomp\\digcomp\\views\\home\\account.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0003A1FD-EF8E-4A89-9B40-C6B559EC0590}|DigComp\\DigComp.csproj|solutionrelative:digcomp\\views\\home\\account.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0003A1FD-EF8E-4A89-9B40-C6B559EC0590}|DigComp\\DigComp.csproj|d:\\th\u1EF1c t\u1EADp 2025\\digcomp project\\digcomp\\digcomp\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0003A1FD-EF8E-4A89-9B40-C6B559EC0590}|DigComp\\DigComp.csproj|solutionrelative:digcomp\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0003A1FD-EF8E-4A89-9B40-C6B559EC0590}|DigComp\\DigComp.csproj|d:\\th\u1EF1c t\u1EADp 2025\\digcomp project\\digcomp\\digcomp\\views\\home\\listteacher.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0003A1FD-EF8E-4A89-9B40-C6B559EC0590}|DigComp\\DigComp.csproj|solutionrelative:digcomp\\views\\home\\listteacher.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0003A1FD-EF8E-4A89-9B40-C6B559EC0590}|DigComp\\DigComp.csproj|d:\\th\u1EF1c t\u1EADp 2025\\digcomp project\\digcomp\\digcomp\\views\\course\\wlcourse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0003A1FD-EF8E-4A89-9B40-C6B559EC0590}|DigComp\\DigComp.csproj|solutionrelative:digcomp\\views\\course\\wlcourse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0003A1FD-EF8E-4A89-9B40-C6B559EC0590}|DigComp\\DigComp.csproj|d:\\th\u1EF1c t\u1EADp 2025\\digcomp project\\digcomp\\digcomp\\views\\service\\wlservice.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0003A1FD-EF8E-4A89-9B40-C6B559EC0590}|DigComp\\DigComp.csproj|solutionrelative:digcomp\\views\\service\\wlservice.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0003A1FD-EF8E-4A89-9B40-C6B559EC0590}|DigComp\\DigComp.csproj|d:\\th\u1EF1c t\u1EADp 2025\\digcomp project\\digcomp\\digcomp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0003A1FD-EF8E-4A89-9B40-C6B559EC0590}|DigComp\\DigComp.csproj|solutionrelative:digcomp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0003A1FD-EF8E-4A89-9B40-C6B559EC0590}|DigComp\\DigComp.csproj|d:\\th\u1EF1c t\u1EADp 2025\\digcomp project\\digcomp\\digcomp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0003A1FD-EF8E-4A89-9B40-C6B559EC0590}|DigComp\\DigComp.csproj|solutionrelative:digcomp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0003A1FD-EF8E-4A89-9B40-C6B559EC0590}|DigComp\\DigComp.csproj|d:\\th\u1EF1c t\u1EADp 2025\\digcomp project\\digcomp\\digcomp\\controllers\\servicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0003A1FD-EF8E-4A89-9B40-C6B559EC0590}|DigComp\\DigComp.csproj|solutionrelative:digcomp\\controllers\\servicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0003A1FD-EF8E-4A89-9B40-C6B559EC0590}|DigComp\\DigComp.csproj|d:\\th\u1EF1c t\u1EADp 2025\\digcomp project\\digcomp\\digcomp\\views\\home\\aboutcompany.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0003A1FD-EF8E-4A89-9B40-C6B559EC0590}|DigComp\\DigComp.csproj|solutionrelative:digcomp\\views\\home\\aboutcompany.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0003A1FD-EF8E-4A89-9B40-C6B559EC0590}|DigComp\\DigComp.csproj|d:\\th\u1EF1c t\u1EADp 2025\\digcomp project\\digcomp\\digcomp\\views\\home\\detailteacher.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0003A1FD-EF8E-4A89-9B40-C6B559EC0590}|DigComp\\DigComp.csproj|solutionrelative:digcomp\\views\\home\\detailteacher.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0003A1FD-EF8E-4A89-9B40-C6B559EC0590}|DigComp\\DigComp.csproj|d:\\th\u1EF1c t\u1EADp 2025\\digcomp project\\digcomp\\digcomp\\views\\service\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0003A1FD-EF8E-4A89-9B40-C6B559EC0590}|DigComp\\DigComp.csproj|solutionrelative:digcomp\\views\\service\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0003A1FD-EF8E-4A89-9B40-C6B559EC0590}|DigComp\\DigComp.csproj|d:\\th\u1EF1c t\u1EADp 2025\\digcomp project\\digcomp\\digcomp\\views\\course\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0003A1FD-EF8E-4A89-9B40-C6B559EC0590}|DigComp\\DigComp.csproj|solutionrelative:digcomp\\views\\course\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0003A1FD-EF8E-4A89-9B40-C6B559EC0590}|DigComp\\DigComp.csproj|d:\\th\u1EF1c t\u1EADp 2025\\digcomp project\\digcomp\\digcomp\\models\\dce_dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0003A1FD-EF8E-4A89-9B40-C6B559EC0590}|DigComp\\DigComp.csproj|solutionrelative:digcomp\\models\\dce_dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,8 +63,8 @@
       "RelativeMoniker": "D:0:0:{0003A1FD-EF8E-4A89-9B40-C6B559EC0590}|DigComp\\DigComp.csproj|solutionrelative:digcomp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0003A1FD-EF8E-4A89-9B40-C6B559EC0590}|DigComp\\DigComp.csproj|d:\\th\u1EF1c t\u1EADp 2025\\digcomp project\\digcomp\\digcomp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0003A1FD-EF8E-4A89-9B40-C6B559EC0590}|DigComp\\DigComp.csproj|solutionrelative:digcomp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0003A1FD-EF8E-4A89-9B40-C6B559EC0590}|DigComp\\DigComp.csproj|d:\\th\u1EF1c t\u1EADp 2025\\digcomp project\\digcomp\\digcomp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0003A1FD-EF8E-4A89-9B40-C6B559EC0590}|DigComp\\DigComp.csproj|solutionrelative:digcomp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0003A1FD-EF8E-4A89-9B40-C6B559EC0590}|DigComp\\DigComp.csproj|d:\\th\u1EF1c t\u1EADp 2025\\digcomp project\\digcomp\\digcomp\\views\\home\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -23,28 +75,12 @@
       "RelativeMoniker": "D:0:0:{0003A1FD-EF8E-4A89-9B40-C6B559EC0590}|DigComp\\DigComp.csproj|solutionrelative:digcomp\\views\\home\\accountinfo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0003A1FD-EF8E-4A89-9B40-C6B559EC0590}|DigComp\\DigComp.csproj|d:\\th\u1EF1c t\u1EADp 2025\\digcomp project\\digcomp\\digcomp\\views\\home\\account.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0003A1FD-EF8E-4A89-9B40-C6B559EC0590}|DigComp\\DigComp.csproj|solutionrelative:digcomp\\views\\home\\account.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0003A1FD-EF8E-4A89-9B40-C6B559EC0590}|DigComp\\DigComp.csproj|d:\\th\u1EF1c t\u1EADp 2025\\digcomp project\\digcomp\\digcomp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0003A1FD-EF8E-4A89-9B40-C6B559EC0590}|DigComp\\DigComp.csproj|solutionrelative:digcomp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0003A1FD-EF8E-4A89-9B40-C6B559EC0590}|DigComp\\DigComp.csproj|d:\\th\u1EF1c t\u1EADp 2025\\digcomp project\\digcomp\\digcomp\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{0003A1FD-EF8E-4A89-9B40-C6B559EC0590}|DigComp\\DigComp.csproj|solutionrelative:digcomp\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0003A1FD-EF8E-4A89-9B40-C6B559EC0590}|DigComp\\DigComp.csproj|d:\\th\u1EF1c t\u1EADp 2025\\digcomp project\\digcomp\\digcomp\\views\\home\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0003A1FD-EF8E-4A89-9B40-C6B559EC0590}|DigComp\\DigComp.csproj|solutionrelative:digcomp\\views\\home\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0003A1FD-EF8E-4A89-9B40-C6B559EC0590}|DigComp\\DigComp.csproj|d:\\th\u1EF1c t\u1EADp 2025\\digcomp project\\digcomp\\digcomp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0003A1FD-EF8E-4A89-9B40-C6B559EC0590}|DigComp\\DigComp.csproj|solutionrelative:digcomp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0003A1FD-EF8E-4A89-9B40-C6B559EC0590}|DigComp\\DigComp.csproj|d:\\th\u1EF1c t\u1EADp 2025\\digcomp project\\digcomp\\digcomp\\wwwroot\\assets\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{0003A1FD-EF8E-4A89-9B40-C6B559EC0590}|DigComp\\DigComp.csproj|solutionrelative:digcomp\\wwwroot\\assets\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0003A1FD-EF8E-4A89-9B40-C6B559EC0590}|DigComp\\DigComp.csproj|d:\\th\u1EF1c t\u1EADp 2025\\digcomp project\\digcomp\\digcomp\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -71,45 +107,84 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "DCE_DbContext.cs",
-              "DocumentMoniker": "D:\\Th\u1EF1c t\u1EADp 2025\\DigComp Project\\DigComp\\DigComp\\Models\\DCE_DbContext.cs",
-              "RelativeDocumentMoniker": "DigComp\\Models\\DCE_DbContext.cs",
-              "ToolTip": "D:\\Th\u1EF1c t\u1EADp 2025\\DigComp Project\\DigComp\\DigComp\\Models\\DCE_DbContext.cs",
-              "RelativeToolTip": "DigComp\\Models\\DCE_DbContext.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T10:51:37.794Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ChangePassword.cshtml",
-              "DocumentMoniker": "D:\\Th\u1EF1c t\u1EADp 2025\\DigComp Project\\DigComp\\DigComp\\Views\\Home\\ChangePassword.cshtml",
-              "RelativeDocumentMoniker": "DigComp\\Views\\Home\\ChangePassword.cshtml",
-              "ToolTip": "D:\\Th\u1EF1c t\u1EADp 2025\\DigComp Project\\DigComp\\DigComp\\Views\\Home\\ChangePassword.cshtml",
-              "RelativeToolTip": "DigComp\\Views\\Home\\ChangePassword.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAADIAAAArAAAAAAAAAA==",
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "D:\\Th\u1EF1c t\u1EADp 2025\\DigComp Project\\DigComp\\DigComp\\Views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "DigComp\\Views\\Home\\Contact.cshtml",
+              "ToolTip": "D:\\Th\u1EF1c t\u1EADp 2025\\DigComp Project\\DigComp\\DigComp\\Views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "DigComp\\Views\\Home\\Contact.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-18T09:22:35.978Z",
+              "WhenOpened": "2025-03-22T10:13:43.88Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "WLService.cshtml",
+              "DocumentMoniker": "D:\\Th\u1EF1c t\u1EADp 2025\\DigComp Project\\DigComp\\DigComp\\Views\\Service\\WLService.cshtml",
+              "RelativeDocumentMoniker": "DigComp\\Views\\Service\\WLService.cshtml",
+              "ToolTip": "D:\\Th\u1EF1c t\u1EADp 2025\\DigComp Project\\DigComp\\DigComp\\Views\\Service\\WLService.cshtml",
+              "RelativeToolTip": "DigComp\\Views\\Service\\WLService.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-22T09:50:30.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WLCourse.cshtml",
+              "DocumentMoniker": "D:\\Th\u1EF1c t\u1EADp 2025\\DigComp Project\\DigComp\\DigComp\\Views\\Course\\WLCourse.cshtml",
+              "RelativeDocumentMoniker": "DigComp\\Views\\Course\\WLCourse.cshtml",
+              "ToolTip": "D:\\Th\u1EF1c t\u1EADp 2025\\DigComp Project\\DigComp\\DigComp\\Views\\Course\\WLCourse.cshtml",
+              "RelativeToolTip": "DigComp\\Views\\Course\\WLCourse.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-22T09:32:33.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ListTeacher.cshtml",
+              "DocumentMoniker": "D:\\Th\u1EF1c t\u1EADp 2025\\DigComp Project\\DigComp\\DigComp\\Views\\Home\\ListTeacher.cshtml",
+              "RelativeDocumentMoniker": "DigComp\\Views\\Home\\ListTeacher.cshtml",
+              "ToolTip": "D:\\Th\u1EF1c t\u1EADp 2025\\DigComp Project\\DigComp\\DigComp\\Views\\Home\\ListTeacher.cshtml",
+              "RelativeToolTip": "DigComp\\Views\\Home\\ListTeacher.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-21T11:16:40.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CourseController.cs",
+              "DocumentMoniker": "D:\\Th\u1EF1c t\u1EADp 2025\\DigComp Project\\DigComp\\DigComp\\Controllers\\CourseController.cs",
+              "RelativeDocumentMoniker": "DigComp\\Controllers\\CourseController.cs",
+              "ToolTip": "D:\\Th\u1EF1c t\u1EADp 2025\\DigComp Project\\DigComp\\DigComp\\Controllers\\CourseController.cs",
+              "RelativeToolTip": "DigComp\\Controllers\\CourseController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T09:01:29.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Account.cshtml",
               "DocumentMoniker": "D:\\Th\u1EF1c t\u1EADp 2025\\DigComp Project\\DigComp\\DigComp\\Views\\Home\\Account.cshtml",
               "RelativeDocumentMoniker": "DigComp\\Views\\Home\\Account.cshtml",
               "ToolTip": "D:\\Th\u1EF1c t\u1EADp 2025\\DigComp Project\\DigComp\\DigComp\\Views\\Home\\Account.cshtml",
               "RelativeToolTip": "DigComp\\Views\\Home\\Account.cshtml",
-              "ViewState": "AgIAABYAAAAAAAAAAADwvy8AAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-18T09:10:43.658Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 17,
               "Title": "AccountInfo.cshtml",
               "DocumentMoniker": "D:\\Th\u1EF1c t\u1EADp 2025\\DigComp Project\\DigComp\\DigComp\\Views\\Home\\AccountInfo.cshtml",
               "RelativeDocumentMoniker": "DigComp\\Views\\Home\\AccountInfo.cshtml",
@@ -117,12 +192,112 @@
               "RelativeToolTip": "DigComp\\Views\\Home\\AccountInfo.cshtml",
               "ViewState": "AgIAAA0AAAAAAAAAAADwvxkAAABmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-18T08:56:26.271Z",
+              "WhenOpened": "2025-03-18T08:56:26.271Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Th\u1EF1c t\u1EADp 2025\\DigComp Project\\DigComp\\DigComp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "DigComp\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Th\u1EF1c t\u1EADp 2025\\DigComp Project\\DigComp\\DigComp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "DigComp\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAAGIAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-17T13:40:21.709Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Th\u1EF1c t\u1EADp 2025\\DigComp Project\\DigComp\\DigComp\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "DigComp\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Th\u1EF1c t\u1EADp 2025\\DigComp Project\\DigComp\\DigComp\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "DigComp\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAM8AAAAAAAAAAAA9wOAAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T13:36:38.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AboutCompany.cshtml",
+              "DocumentMoniker": "D:\\Th\u1EF1c t\u1EADp 2025\\DigComp Project\\DigComp\\DigComp\\Views\\Home\\AboutCompany.cshtml",
+              "RelativeDocumentMoniker": "DigComp\\Views\\Home\\AboutCompany.cshtml",
+              "ToolTip": "D:\\Th\u1EF1c t\u1EADp 2025\\DigComp Project\\DigComp\\DigComp\\Views\\Home\\AboutCompany.cshtml",
+              "RelativeToolTip": "DigComp\\Views\\Home\\AboutCompany.cshtml",
+              "ViewState": "AgIAAK8AAAAAAAAAAAAqwMUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-22T08:36:43.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DetailTeacher.cshtml",
+              "DocumentMoniker": "D:\\Th\u1EF1c t\u1EADp 2025\\DigComp Project\\DigComp\\DigComp\\Views\\Home\\DetailTeacher.cshtml",
+              "RelativeDocumentMoniker": "DigComp\\Views\\Home\\DetailTeacher.cshtml",
+              "ToolTip": "D:\\Th\u1EF1c t\u1EADp 2025\\DigComp Project\\DigComp\\DigComp\\Views\\Home\\DetailTeacher.cshtml",
+              "RelativeToolTip": "DigComp\\Views\\Home\\DetailTeacher.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-22T07:44:03.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ServiceController.cs",
+              "DocumentMoniker": "D:\\Th\u1EF1c t\u1EADp 2025\\DigComp Project\\DigComp\\DigComp\\Controllers\\ServiceController.cs",
+              "RelativeDocumentMoniker": "DigComp\\Controllers\\ServiceController.cs",
+              "ToolTip": "D:\\Th\u1EF1c t\u1EADp 2025\\DigComp Project\\DigComp\\DigComp\\Controllers\\ServiceController.cs",
+              "RelativeToolTip": "DigComp\\Controllers\\ServiceController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T09:01:41.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ChangePassword.cshtml",
+              "DocumentMoniker": "D:\\Th\u1EF1c t\u1EADp 2025\\DigComp Project\\DigComp\\DigComp\\Views\\Home\\ChangePassword.cshtml",
+              "RelativeDocumentMoniker": "DigComp\\Views\\Home\\ChangePassword.cshtml",
+              "ToolTip": "D:\\Th\u1EF1c t\u1EADp 2025\\DigComp Project\\DigComp\\DigComp\\Views\\Home\\ChangePassword.cshtml",
+              "RelativeToolTip": "DigComp\\Views\\Home\\ChangePassword.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAADIAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-18T09:22:35.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DCE_DbContext.cs",
+              "DocumentMoniker": "D:\\Th\u1EF1c t\u1EADp 2025\\DigComp Project\\DigComp\\DigComp\\Models\\DCE_DbContext.cs",
+              "RelativeDocumentMoniker": "DigComp\\Models\\DCE_DbContext.cs",
+              "ToolTip": "D:\\Th\u1EF1c t\u1EADp 2025\\DigComp Project\\DigComp\\DigComp\\Models\\DCE_DbContext.cs",
+              "RelativeToolTip": "DigComp\\Models\\DCE_DbContext.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAxwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T10:51:37.794Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Th\u1EF1c t\u1EADp 2025\\DigComp Project\\DigComp\\DigComp\\Views\\Service\\Index.cshtml",
+              "RelativeDocumentMoniker": "DigComp\\Views\\Service\\Index.cshtml",
+              "ToolTip": "D:\\Th\u1EF1c t\u1EADp 2025\\DigComp Project\\DigComp\\DigComp\\Views\\Service\\Index.cshtml",
+              "RelativeToolTip": "DigComp\\Views\\Service\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-21T09:11:23.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "Dockerfile",
               "DocumentMoniker": "D:\\Th\u1EF1c t\u1EADp 2025\\DigComp Project\\DigComp\\DigComp\\Dockerfile",
               "RelativeDocumentMoniker": "DigComp\\Dockerfile",
@@ -130,12 +305,23 @@
               "RelativeToolTip": "DigComp\\Dockerfile",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-03-18T07:49:22.061Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-18T07:49:22.061Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Th\u1EF1c t\u1EADp 2025\\DigComp Project\\DigComp\\DigComp\\Views\\Course\\Index.cshtml",
+              "RelativeDocumentMoniker": "DigComp\\Views\\Course\\Index.cshtml",
+              "ToolTip": "D:\\Th\u1EF1c t\u1EADp 2025\\DigComp Project\\DigComp\\DigComp\\Views\\Course\\Index.cshtml",
+              "RelativeToolTip": "DigComp\\Views\\Course\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-21T09:03:01.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "Login.cshtml",
               "DocumentMoniker": "D:\\Th\u1EF1c t\u1EADp 2025\\DigComp Project\\DigComp\\DigComp\\Views\\Home\\Login.cshtml",
               "RelativeDocumentMoniker": "DigComp\\Views\\Home\\Login.cshtml",
@@ -147,7 +333,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 19,
               "Title": "Register.cshtml",
               "DocumentMoniker": "D:\\Th\u1EF1c t\u1EADp 2025\\DigComp Project\\DigComp\\DigComp\\Views\\Home\\Register.cshtml",
               "RelativeDocumentMoniker": "DigComp\\Views\\Home\\Register.cshtml",
@@ -155,12 +341,11 @@
               "RelativeToolTip": "DigComp\\Views\\Home\\Register.cshtml",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-17T13:54:01.844Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-17T13:54:01.844Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 21,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Th\u1EF1c t\u1EADp 2025\\DigComp Project\\DigComp\\DigComp\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "DigComp\\Views\\Home\\Index.cshtml",
@@ -172,7 +357,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 14,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Th\u1EF1c t\u1EADp 2025\\DigComp Project\\DigComp\\DigComp\\appsettings.json",
               "RelativeDocumentMoniker": "DigComp\\appsettings.json",
@@ -180,37 +365,23 @@
               "RelativeToolTip": "DigComp\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-17T14:56:29.682Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-17T14:56:29.682Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 15,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Th\u1EF1c t\u1EADp 2025\\DigComp Project\\DigComp\\DigComp\\Program.cs",
               "RelativeDocumentMoniker": "DigComp\\Program.cs",
               "ToolTip": "D:\\Th\u1EF1c t\u1EADp 2025\\DigComp Project\\DigComp\\DigComp\\Program.cs",
               "RelativeToolTip": "DigComp\\Program.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAA8AAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T14:56:01.844Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-17T14:56:01.844Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "style.css",
-              "DocumentMoniker": "D:\\Th\u1EF1c t\u1EADp 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\assets\\css\\style.css",
-              "RelativeDocumentMoniker": "DigComp\\wwwroot\\assets\\css\\style.css",
-              "ToolTip": "D:\\Th\u1EF1c t\u1EADp 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\assets\\css\\style.css",
-              "RelativeToolTip": "DigComp\\wwwroot\\assets\\css\\style.css",
-              "ViewState": "AgIAAPgGAAAAAAAAAAAiwAYHAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-03-17T14:29:17.27Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 22,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "D:\\Th\u1EF1c t\u1EADp 2025\\DigComp Project\\DigComp\\DigComp\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "DigComp\\Views\\Home\\Privacy.cshtml",
@@ -219,31 +390,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-17T13:53:39.576Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\Th\u1EF1c t\u1EADp 2025\\DigComp Project\\DigComp\\DigComp\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "DigComp\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\Th\u1EF1c t\u1EADp 2025\\DigComp Project\\DigComp\\DigComp\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "DigComp\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAGIAAAAAAAAAAADwv28AAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-17T13:40:21.709Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\Th\u1EF1c t\u1EADp 2025\\DigComp Project\\DigComp\\DigComp\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "DigComp\\Controllers\\HomeController.cs",
-              "ToolTip": "D:\\Th\u1EF1c t\u1EADp 2025\\DigComp Project\\DigComp\\DigComp\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "DigComp\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAALIAAAAAAAAAAAAIwM0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T13:36:38.322Z",
-              "EditorCaption": ""
             }
           ]
         }
