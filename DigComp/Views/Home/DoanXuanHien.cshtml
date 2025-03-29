@@ -1,0 +1,173 @@
+﻿@{
+    Layout = "_Layout";
+}
+<!-- breadcrumb_section - start -->
+<div class="breadcrumb_section">
+    <div class="container">
+        <ul class="breadcrumb_nav ul_li">
+            <li><a asp-controller="Home" asp-action="Index">Trang chủ</a></li>
+            <li>Chi tiết giảng viên</li>
+        </ul>
+    </div>
+</div>
+<!-- breadcrumb_section - end -->
+<!-- blog_details section - start -->
+<section class="blog_details section_space">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col col-lg-12">
+                <!-- Giảng viên Image -->
+                <div class="details_image">
+                    <img src="~/image/doanxuanhien/3.jpg" alt="Giảng viên Đoàn Xuân Hiển" class="img-fluid rounded-3">
+                </div>
+
+                <!-- Metadata -->
+                <ul class="post_meta ul_li">
+                    <li><i class="fas fa-calendar-alt"></i> 22/03/2025</li>
+                    <li><i class="fas fa-user"></i> Giảng viên</li>
+                </ul>
+
+                <!-- Title -->
+                <h2 class="details_item_title">Giảng viên Đoàn Xuân Hiển</h2>
+
+                <!-- Giới thiệu giảng viên -->
+                <p class="intro_paragraph">
+                    Anh Hiển hiện đang là Giám đốc sản phẩm tại công ty AI Education - là một trong hai Google for Education Certified Trainer duy nhất tại Việt Nam. <br />
+                    Anh Hiển là cựu sinh viên ngành Công nghệ Sinh học khóa 2010 và là một gương mặt sinh viên tiêu biểu của trường trong thời gian anh học tập. <br />
+                    Anh từng là Liên chị hội trưởng, đạt các thành tích Sinh viên 5 tốt cấp thành và giải khuyến khích cuộc thi Sinh viên nghiên cứu khoa học Eureka. <br />
+                    Anh từng có một năm thực tập tại phòng thí nghiệm Tế bào gốc và sau đó là làm việc tại một số bệnh viện với công việc chuyên viên phôi học. Từ năm 2018, anh quyết định rẽ hướng và làm việc với các dự án giáo dục như Vocamemory, Trường học Mùa đông về Phát triển bền vững (WSSD)...
+                </p>
+
+                <!-- Image Gallery -->
+                <div class="image_list mb-4">
+                    <div class="row">
+                        <div class="col-4 mb-3">
+                            <img src="~/image/doanxuanhien/1.png" alt="Doan Xuan Hien" class="img-fluid rounded-3">
+                        </div>
+                        <div class="col-4 mb-3">
+                            <img src="~/image/doanxuanhien/2.jpg" alt="Doan Xuan Hien" class="img-fluid rounded-3">
+                        </div>
+                        <div class="col-4 mb-3">
+                            <img src="~/image/doanxuanhien/3.jpg" alt="Doan Xuan Hien" class="img-fluid rounded-3">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- More Content -->
+                <p>
+                    Anh tham dự nhiều sự kiện, hội thảo, workshop, diễn đàn,...với tư cách là diễn giả với nhiều năm kinh nghiệm trong nghề ở các trường đại học, đội, nhóm và các đơn vị đối tác để chia sẻ các kinh nghiệm quý báu đến các bạn sinh viên và những người có đùng đam mê và nhiệt huyết với anh.
+                    Trong số đó anh tham dự một số sự kiện như: <br />
+                    <a href="https://niie.edu.vn/hoi-thao-xay-dung-nang-luc-nghe-chuong-trinh-chuan-quoc-te-nganh-cong-nghe-thong-tin/" target="_blank" class="event_link">Hội thảo xây dựng năng lực nghề chương trình Chuẩn Quốc tế ngành Công nghệ thông tin</a>, <br />
+                    <a href="https://fbb.hcmus.edu.vn/vn/FBBAgency/webinar-tim-minh-trong-the-gioi-nghe-nghiep-trai-nganh-dung-nghe.html" target="_blank" class="event_link">WEBINAR “TÌM MÌNH TRONG THẾ GIỚI NGHỀ NGHIỆP” - TRÁI NGÀNH, ĐÚNG NGHỀ</a>, <br />
+                    <a href="https://www.facebook.com/doanhoicntt.hcmue/posts/-recap-chuy%C3%AAn-%C4%91%E1%BB%81-t%E1%BA%ADp-hu%E1%BA%A5n-n%C3%A2ng-cao-n%C4%83ng-l%E1%BB%B1c-s%E1%BB%91-cho-%C4%91o%C3%A0n-vi%C3%AAn-thanh-ni%C3%AAn-s%E1%BB%91-01-ch/919013042847600/" target="_blank" class="event_link">CHUYÊN ĐỀ TẬP HUẤN - NÂNG CAO NĂNG LỰC SỐ CHO ĐOÀN VIÊN, THANH NIÊN</a> <br />
+                    và nhiều sự kiện khác nữa
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- blog_details section - end -->
+
+<style>
+    /* Breadcrumb section */
+    .breadcrumb_section {
+        background-color: #f8f9fa;
+        padding: 20px 0;
+    }
+
+    .breadcrumb_nav {
+        list-style: none;
+        padding-left: 0;
+    }
+
+        .breadcrumb_nav li {
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+            .breadcrumb_nav li a {
+                color: #007bff;
+                text-decoration: none;
+            }
+
+            .breadcrumb_nav li:after {
+                content: '/';
+                margin-left: 10px;
+            }
+
+            .breadcrumb_nav li:last-child:after {
+                content: '';
+            }
+
+    /* Blog details */
+    .blog_details {
+        padding: 50px 0;
+    }
+
+        .blog_details .details_image img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+    .post_meta {
+        list-style: none;
+        padding-left: 0;
+        margin-top: 15px;
+        color: #636363;
+        font-size: 0.875rem;
+    }
+
+        .post_meta li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+    .details_item_title {
+        font-size: 2rem;
+        color: #252525;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+
+    .intro_paragraph {
+        font-size: 1.125rem;
+        color: #636363;
+        margin-top: 20px;
+    }
+
+    .image_list .col-4 img {
+        width: 100%;
+        border-radius: 10px;
+        margin-bottom: 15px;
+    }
+
+    .event_link {
+        font-size: 1rem;
+        color: #007bff;
+        text-decoration: none;
+    }
+
+        .event_link:hover {
+            text-decoration: underline;
+        }
+
+    /* Button */
+    .btn_more_info {
+        background-color: #007bff;
+        color: #fff;
+        padding: 10px 30px;
+        font-size: 1rem;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: bold;
+        display: inline-block;
+        margin-top: 20px;
+    }
+
+        .btn_more_info:hover {
+            background-color: #0056b3;
+        }
+
+    
+</style>

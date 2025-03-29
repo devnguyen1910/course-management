@@ -17,93 +17,121 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = DigComp
 build_property.RootNamespace = DigComp
-build_property.ProjectDir = C:\Users\tai16\OneDrive\Desktop\gitNew\course-management\DigComp\
+build_property.ProjectDir = D:\Thực tập 2025\DigComp Project\DigComp\DigComp\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\tai16\OneDrive\Desktop\gitNew\course-management\DigComp
+build_property.MSBuildProjectDirectory = D:\Thực tập 2025\DigComp Project\DigComp\DigComp
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/tai16/OneDrive/Desktop/gitNew/course-management/DigComp/Views/Course/Index.cshtml]
+[D:/Thực tập 2025/DigComp Project/DigComp/DigComp/Views/Course/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tai16/OneDrive/Desktop/gitNew/course-management/DigComp/Views/Course/WLCourse.cshtml]
+[D:/Thực tập 2025/DigComp Project/DigComp/DigComp/Views/Course/WLCourse.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlXFdMQ291cnNlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tai16/OneDrive/Desktop/gitNew/course-management/DigComp/Views/Home/AboutCompany.cshtml]
+[D:/Thực tập 2025/DigComp Project/DigComp/DigComp/Views/Home/AboutCompany.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dENvbXBhbnkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tai16/OneDrive/Desktop/gitNew/course-management/DigComp/Views/Home/Account.cshtml]
+[D:/Thực tập 2025/DigComp Project/DigComp/DigComp/Views/Home/Account.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBY2NvdW50LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tai16/OneDrive/Desktop/gitNew/course-management/DigComp/Views/Home/AccountInfo.cshtml]
+[D:/Thực tập 2025/DigComp Project/DigComp/DigComp/Views/Home/AccountInfo.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBY2NvdW50SW5mby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tai16/OneDrive/Desktop/gitNew/course-management/DigComp/Views/Home/ChangePassword.cshtml]
+[D:/Thực tập 2025/DigComp Project/DigComp/DigComp/Views/Home/AllCourses.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBbGxDb3Vyc2VzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Thực tập 2025/DigComp Project/DigComp/DigComp/Views/Home/ChangePassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDaGFuZ2VQYXNzd29yZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tai16/OneDrive/Desktop/gitNew/course-management/DigComp/Views/Home/Contact.cshtml]
+[D:/Thực tập 2025/DigComp Project/DigComp/DigComp/Views/Home/Contact.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tai16/OneDrive/Desktop/gitNew/course-management/DigComp/Views/Home/DetailTeacher.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZXRhaWxUZWFjaGVyLmNzaHRtbA==
+[D:/Thực tập 2025/DigComp Project/DigComp/DigComp/Views/Home/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tai16/OneDrive/Desktop/gitNew/course-management/DigComp/Views/Home/Index.cshtml]
+[D:/Thực tập 2025/DigComp Project/DigComp/DigComp/Views/Home/DoanXuanHien.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEb2FuWHVhbkhpZW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Thực tập 2025/DigComp Project/DigComp/DigComp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tai16/OneDrive/Desktop/gitNew/course-management/DigComp/Views/Home/ListTeacher.cshtml]
+[D:/Thực tập 2025/DigComp Project/DigComp/DigComp/Views/Home/LeNguyenKhang.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMZU5ndXllbktoYW5nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Thực tập 2025/DigComp Project/DigComp/DigComp/Views/Home/ListTeacher.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMaXN0VGVhY2hlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tai16/OneDrive/Desktop/gitNew/course-management/DigComp/Views/Home/Login.cshtml]
+[D:/Thực tập 2025/DigComp Project/DigComp/DigComp/Views/Home/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tai16/OneDrive/Desktop/gitNew/course-management/DigComp/Views/Home/Privacy.cshtml]
+[D:/Thực tập 2025/DigComp Project/DigComp/DigComp/Views/Home/LuongTranNgocKhiet.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMdW9uZ1RyYW5OZ29jS2hpZXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Thực tập 2025/DigComp Project/DigComp/DigComp/Views/Home/Partner.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQYXJ0bmVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Thực tập 2025/DigComp Project/DigComp/DigComp/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tai16/OneDrive/Desktop/gitNew/course-management/DigComp/Views/Home/Register.cshtml]
+[D:/Thực tập 2025/DigComp Project/DigComp/DigComp/Views/Home/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tai16/OneDrive/Desktop/gitNew/course-management/DigComp/Views/Service/Index.cshtml]
+[D:/Thực tập 2025/DigComp Project/DigComp/DigComp/Views/Home/RegisterGuide.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZWdpc3Rlckd1aWRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Thực tập 2025/DigComp Project/DigComp/DigComp/Views/Home/Service.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZXJ2aWNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Thực tập 2025/DigComp Project/DigComp/DigComp/Views/Service/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tai16/OneDrive/Desktop/gitNew/course-management/DigComp/Views/Service/WLService.cshtml]
+[D:/Thực tập 2025/DigComp Project/DigComp/DigComp/Views/Service/WLService.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZVxXTFNlcnZpY2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tai16/OneDrive/Desktop/gitNew/course-management/DigComp/Views/Shared/Error.cshtml]
+[D:/Thực tập 2025/DigComp Project/DigComp/DigComp/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tai16/OneDrive/Desktop/gitNew/course-management/DigComp/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/Thực tập 2025/DigComp Project/DigComp/DigComp/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Thực tập 2025/DigComp Project/DigComp/DigComp/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tai16/OneDrive/Desktop/gitNew/course-management/DigComp/Views/_ViewImports.cshtml]
+[D:/Thực tập 2025/DigComp Project/DigComp/DigComp/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tai16/OneDrive/Desktop/gitNew/course-management/DigComp/Views/_ViewStart.cshtml]
+[D:/Thực tập 2025/DigComp Project/DigComp/DigComp/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/tai16/OneDrive/Desktop/gitNew/course-management/DigComp/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-5h0ozktnm4

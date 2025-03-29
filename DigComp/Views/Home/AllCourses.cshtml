@@ -1,0 +1,87 @@
+﻿@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Danh Sách Tất Cả Khóa Học";
+    var totalCourses = 20;
+    var itemsPerPage = 12;
+    var currentPage = string.IsNullOrEmpty(Context.Request.Query["page"]) ? 1 : int.Parse(Context.Request.Query["page"]);
+    var totalPages = (int)Math.Ceiling((double)totalCourses / itemsPerPage);
+    var startCourse = (currentPage - 1) * itemsPerPage + 1;
+    var endCourse = Math.Min(startCourse + itemsPerPage - 1, totalCourses);
+}
+
+<!-- breadcrumb_section - start -->
+<div class="breadcrumb_section">
+    <div class="container">
+        <ul class="breadcrumb_nav ul_li">
+            <li><a asp-controller="Home" asp-action="Index">Trang chủ</a></li>
+            <li>Danh sách sản phẩm dịch vụ</li>
+        </ul>
+    </div>
+</div>
+<!-- breadcrumb_section - end -->
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+
+<div class="container my-5">
+    <h2 class="mb-4">Danh Sách Tất Cả Khóa Học</h2>
+    <div class="row">
+        <!-- Sidebar -->
+        <div class="col-lg-3">
+            <aside class="sidebar_section ps-0 mt-lg-0">
+                <div class="sb_widget sb_category">
+                    <h3 class="sb_widget_title">Loại Khóa Học</h3>
+                    <ul class="sb_category_list ul_li_block">
+                        <li><a href="#">Phát triển web</a></li>
+                        <li><a href="#">Phân tích dữ liệu</a></li>
+                        <li><a href="#">Trí tuệ nhân tạo</a></li>
+                        <li><a href="#">Marketing số</a></li>
+                    </ul>
+                </div>
+                <div class="sb_widget sb_category">
+                    <h3 class="sb_widget_title">Giảng Viên</h3>
+                    <ul class="sb_category_list ul_li_block">
+                        <li><a href="#">Thầy A</a></li>
+                        <li><a href="#">Cô B</a></li>
+                        <li><a href="#">Thầy C</a></li>
+                        <li><a href="#">Cô D</a></li>
+                    </ul>
+                </div>
+            </aside>
+        </div>
+
+        <!-- Main content -->
+        <div class="col-lg-9">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                @for (int i = startCourse; i <= endCourse; i++)
+                {
+                    <div class="col">
+                        <div class="card">
+                            <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Course Image">
+                            <div class="card-body">
+                                <h5 class="card-title">Khóa học số @i</h5>
+                                <p class="text-muted">Giảng viên: Giảng viên @i</p>  <!-- Sửa thành Giảng viên -->
+                                <p class="rating">★ 4.8 (100)</p>
+                                <h6 class="text-danger">1.000.000 đ</h6>
+                                <a href="@Url.Action("Details", "Home", new { id = i })" class="btn btn-primary mt-2">Xem Chi Tiết</a>  <!-- Link đến trang chi tiết -->
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+
+            <!-- Pagination -->
+            <nav aria-label="Page navigation" class="mt-4">
+                <ul class="pagination justify-content-center">
+                    @for (int page = 1; page <= totalPages; page++)
+                    {
+                        <li class="page-item @(page == currentPage ? "active" : "")">
+                            <a class="page-link" href="?page=@(page)">@(page)</a>
+                        </li>
+                    }
+                </ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
