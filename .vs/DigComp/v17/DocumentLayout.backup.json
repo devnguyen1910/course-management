@@ -144,9 +144,9 @@
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\tai16\\OneDrive\\Desktop\\gitNew\\course-management\\DigComp\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "DigComp\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\tai16\\OneDrive\\Desktop\\gitNew\\course-management\\DigComp\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "DigComp\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAKUBAAAAAAAAAAAkwLcBAAASAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\tai16\\OneDrive\\Desktop\\gitNew\\course-management\\DigComp\\Views\\Home\\Index.cshtml*",
+              "RelativeToolTip": "DigComp\\Views\\Home\\Index.cshtml*",
+              "ViewState": "AgIAAIwBAAAAAAAAAAAYwJQBAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-17T15:15:58.549Z",
               "EditorCaption": ""
@@ -185,8 +185,7 @@
               "RelativeToolTip": "DigComp\\Views\\Course\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-21T09:03:01.956Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-21T09:03:01.956Z"
             },
             {
               "$type": "Document",
@@ -210,8 +209,7 @@
               "RelativeToolTip": "DigComp\\Views\\Home\\ListTeacher.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-21T11:16:40.792Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-21T11:16:40.792Z"
             },
             {
               "$type": "Document",
@@ -223,8 +221,7 @@
               "RelativeToolTip": "DigComp\\Views\\Home\\DetailTeacher.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-22T07:44:03.811Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-22T07:44:03.811Z"
             },
             {
               "$type": "Document",

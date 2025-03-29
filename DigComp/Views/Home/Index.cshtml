@@ -7,12 +7,12 @@
     <div class="carousel-inner">
         <div class="carousel-item active">
             <a href="/Course/Index">
-                <img src="~/assets/images/slider/slider_image_1.jpg" class="d-block w-100" alt="Banner 1">
+                <img src="~/assets/images/slider/GGWP.png" class="d-block w-100"alt="Banner 1">
             </a>
         </div>
         <div class="carousel-item">
             <a href="ServicePackage/Index">
-                <img src="~/assets/images/slider/banner Mac.jpg" class="d-block w-100" alt="Banner 2">
+                <img src="~/assets/images/slider/GGCF.png" class="d-block w-100" alt="Banner 2">
             </a>
         </div>
     </div>
@@ -130,7 +130,8 @@
 
         .main-title {
             font-size: 2em;
-            margin-bottom: 20px;
+            margin-bottom: 40px;
+            margin-top: 40px;
         }
 
         .reason-item {
@@ -145,7 +146,7 @@
         .reasons-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 20px;
+            gap: 40px;
         }
 
         .button-container {
@@ -181,9 +182,12 @@
             }
 
             .course-card .card-body {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
                 padding: 15px;
+                height: 250px; /* Cố định chiều cao cho nội dung */
                 text-align: center;
-                min-height: 200px;
             }
 
             .course-card .card-title {
@@ -196,11 +200,27 @@
             .course-card .card-text {
                 font-size: 0.9em;
                 color: #6c757d;
-                margin-bottom: 15px;
+                margin-bottom: 20px;
+                bottom : 45px;
                 line-height: 1.5;
                 height: 60px;
                 overflow: hidden;
-                margin-bottom: 10px;
+                margin-bottom: 60px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+               
+            }
+
+            .course-card .section-date {
+                position: absolute; /* Cố định vị trí của ngày khai giảng */
+                bottom: 10px; /* Cách đáy 10px */
+                left: 50%; /* Canh giữa theo chiều ngang */
+                transform: translateX(-50%); /* Để căn giữa chính xác */
+                font-size: 0.9em;
+                color: #777;
+                margin-bottom: 5px;
             }
 
         .btn-primary {
@@ -268,7 +288,7 @@
             font-size: 2.2em;
             font-weight: 700;
             text-align: left;
-            margin-bottom: 0;
+            margin-bottom: 20px;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
 
@@ -333,6 +353,14 @@
             text-decoration: none;
             transition: background-color 0.3s ease;
         }
+        .team-title{
+        color: #3498db;
+        font-size: 2.2em;
+        font-weight: 700;
+        text-align: left;
+        margin-bottom: 40px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
 
             .btn-primary:hover {
                 background-color: #0056b3;
@@ -373,7 +401,7 @@
         <div class="container mt-5">
             <div class="section-title-bar">
                 <h2 class="section-title">KHÓA HỌC NỔI BẬT</h2>
-                <p class="section-date">Ngày khai giảng: 23/5</p>
+                
             </div>
             <div class="row">
                 <div class="col-md-3 mb-4">
@@ -382,6 +410,7 @@
                         <div class="card-body">
                             <h5 class="card-title">Google Workspace Cơ Bản</h5>
                             <p class="card-text">Nắm vững các công cụ cơ bản của Google Workspace để làm việc hiệu quả.</p>
+                            <p class="section-date">Ngày khai giảng: 23/5</p>
                         </div>
                         <button class="btn btn-sm btn-outline-info quick-view-btn" data-course="1">Quick View</button>
                     </div>
@@ -390,8 +419,9 @@
                     <div class="card course-card">
                         <img src="~/assets/images/icons/Screenshot 2025-03-25 193150.png" class="card-img-top" alt="Khóa học 2">
                         <div class="card-body">
-                            <h5 class="card-title">Google Sheets Nâng Cao</h5>
+                            <h5 class="card-title">Google Certified Educator Level 1</h5>
                             <p class="card-text">Trở thành chuyên gia phân tích dữ liệu với các tính năng nâng cao của Google Sheets.</p>
+                            <p class="section-date">Ngày khai giảng: 23/5</p>
                         </div>
                         <button class="btn btn-sm btn-outline-info quick-view-btn" data-course="2">Quick View</button>
                     </div>
@@ -400,8 +430,9 @@
                     <div class="card course-card">
                         <img src="~/assets/images/icons/Screenshot 2025-03-25 193150.png" class="card-img-top" alt="Khóa học 3">
                         <div class="card-body">
-                            <h5 class="card-title">Xây Dựng Trang Web Với Google Sites</h5>
+                            <h5 class="card-title">Google Certified Educator Level 2</h5>
                             <p class="card-text">Tự tay tạo trang web chuyên nghiệp một cách dễ dàng với Google Sites.</p>
+                            <p class="section-date">Ngày khai giảng: 23/5</p>
                         </div>
                         <button class="btn btn-sm btn-outline-info quick-view-btn" data-course="3">Quick View</button>
                     </div>
@@ -409,9 +440,11 @@
                 <div class="col-md-3 mb-4">
                     <div class="card course-card">
                         <img src="~/assets/images/icons/Screenshot 2025-03-25 193150.png" class="card-img-top" alt="Khóa học 4">
+                    
                         <div class="card-body">
-                            <h5 class="card-title">Google Slides Chuyên Nghiệp</h5>
+                            <h5 class="card-title">Luyện thi Google Certified Educator Level 1&2</h5>
                             <p class="card-text">Thiết kế bài thuyết trình ấn tượng và hiệu quả với Google Slides.</p>
+                            <p class="section-date">Ngày khai giảng: 23/5</p>
                         </div>
                         <button class="btn btn-sm btn-outline-info quick-view-btn" data-course="4">Quick View</button>
                     </div>
@@ -425,7 +458,9 @@
             <div class="container mt-5">
     <div class="row">
         <!-- Giảng viên Card -->
+                    <h2 class="team-title">Đội ngũ Giảng viên</h2>
         <div class="col-md-3 mb-4">
+                      
             <div class="card teacher-card">
                 <!-- Ảnh giảng viên -->
                 <img src="~/assets/images/about/Screenshot 2025-03-27 210436.png" class="card-img-top" alt="Giảng viên 1">

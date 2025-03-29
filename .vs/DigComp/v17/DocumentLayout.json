@@ -146,7 +146,7 @@
               "RelativeDocumentMoniker": "DigComp\\Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\tai16\\OneDrive\\Desktop\\gitNew\\course-management\\DigComp\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "DigComp\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAKUBAAAAAAAAAAAkwMIBAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-17T15:15:58.549Z",
               "EditorCaption": ""
@@ -221,7 +221,8 @@
               "RelativeToolTip": "DigComp\\Views\\Home\\DetailTeacher.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-22T07:44:03.811Z"
+              "WhenOpened": "2025-03-22T07:44:03.811Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

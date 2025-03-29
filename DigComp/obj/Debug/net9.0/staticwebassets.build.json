@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "BC1tSimaBvRGN0gjnCy89r9nN1U+tXDwq8ayxDVOWAA=",
+  "Hash": "/mdu1yc93cRBGAMVSVcG5Avw9UYCPnRr4zbSX1nywVg=",
   "Source": "DigComp",
   "BasePath": "_content/DigComp",
   "Mode": "Default",
@@ -2976,6 +2976,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\images\\about\\about_image.svg"
+    },
+    {
+      "Identity": "C:\\Users\\tai16\\OneDrive\\Desktop\\gitNew\\course-management\\DigComp\\wwwroot\\assets\\images\\about\\Screenshot 2025-03-27 210436.png",
+      "SourceId": "DigComp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tai16\\OneDrive\\Desktop\\gitNew\\course-management\\DigComp\\wwwroot\\",
+      "BasePath": "_content/DigComp",
+      "RelativePath": "assets/images/about/Screenshot 2025-03-27 210436#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "g1vg9i176l",
+      "Integrity": "3P3AlmQfrp/LVIUN7sb4/GUeQpAfpa8JJFiO/3fT9hw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\about\\Screenshot 2025-03-27 210436.png"
     },
     {
       "Identity": "C:\\Users\\tai16\\OneDrive\\Desktop\\gitNew\\course-management\\DigComp\\wwwroot\\assets\\images\\app_store.png",
@@ -15929,6 +15950,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-R9bX72JIFmHPJL/peVIL054QcRZy9dkPz6scK0+WOT8="
+        }
+      ]
+    },
+    {
+      "Route": "assets/images/about/Screenshot 2025-03-27 210436.g1vg9i176l.png",
+      "AssetFile": "C:\\Users\\tai16\\OneDrive\\Desktop\\gitNew\\course-management\\DigComp\\wwwroot\\assets\\images\\about\\Screenshot 2025-03-27 210436.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "110798"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3P3AlmQfrp/LVIUN7sb4/GUeQpAfpa8JJFiO/3fT9hw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 14:04:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "g1vg9i176l"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/images/about/Screenshot 2025-03-27 210436.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3P3AlmQfrp/LVIUN7sb4/GUeQpAfpa8JJFiO/3fT9hw="
+        }
+      ]
+    },
+    {
+      "Route": "assets/images/about/Screenshot 2025-03-27 210436.png",
+      "AssetFile": "C:\\Users\\tai16\\OneDrive\\Desktop\\gitNew\\course-management\\DigComp\\wwwroot\\assets\\images\\about\\Screenshot 2025-03-27 210436.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "110798"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3P3AlmQfrp/LVIUN7sb4/GUeQpAfpa8JJFiO/3fT9hw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 14:04:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3P3AlmQfrp/LVIUN7sb4/GUeQpAfpa8JJFiO/3fT9hw="
         }
       ]
     },

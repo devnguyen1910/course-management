@@ -135,6 +135,7 @@ wwwroot\assets\fonts\stroke-gap-icons\Stroke-Gap-Icons.svg
 wwwroot\assets\fonts\stroke-gap-icons\Stroke-Gap-Icons.ttf
 wwwroot\assets\fonts\stroke-gap-icons\Stroke-Gap-Icons.woff
 wwwroot\assets\images\about\about_image.svg
+wwwroot\assets\images\about\Screenshot 2025-03-27 210436.png
 wwwroot\assets\images\app_store.png
 wwwroot\assets\images\author\author_1.jpg
 wwwroot\assets\images\blog\blog_1.jpg
