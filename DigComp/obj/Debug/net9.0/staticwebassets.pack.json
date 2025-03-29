@@ -429,6 +429,14 @@
       "PackagePath": "staticwebassets\\assets\\images\\logo\\NEW_-GfE-Badges-Horizontal_Certified-Trainer-1.png"
     },
     {
+      "Id": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\assets\\images\\logo\\Webinar-pana-1-1024x683.png",
+      "PackagePath": "staticwebassets\\assets\\images\\logo\\Webinar-pana-1-1024x683.png"
+    },
+    {
+      "Id": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\assets\\images\\logo\\campaign-creators-gMsnXqILjp4-unsplash-1024x683.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\logo\\campaign-creators-gMsnXqILjp4-unsplash-1024x683.jpg"
+    },
+    {
       "Id": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\assets\\images\\payments_icon.png",
       "PackagePath": "staticwebassets\\assets\\images\\payments_icon.png"
     },
@@ -919,6 +927,66 @@
     {
       "Id": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\image\\course\\GfE-Badges-Vertical_Certified-Educator-Level1.png",
+      "PackagePath": "staticwebassets\\image\\course\\GfE-Badges-Vertical_Certified-Educator-Level1.png"
+    },
+    {
+      "Id": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\image\\course\\google-workspace-education-fundamentals.jpg",
+      "PackagePath": "staticwebassets\\image\\course\\google-workspace-education-fundamentals.jpg"
+    },
+    {
+      "Id": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\image\\course\\images.png",
+      "PackagePath": "staticwebassets\\image\\course\\images.png"
+    },
+    {
+      "Id": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\image\\course\\screen-shot-2016-12-11-at-6-45-28-pm.jpg",
+      "PackagePath": "staticwebassets\\image\\course\\screen-shot-2016-12-11-at-6-45-28-pm.jpg"
+    },
+    {
+      "Id": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\image\\doanxuanhien\\1.jpg",
+      "PackagePath": "staticwebassets\\image\\doanxuanhien\\1.jpg"
+    },
+    {
+      "Id": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\image\\doanxuanhien\\1.png",
+      "PackagePath": "staticwebassets\\image\\doanxuanhien\\1.png"
+    },
+    {
+      "Id": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\image\\doanxuanhien\\2.jpg",
+      "PackagePath": "staticwebassets\\image\\doanxuanhien\\2.jpg"
+    },
+    {
+      "Id": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\image\\doanxuanhien\\3.jpg",
+      "PackagePath": "staticwebassets\\image\\doanxuanhien\\3.jpg"
+    },
+    {
+      "Id": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\image\\doanxuanhien\\4.jpg",
+      "PackagePath": "staticwebassets\\image\\doanxuanhien\\4.jpg"
+    },
+    {
+      "Id": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\image\\doanxuanhien\\5.jpg",
+      "PackagePath": "staticwebassets\\image\\doanxuanhien\\5.jpg"
+    },
+    {
+      "Id": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\image\\khiettran\\1.jpg",
+      "PackagePath": "staticwebassets\\image\\khiettran\\1.jpg"
+    },
+    {
+      "Id": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\image\\lenguyenkhang\\1.jpg",
+      "PackagePath": "staticwebassets\\image\\lenguyenkhang\\1.jpg"
+    },
+    {
+      "Id": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\image\\service\\gg for education fundamental.png",
+      "PackagePath": "staticwebassets\\image\\service\\gg for education fundamental.png"
+    },
+    {
+      "Id": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\image\\service\\gg for education plus.jpg",
+      "PackagePath": "staticwebassets\\image\\service\\gg for education plus.jpg"
+    },
+    {
+      "Id": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\image\\service\\gg for education standard.jpg",
+      "PackagePath": "staticwebassets\\image\\service\\gg for education standard.jpg"
     },
     {
       "Id": "D:\\Thực tập 2025\\DigComp Project\\DigComp\\DigComp\\wwwroot\\js\\site.js",

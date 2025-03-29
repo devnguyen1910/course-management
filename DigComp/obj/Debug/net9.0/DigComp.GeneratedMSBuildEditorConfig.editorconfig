@@ -28,6 +28,18 @@ build_property._RazorSourceGeneratorDebug =
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
+[D:/Thực tập 2025/DigComp Project/DigComp/DigComp/Views/Course/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Thực tập 2025/DigComp Project/DigComp/DigComp/Views/Course/WLCourse.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlXFdMQ291cnNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Thực tập 2025/DigComp Project/DigComp/DigComp/Views/Home/AboutCompany.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dENvbXBhbnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Thực tập 2025/DigComp Project/DigComp/DigComp/Views/Home/Account.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBY2NvdW50LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -40,8 +52,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDaGFuZ2VQYXNzd29yZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Thực tập 2025/DigComp Project/DigComp/DigComp/Views/Home/Contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Thực tập 2025/DigComp Project/DigComp/DigComp/Views/Home/DetailTeacher.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZXRhaWxUZWFjaGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Thực tập 2025/DigComp Project/DigComp/DigComp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Thực tập 2025/DigComp Project/DigComp/DigComp/Views/Home/ListTeacher.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMaXN0VGVhY2hlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Thực tập 2025/DigComp Project/DigComp/DigComp/Views/Home/Login.cshtml]
@@ -54,6 +78,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/Thực tập 2025/DigComp Project/DigComp/DigComp/Views/Home/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Thực tập 2025/DigComp Project/DigComp/DigComp/Views/Service/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Thực tập 2025/DigComp Project/DigComp/DigComp/Views/Service/WLService.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZVxXTFNlcnZpY2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Thực tập 2025/DigComp Project/DigComp/DigComp/Views/Shared/Error.cshtml]

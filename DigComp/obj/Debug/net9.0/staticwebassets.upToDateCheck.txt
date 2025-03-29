@@ -201,8 +201,10 @@ wwwroot\assets\images\latest_product\latest_product_1.png
 wwwroot\assets\images\latest_product\latest_product_2.png
 wwwroot\assets\images\latest_product\latest_product_3.png
 wwwroot\assets\images\latest_product\latest_product_4.png
+wwwroot\assets\images\logo\campaign-creators-gMsnXqILjp4-unsplash-1024x683.jpg
 wwwroot\assets\images\logo\DCE-logo.png
 wwwroot\assets\images\logo\NEW_-GfE-Badges-Horizontal_Certified-Trainer-1.png
+wwwroot\assets\images\logo\Webinar-pana-1-1024x683.png
 wwwroot\assets\images\payments_icon.png
 wwwroot\assets\images\payments_icon_2.png
 wwwroot\assets\images\payments_icon_3.png
@@ -326,6 +328,21 @@ wwwroot\assets\scss\elements\_title.scss
 wwwroot\assets\scss\style.scss
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\image\course\GfE-Badges-Vertical_Certified-Educator-Level1.png
+wwwroot\image\course\google-workspace-education-fundamentals.jpg
+wwwroot\image\course\images.png
+wwwroot\image\course\screen-shot-2016-12-11-at-6-45-28-pm.jpg
+wwwroot\image\doanxuanhien\1.jpg
+wwwroot\image\doanxuanhien\1.png
+wwwroot\image\doanxuanhien\2.jpg
+wwwroot\image\doanxuanhien\3.jpg
+wwwroot\image\doanxuanhien\4.jpg
+wwwroot\image\doanxuanhien\5.jpg
+wwwroot\image\khiettran\1.jpg
+wwwroot\image\lenguyenkhang\1.jpg
+wwwroot\image\service\gg for education fundamental.png
+wwwroot\image\service\gg for education plus.jpg
+wwwroot\image\service\gg for education standard.jpg
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map

@@ -96,7 +96,7 @@ body {
     line-height: 1.65;
     font-style: normal;
     color: #636363;
-    font-family: "Arial", sans-serif;
+    font-family: "Roboto", sans-serif;
     background-color: #ffffff;
     text-rendering: optimizelegibility;
     -moz-osx-font-smoothing: grayscale;
@@ -189,7 +189,7 @@ button {
 h1, h2, h3, h4, h5, h6 {
     font-weight: 500;
     color: #252525;
-    font-family: "Arial", sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
 hr {

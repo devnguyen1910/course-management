@@ -29,16 +29,11 @@ namespace DigComp.Controllers
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
 
+        //============================SH_LI - SIGN IN===================================================================================================
         // Hiển thị trang đăng nhập
         public IActionResult Login()
         {
             ViewBag.SuccessMessage = TempData["SuccessMessage"] as string;
-            return View();
-        }
-
-        // Hiển thị trang đăng ký
-        public IActionResult Register()
-        {
             return View();
         }
 
@@ -63,6 +58,14 @@ namespace DigComp.Controllers
                 return View();
             }
         }
+
+        //============================SH_RT - REGISTER===================================================================================================
+        // Hiển thị trang đăng ký
+        public IActionResult Register()
+        {
+            return View();
+        }
+
 
         // Xử lý đăng ký
         [HttpPost]
@@ -100,6 +103,8 @@ namespace DigComp.Controllers
             return RedirectToAction("Index");
         }
 
+
+        //============================SH_AM - ACCOUNT MANAGEMENT===================================================================================================
         public IActionResult Account()
         {
             if (string.IsNullOrEmpty(HttpContext.Session.GetString("Username")))
@@ -121,7 +126,6 @@ namespace DigComp.Controllers
 
             return View();
         }
-
 
         public IActionResult AccountInfo()
         {
@@ -171,7 +175,6 @@ namespace DigComp.Controllers
             return RedirectToAction("AccountInfo");
         }
 
-
         public IActionResult ChangePassword()
         {
             if (string.IsNullOrEmpty(HttpContext.Session.GetString("Username")))
@@ -201,5 +204,27 @@ namespace DigComp.Controllers
             return RedirectToAction("ChangePassword");
         }
 
+        //============================SH_MN_003 - MENU - GIẢNG VIÊN===================================================================================================
+        public IActionResult ListTeacher()
+        {
+            return View();
+        }
+
+        public IActionResult DetailTeacher()
+        {
+            return View();
+        }
+
+        //============================SH_MN_004 - MENU - GIỚI THIỆU===================================================================================================
+        public IActionResult AboutCompany()
+        {
+            return View();
+        }
+
+        //============================SH_MN_006 - MENU - LIÊN HỆ===================================================================================================
+        public IActionResult Contact()
+        {
+            return View();
+        }
     }
 }
