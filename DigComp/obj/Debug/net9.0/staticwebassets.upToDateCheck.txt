@@ -191,6 +191,7 @@ wwwroot\assets\images\details\product_details_img_4.png
 wwwroot\assets\images\empty_cart_image.jpg
 wwwroot\assets\images\flug\flug_uk.png
 wwwroot\assets\images\icons\left_align.svg
+wwwroot\assets\images\icons\Screenshot 2025-03-25 193150.png
 wwwroot\assets\images\instagram\instagram_img_1.jpg
 wwwroot\assets\images\instagram\instagram_img_2.jpg
 wwwroot\assets\images\instagram\instagram_img_3.jpg

@@ -3,16 +3,47 @@
   "WorkspaceRootPath": "C:\\Users\\tai16\\OneDrive\\Desktop\\gitNew\\course-management\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0003A1FD-EF8E-4A89-9B40-C6B559EC0590}|DigComp\\DigComp.csproj|c:\\users\\tai16\\onedrive\\desktop\\gitnew\\course-management\\digcomp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0003A1FD-EF8E-4A89-9B40-C6B559EC0590}|DigComp\\DigComp.csproj|solutionrelative:digcomp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0003A1FD-EF8E-4A89-9B40-C6B559EC0590}|DigComp\\DigComp.csproj|c:\\users\\tai16\\onedrive\\desktop\\gitnew\\course-management\\digcomp\\views\\home\\detailteacher.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0003A1FD-EF8E-4A89-9B40-C6B559EC0590}|DigComp\\DigComp.csproj|solutionrelative:digcomp\\views\\home\\detailteacher.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0003A1FD-EF8E-4A89-9B40-C6B559EC0590}|DigComp\\DigComp.csproj|c:\\users\\tai16\\onedrive\\desktop\\gitnew\\course-management\\digcomp\\views\\home\\listteacher.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0003A1FD-EF8E-4A89-9B40-C6B559EC0590}|DigComp\\DigComp.csproj|solutionrelative:digcomp\\views\\home\\listteacher.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0003A1FD-EF8E-4A89-9B40-C6B559EC0590}|DigComp\\DigComp.csproj|c:\\users\\tai16\\onedrive\\desktop\\gitnew\\course-management\\digcomp\\wwwroot\\assets\\images\\team\\team_1.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{0003A1FD-EF8E-4A89-9B40-C6B559EC0590}|DigComp\\DigComp.csproj|solutionrelative:digcomp\\wwwroot\\assets\\images\\team\\team_1.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0003A1FD-EF8E-4A89-9B40-C6B559EC0590}|DigComp\\DigComp.csproj|c:\\users\\tai16\\onedrive\\desktop\\gitnew\\course-management\\digcomp\\views\\course\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0003A1FD-EF8E-4A89-9B40-C6B559EC0590}|DigComp\\DigComp.csproj|solutionrelative:digcomp\\views\\course\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0003A1FD-EF8E-4A89-9B40-C6B559EC0590}|DigComp\\DigComp.csproj|c:\\users\\tai16\\onedrive\\desktop\\gitnew\\course-management\\digcomp\\views\\course\\wlcourse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0003A1FD-EF8E-4A89-9B40-C6B559EC0590}|DigComp\\DigComp.csproj|solutionrelative:digcomp\\views\\course\\wlcourse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tai16\\Downloads\\getyootech_main-20250325T131447Z-001\\getyootech_main\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0003A1FD-EF8E-4A89-9B40-C6B559EC0590}|DigComp\\DigComp.csproj|c:\\users\\tai16\\onedrive\\desktop\\gitnew\\course-management\\digcomp\\views\\home\\account.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0003A1FD-EF8E-4A89-9B40-C6B559EC0590}|DigComp\\DigComp.csproj|solutionrelative:digcomp\\views\\home\\account.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0003A1FD-EF8E-4A89-9B40-C6B559EC0590}|DigComp\\DigComp.csproj|c:\\users\\tai16\\onedrive\\desktop\\gitnew\\course-management\\digcomp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0003A1FD-EF8E-4A89-9B40-C6B559EC0590}|DigComp\\DigComp.csproj|solutionrelative:digcomp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0003A1FD-EF8E-4A89-9B40-C6B559EC0590}|DigComp\\DigComp.csproj|c:\\users\\tai16\\onedrive\\desktop\\gitnew\\course-management\\digcomp\\controllers\\bannercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0003A1FD-EF8E-4A89-9B40-C6B559EC0590}|DigComp\\DigComp.csproj|solutionrelative:digcomp\\controllers\\bannercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0003A1FD-EF8E-4A89-9B40-C6B559EC0590}|DigComp\\DigComp.csproj|c:\\users\\tai16\\onedrive\\desktop\\gitnew\\course-management\\digcomp\\models\\banner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0003A1FD-EF8E-4A89-9B40-C6B559EC0590}|DigComp\\DigComp.csproj|solutionrelative:digcomp\\models\\banner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0003A1FD-EF8E-4A89-9B40-C6B559EC0590}|DigComp\\DigComp.csproj|c:\\users\\tai16\\onedrive\\desktop\\gitnew\\course-management\\digcomp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0003A1FD-EF8E-4A89-9B40-C6B559EC0590}|DigComp\\DigComp.csproj|solutionrelative:digcomp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0003A1FD-EF8E-4A89-9B40-C6B559EC0590}|DigComp\\DigComp.csproj|c:\\users\\tai16\\onedrive\\desktop\\gitnew\\course-management\\digcomp\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,28 +61,12 @@
       "RelativeMoniker": "D:0:0:{0003A1FD-EF8E-4A89-9B40-C6B559EC0590}|DigComp\\DigComp.csproj|solutionrelative:digcomp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0003A1FD-EF8E-4A89-9B40-C6B559EC0590}|DigComp\\DigComp.csproj|c:\\users\\tai16\\onedrive\\desktop\\gitnew\\course-management\\digcomp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0003A1FD-EF8E-4A89-9B40-C6B559EC0590}|DigComp\\DigComp.csproj|solutionrelative:digcomp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0003A1FD-EF8E-4A89-9B40-C6B559EC0590}|DigComp\\DigComp.csproj|c:\\users\\tai16\\onedrive\\desktop\\gitnew\\course-management\\digcomp\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0003A1FD-EF8E-4A89-9B40-C6B559EC0590}|DigComp\\DigComp.csproj|solutionrelative:digcomp\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0003A1FD-EF8E-4A89-9B40-C6B559EC0590}|DigComp\\DigComp.csproj|c:\\users\\tai16\\onedrive\\desktop\\gitnew\\course-management\\digcomp\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0003A1FD-EF8E-4A89-9B40-C6B559EC0590}|DigComp\\DigComp.csproj|solutionrelative:digcomp\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0003A1FD-EF8E-4A89-9B40-C6B559EC0590}|DigComp\\DigComp.csproj|c:\\users\\tai16\\onedrive\\desktop\\gitnew\\course-management\\digcomp\\views\\home\\account.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0003A1FD-EF8E-4A89-9B40-C6B559EC0590}|DigComp\\DigComp.csproj|solutionrelative:digcomp\\views\\home\\account.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0003A1FD-EF8E-4A89-9B40-C6B559EC0590}|DigComp\\DigComp.csproj|c:\\users\\tai16\\onedrive\\desktop\\gitnew\\course-management\\digcomp\\views\\home\\listteacher.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0003A1FD-EF8E-4A89-9B40-C6B559EC0590}|DigComp\\DigComp.csproj|solutionrelative:digcomp\\views\\home\\listteacher.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0003A1FD-EF8E-4A89-9B40-C6B559EC0590}|DigComp\\DigComp.csproj|c:\\users\\tai16\\onedrive\\desktop\\gitnew\\course-management\\digcomp\\views\\course\\wlcourse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0003A1FD-EF8E-4A89-9B40-C6B559EC0590}|DigComp\\DigComp.csproj|solutionrelative:digcomp\\views\\course\\wlcourse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0003A1FD-EF8E-4A89-9B40-C6B559EC0590}|DigComp\\DigComp.csproj|c:\\users\\tai16\\onedrive\\desktop\\gitnew\\course-management\\digcomp\\views\\service\\wlservice.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -66,16 +81,8 @@
       "RelativeMoniker": "D:0:0:{0003A1FD-EF8E-4A89-9B40-C6B559EC0590}|DigComp\\DigComp.csproj|solutionrelative:digcomp\\views\\home\\aboutcompany.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0003A1FD-EF8E-4A89-9B40-C6B559EC0590}|DigComp\\DigComp.csproj|c:\\users\\tai16\\onedrive\\desktop\\gitnew\\course-management\\digcomp\\views\\home\\detailteacher.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0003A1FD-EF8E-4A89-9B40-C6B559EC0590}|DigComp\\DigComp.csproj|solutionrelative:digcomp\\views\\home\\detailteacher.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0003A1FD-EF8E-4A89-9B40-C6B559EC0590}|DigComp\\DigComp.csproj|c:\\users\\tai16\\onedrive\\desktop\\gitnew\\course-management\\digcomp\\views\\service\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0003A1FD-EF8E-4A89-9B40-C6B559EC0590}|DigComp\\DigComp.csproj|solutionrelative:digcomp\\views\\service\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0003A1FD-EF8E-4A89-9B40-C6B559EC0590}|DigComp\\DigComp.csproj|c:\\users\\tai16\\onedrive\\desktop\\gitnew\\course-management\\digcomp\\views\\course\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0003A1FD-EF8E-4A89-9B40-C6B559EC0590}|DigComp\\DigComp.csproj|solutionrelative:digcomp\\views\\course\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0003A1FD-EF8E-4A89-9B40-C6B559EC0590}|DigComp\\DigComp.csproj|c:\\users\\tai16\\onedrive\\desktop\\gitnew\\course-management\\digcomp\\models\\dce_dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -113,7 +120,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -121,97 +128,44 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BannerController.cs",
-              "DocumentMoniker": "C:\\Users\\tai16\\OneDrive\\Desktop\\gitNew\\course-management\\DigComp\\Controllers\\BannerController.cs",
-              "RelativeDocumentMoniker": "DigComp\\Controllers\\BannerController.cs",
-              "ToolTip": "C:\\Users\\tai16\\OneDrive\\Desktop\\gitNew\\course-management\\DigComp\\Controllers\\BannerController.cs",
-              "RelativeToolTip": "DigComp\\Controllers\\BannerController.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAAABkAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T12:49:01.465Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Banner.cs",
-              "DocumentMoniker": "C:\\Users\\tai16\\OneDrive\\Desktop\\gitNew\\course-management\\DigComp\\Models\\Banner.cs",
-              "RelativeDocumentMoniker": "DigComp\\Models\\Banner.cs",
-              "ToolTip": "C:\\Users\\tai16\\OneDrive\\Desktop\\gitNew\\course-management\\DigComp\\Models\\Banner.cs",
-              "RelativeToolTip": "DigComp\\Models\\Banner.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T12:39:46.609Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "CourseController.cs",
-              "DocumentMoniker": "C:\\Users\\tai16\\OneDrive\\Desktop\\gitNew\\course-management\\DigComp\\Controllers\\CourseController.cs",
-              "RelativeDocumentMoniker": "DigComp\\Controllers\\CourseController.cs",
-              "ToolTip": "C:\\Users\\tai16\\OneDrive\\Desktop\\gitNew\\course-management\\DigComp\\Controllers\\CourseController.cs",
-              "RelativeToolTip": "DigComp\\Controllers\\CourseController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T09:01:29.311Z",
-              "EditorCaption": ""
+              "Title": "team_1.jpg - Bitmap [540x540, 4 bit, JPG]",
+              "DocumentMoniker": "C:\\Users\\tai16\\OneDrive\\Desktop\\gitNew\\course-management\\DigComp\\wwwroot\\assets\\images\\team\\team_1.jpg",
+              "RelativeDocumentMoniker": "DigComp\\wwwroot\\assets\\images\\team\\team_1.jpg",
+              "ToolTip": "C:\\Users\\tai16\\OneDrive\\Desktop\\gitNew\\course-management\\DigComp\\wwwroot\\assets\\images\\team\\team_1.jpg - Bitmap [540x540, 4 bit, JPG]",
+              "RelativeToolTip": "DigComp\\wwwroot\\assets\\images\\team\\team_1.jpg - Bitmap [540x540, 4 bit, JPG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-03-27T13:59:37.871Z",
+              "EditorCaption": " - Bitmap [540x540, 4 bit, JPG]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\tai16\\OneDrive\\Desktop\\gitNew\\course-management\\DigComp\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "DigComp\\Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\tai16\\OneDrive\\Desktop\\gitNew\\course-management\\DigComp\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "DigComp\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGYAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAKUBAAAAAAAAAAAkwMIBAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-17T15:15:58.549Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ChangePassword.cshtml",
-              "DocumentMoniker": "C:\\Users\\tai16\\OneDrive\\Desktop\\gitNew\\course-management\\DigComp\\Views\\Home\\ChangePassword.cshtml",
-              "RelativeDocumentMoniker": "DigComp\\Views\\Home\\ChangePassword.cshtml",
-              "ToolTip": "C:\\Users\\tai16\\OneDrive\\Desktop\\gitNew\\course-management\\DigComp\\Views\\Home\\ChangePassword.cshtml",
-              "RelativeToolTip": "DigComp\\Views\\Home\\ChangePassword.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAADIAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-18T09:22:35.978Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Microsoft.PackageDependencyResolution.targets",
-              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\9.0.201\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.201\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
-              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\9.0.201\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.201\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
-              "ViewState": "AgIAAPYAAAAAAAAAAAAqwA0BAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2025-03-23T06:27:41.569Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 7,
               "Title": "Account.cshtml",
               "DocumentMoniker": "C:\\Users\\tai16\\OneDrive\\Desktop\\gitNew\\course-management\\DigComp\\Views\\Home\\Account.cshtml",
               "RelativeDocumentMoniker": "DigComp\\Views\\Home\\Account.cshtml",
               "ToolTip": "C:\\Users\\tai16\\OneDrive\\Desktop\\gitNew\\course-management\\DigComp\\Views\\Home\\Account.cshtml",
               "RelativeToolTip": "DigComp\\Views\\Home\\Account.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-18T09:10:43.658Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "AccountInfo.cshtml",
               "DocumentMoniker": "C:\\Users\\tai16\\OneDrive\\Desktop\\gitNew\\course-management\\DigComp\\Views\\Home\\AccountInfo.cshtml",
               "RelativeDocumentMoniker": "DigComp\\Views\\Home\\AccountInfo.cshtml",
@@ -223,166 +177,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\tai16\\OneDrive\\Desktop\\gitNew\\course-management\\DigComp\\Views\\Home\\Login.cshtml",
-              "RelativeDocumentMoniker": "DigComp\\Views\\Home\\Login.cshtml",
-              "ToolTip": "C:\\Users\\tai16\\OneDrive\\Desktop\\gitNew\\course-management\\DigComp\\Views\\Home\\Login.cshtml",
-              "RelativeToolTip": "DigComp\\Views\\Home\\Login.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-18T07:23:03.658Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\tai16\\OneDrive\\Desktop\\gitNew\\course-management\\DigComp\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "DigComp\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\tai16\\OneDrive\\Desktop\\gitNew\\course-management\\DigComp\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "DigComp\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABLAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-17T13:40:21.709Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\tai16\\OneDrive\\Desktop\\gitNew\\course-management\\DigComp\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "DigComp\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\tai16\\OneDrive\\Desktop\\gitNew\\course-management\\DigComp\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "DigComp\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T13:36:38.322Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ListTeacher.cshtml",
-              "DocumentMoniker": "C:\\Users\\tai16\\OneDrive\\Desktop\\gitNew\\course-management\\DigComp\\Views\\Home\\ListTeacher.cshtml",
-              "RelativeDocumentMoniker": "DigComp\\Views\\Home\\ListTeacher.cshtml",
-              "ToolTip": "C:\\Users\\tai16\\OneDrive\\Desktop\\gitNew\\course-management\\DigComp\\Views\\Home\\ListTeacher.cshtml",
-              "RelativeToolTip": "DigComp\\Views\\Home\\ListTeacher.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-21T11:16:40.792Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "WLCourse.cshtml",
-              "DocumentMoniker": "C:\\Users\\tai16\\OneDrive\\Desktop\\gitNew\\course-management\\DigComp\\Views\\Course\\WLCourse.cshtml",
-              "RelativeDocumentMoniker": "DigComp\\Views\\Course\\WLCourse.cshtml",
-              "ToolTip": "C:\\Users\\tai16\\OneDrive\\Desktop\\gitNew\\course-management\\DigComp\\Views\\Course\\WLCourse.cshtml",
-              "RelativeToolTip": "DigComp\\Views\\Course\\WLCourse.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-22T09:32:33.801Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "WLService.cshtml",
-              "DocumentMoniker": "C:\\Users\\tai16\\OneDrive\\Desktop\\gitNew\\course-management\\DigComp\\Views\\Service\\WLService.cshtml",
-              "RelativeDocumentMoniker": "DigComp\\Views\\Service\\WLService.cshtml",
-              "ToolTip": "C:\\Users\\tai16\\OneDrive\\Desktop\\gitNew\\course-management\\DigComp\\Views\\Service\\WLService.cshtml",
-              "RelativeToolTip": "DigComp\\Views\\Service\\WLService.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-22T09:50:30.256Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Contact.cshtml",
-              "DocumentMoniker": "C:\\Users\\tai16\\OneDrive\\Desktop\\gitNew\\course-management\\DigComp\\Views\\Home\\Contact.cshtml",
-              "RelativeDocumentMoniker": "DigComp\\Views\\Home\\Contact.cshtml",
-              "ToolTip": "C:\\Users\\tai16\\OneDrive\\Desktop\\gitNew\\course-management\\DigComp\\Views\\Home\\Contact.cshtml",
-              "RelativeToolTip": "DigComp\\Views\\Home\\Contact.cshtml",
-              "ViewState": "AgIAADYAAAAAAAAAAAAAAEsAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-22T10:13:43.88Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "AboutCompany.cshtml",
-              "DocumentMoniker": "C:\\Users\\tai16\\OneDrive\\Desktop\\gitNew\\course-management\\DigComp\\Views\\Home\\AboutCompany.cshtml",
-              "RelativeDocumentMoniker": "DigComp\\Views\\Home\\AboutCompany.cshtml",
-              "ToolTip": "C:\\Users\\tai16\\OneDrive\\Desktop\\gitNew\\course-management\\DigComp\\Views\\Home\\AboutCompany.cshtml",
-              "RelativeToolTip": "DigComp\\Views\\Home\\AboutCompany.cshtml",
-              "ViewState": "AgIAAK8AAAAAAAAAAAAqwMUAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-22T08:36:43.66Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "DetailTeacher.cshtml",
-              "DocumentMoniker": "C:\\Users\\tai16\\OneDrive\\Desktop\\gitNew\\course-management\\DigComp\\Views\\Home\\DetailTeacher.cshtml",
-              "RelativeDocumentMoniker": "DigComp\\Views\\Home\\DetailTeacher.cshtml",
-              "ToolTip": "C:\\Users\\tai16\\OneDrive\\Desktop\\gitNew\\course-management\\DigComp\\Views\\Home\\DetailTeacher.cshtml",
-              "RelativeToolTip": "DigComp\\Views\\Home\\DetailTeacher.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-22T07:44:03.811Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ServiceController.cs",
-              "DocumentMoniker": "C:\\Users\\tai16\\OneDrive\\Desktop\\gitNew\\course-management\\DigComp\\Controllers\\ServiceController.cs",
-              "RelativeDocumentMoniker": "DigComp\\Controllers\\ServiceController.cs",
-              "ToolTip": "C:\\Users\\tai16\\OneDrive\\Desktop\\gitNew\\course-management\\DigComp\\Controllers\\ServiceController.cs",
-              "RelativeToolTip": "DigComp\\Controllers\\ServiceController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T09:01:41.955Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "DCE_DbContext.cs",
-              "DocumentMoniker": "C:\\Users\\tai16\\OneDrive\\Desktop\\gitNew\\course-management\\DigComp\\Models\\DCE_DbContext.cs",
-              "RelativeDocumentMoniker": "DigComp\\Models\\DCE_DbContext.cs",
-              "ToolTip": "C:\\Users\\tai16\\OneDrive\\Desktop\\gitNew\\course-management\\DigComp\\Models\\DCE_DbContext.cs",
-              "RelativeToolTip": "DigComp\\Models\\DCE_DbContext.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAxwCMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T10:51:37.794Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\tai16\\OneDrive\\Desktop\\gitNew\\course-management\\DigComp\\Views\\Service\\Index.cshtml",
-              "RelativeDocumentMoniker": "DigComp\\Views\\Service\\Index.cshtml",
-              "ToolTip": "C:\\Users\\tai16\\OneDrive\\Desktop\\gitNew\\course-management\\DigComp\\Views\\Service\\Index.cshtml",
-              "RelativeToolTip": "DigComp\\Views\\Service\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-21T09:11:23.014Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Dockerfile",
-              "DocumentMoniker": "C:\\Users\\tai16\\OneDrive\\Desktop\\gitNew\\course-management\\DigComp\\Dockerfile",
-              "RelativeDocumentMoniker": "DigComp\\Dockerfile",
-              "ToolTip": "C:\\Users\\tai16\\OneDrive\\Desktop\\gitNew\\course-management\\DigComp\\Dockerfile",
-              "RelativeToolTip": "DigComp\\Dockerfile",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-03-18T07:49:22.061Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\tai16\\OneDrive\\Desktop\\gitNew\\course-management\\DigComp\\Views\\Course\\Index.cshtml",
               "RelativeDocumentMoniker": "DigComp\\Views\\Course\\Index.cshtml",
@@ -394,7 +189,235 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 12,
+              "Title": "ChangePassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\tai16\\OneDrive\\Desktop\\gitNew\\course-management\\DigComp\\Views\\Home\\ChangePassword.cshtml",
+              "RelativeDocumentMoniker": "DigComp\\Views\\Home\\ChangePassword.cshtml",
+              "ToolTip": "C:\\Users\\tai16\\OneDrive\\Desktop\\gitNew\\course-management\\DigComp\\Views\\Home\\ChangePassword.cshtml",
+              "RelativeToolTip": "DigComp\\Views\\Home\\ChangePassword.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAADIAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-18T09:22:35.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ListTeacher.cshtml",
+              "DocumentMoniker": "C:\\Users\\tai16\\OneDrive\\Desktop\\gitNew\\course-management\\DigComp\\Views\\Home\\ListTeacher.cshtml",
+              "RelativeDocumentMoniker": "DigComp\\Views\\Home\\ListTeacher.cshtml",
+              "ToolTip": "C:\\Users\\tai16\\OneDrive\\Desktop\\gitNew\\course-management\\DigComp\\Views\\Home\\ListTeacher.cshtml",
+              "RelativeToolTip": "DigComp\\Views\\Home\\ListTeacher.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-21T11:16:40.792Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DetailTeacher.cshtml",
+              "DocumentMoniker": "C:\\Users\\tai16\\OneDrive\\Desktop\\gitNew\\course-management\\DigComp\\Views\\Home\\DetailTeacher.cshtml",
+              "RelativeDocumentMoniker": "DigComp\\Views\\Home\\DetailTeacher.cshtml",
+              "ToolTip": "C:\\Users\\tai16\\OneDrive\\Desktop\\gitNew\\course-management\\DigComp\\Views\\Home\\DetailTeacher.cshtml",
+              "RelativeToolTip": "DigComp\\Views\\Home\\DetailTeacher.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-22T07:44:03.811Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Microsoft.PackageDependencyResolution.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\9.0.201\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.201\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\9.0.201\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.201\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "ViewState": "AgIAAPYAAAAAAAAAAAAqwA0BAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-03-23T06:27:41.569Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\tai16\\Downloads\\getyootech_main-20250325T131447Z-001\\getyootech_main\\index.html",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Downloads\\getyootech_main-20250325T131447Z-001\\getyootech_main\\index.html",
+              "ToolTip": "C:\\Users\\tai16\\Downloads\\getyootech_main-20250325T131447Z-001\\getyootech_main\\index.html",
+              "RelativeToolTip": "..\\..\\..\\..\\Downloads\\getyootech_main-20250325T131447Z-001\\getyootech_main\\index.html",
+              "ViewState": "AgIAADsBAAAAAAAAAAAAAGoBAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-03-25T13:23:41.645Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WLCourse.cshtml",
+              "DocumentMoniker": "C:\\Users\\tai16\\OneDrive\\Desktop\\gitNew\\course-management\\DigComp\\Views\\Course\\WLCourse.cshtml",
+              "RelativeDocumentMoniker": "DigComp\\Views\\Course\\WLCourse.cshtml",
+              "ToolTip": "C:\\Users\\tai16\\OneDrive\\Desktop\\gitNew\\course-management\\DigComp\\Views\\Course\\WLCourse.cshtml",
+              "RelativeToolTip": "DigComp\\Views\\Course\\WLCourse.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-22T09:32:33.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CourseController.cs",
+              "DocumentMoniker": "C:\\Users\\tai16\\OneDrive\\Desktop\\gitNew\\course-management\\DigComp\\Controllers\\CourseController.cs",
+              "RelativeDocumentMoniker": "DigComp\\Controllers\\CourseController.cs",
+              "ToolTip": "C:\\Users\\tai16\\OneDrive\\Desktop\\gitNew\\course-management\\DigComp\\Controllers\\CourseController.cs",
+              "RelativeToolTip": "DigComp\\Controllers\\CourseController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T09:01:29.311Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Banner.cs",
+              "DocumentMoniker": "C:\\Users\\tai16\\OneDrive\\Desktop\\gitNew\\course-management\\DigComp\\Models\\Banner.cs",
+              "RelativeDocumentMoniker": "DigComp\\Models\\Banner.cs",
+              "ToolTip": "C:\\Users\\tai16\\OneDrive\\Desktop\\gitNew\\course-management\\DigComp\\Models\\Banner.cs",
+              "RelativeToolTip": "DigComp\\Models\\Banner.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T12:39:46.609Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\tai16\\OneDrive\\Desktop\\gitNew\\course-management\\DigComp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "DigComp\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\tai16\\OneDrive\\Desktop\\gitNew\\course-management\\DigComp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "DigComp\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIYAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-17T13:40:21.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BannerController.cs",
+              "DocumentMoniker": "C:\\Users\\tai16\\OneDrive\\Desktop\\gitNew\\course-management\\DigComp\\Controllers\\BannerController.cs",
+              "RelativeDocumentMoniker": "DigComp\\Controllers\\BannerController.cs",
+              "ToolTip": "C:\\Users\\tai16\\OneDrive\\Desktop\\gitNew\\course-management\\DigComp\\Controllers\\BannerController.cs",
+              "RelativeToolTip": "DigComp\\Controllers\\BannerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T12:49:01.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\tai16\\OneDrive\\Desktop\\gitNew\\course-management\\DigComp\\Views\\Home\\Login.cshtml",
+              "RelativeDocumentMoniker": "DigComp\\Views\\Home\\Login.cshtml",
+              "ToolTip": "C:\\Users\\tai16\\OneDrive\\Desktop\\gitNew\\course-management\\DigComp\\Views\\Home\\Login.cshtml",
+              "RelativeToolTip": "DigComp\\Views\\Home\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-18T07:23:03.658Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\tai16\\OneDrive\\Desktop\\gitNew\\course-management\\DigComp\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "DigComp\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\tai16\\OneDrive\\Desktop\\gitNew\\course-management\\DigComp\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "DigComp\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T13:36:38.322Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "WLService.cshtml",
+              "DocumentMoniker": "C:\\Users\\tai16\\OneDrive\\Desktop\\gitNew\\course-management\\DigComp\\Views\\Service\\WLService.cshtml",
+              "RelativeDocumentMoniker": "DigComp\\Views\\Service\\WLService.cshtml",
+              "ToolTip": "C:\\Users\\tai16\\OneDrive\\Desktop\\gitNew\\course-management\\DigComp\\Views\\Service\\WLService.cshtml",
+              "RelativeToolTip": "DigComp\\Views\\Service\\WLService.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-22T09:50:30.256Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "C:\\Users\\tai16\\OneDrive\\Desktop\\gitNew\\course-management\\DigComp\\Views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "DigComp\\Views\\Home\\Contact.cshtml",
+              "ToolTip": "C:\\Users\\tai16\\OneDrive\\Desktop\\gitNew\\course-management\\DigComp\\Views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "DigComp\\Views\\Home\\Contact.cshtml",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAEsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-22T10:13:43.88Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AboutCompany.cshtml",
+              "DocumentMoniker": "C:\\Users\\tai16\\OneDrive\\Desktop\\gitNew\\course-management\\DigComp\\Views\\Home\\AboutCompany.cshtml",
+              "RelativeDocumentMoniker": "DigComp\\Views\\Home\\AboutCompany.cshtml",
+              "ToolTip": "C:\\Users\\tai16\\OneDrive\\Desktop\\gitNew\\course-management\\DigComp\\Views\\Home\\AboutCompany.cshtml",
+              "RelativeToolTip": "DigComp\\Views\\Home\\AboutCompany.cshtml",
+              "ViewState": "AgIAAK8AAAAAAAAAAAAqwMUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-22T08:36:43.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ServiceController.cs",
+              "DocumentMoniker": "C:\\Users\\tai16\\OneDrive\\Desktop\\gitNew\\course-management\\DigComp\\Controllers\\ServiceController.cs",
+              "RelativeDocumentMoniker": "DigComp\\Controllers\\ServiceController.cs",
+              "ToolTip": "C:\\Users\\tai16\\OneDrive\\Desktop\\gitNew\\course-management\\DigComp\\Controllers\\ServiceController.cs",
+              "RelativeToolTip": "DigComp\\Controllers\\ServiceController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T09:01:41.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "DCE_DbContext.cs",
+              "DocumentMoniker": "C:\\Users\\tai16\\OneDrive\\Desktop\\gitNew\\course-management\\DigComp\\Models\\DCE_DbContext.cs",
+              "RelativeDocumentMoniker": "DigComp\\Models\\DCE_DbContext.cs",
+              "ToolTip": "C:\\Users\\tai16\\OneDrive\\Desktop\\gitNew\\course-management\\DigComp\\Models\\DCE_DbContext.cs",
+              "RelativeToolTip": "DigComp\\Models\\DCE_DbContext.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAxwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T10:51:37.794Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\tai16\\OneDrive\\Desktop\\gitNew\\course-management\\DigComp\\Views\\Service\\Index.cshtml",
+              "RelativeDocumentMoniker": "DigComp\\Views\\Service\\Index.cshtml",
+              "ToolTip": "C:\\Users\\tai16\\OneDrive\\Desktop\\gitNew\\course-management\\DigComp\\Views\\Service\\Index.cshtml",
+              "RelativeToolTip": "DigComp\\Views\\Service\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-21T09:11:23.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\tai16\\OneDrive\\Desktop\\gitNew\\course-management\\DigComp\\Dockerfile",
+              "RelativeDocumentMoniker": "DigComp\\Dockerfile",
+              "ToolTip": "C:\\Users\\tai16\\OneDrive\\Desktop\\gitNew\\course-management\\DigComp\\Dockerfile",
+              "RelativeToolTip": "DigComp\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-03-18T07:49:22.061Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
               "Title": "Register.cshtml",
               "DocumentMoniker": "C:\\Users\\tai16\\OneDrive\\Desktop\\gitNew\\course-management\\DigComp\\Views\\Home\\Register.cshtml",
               "RelativeDocumentMoniker": "DigComp\\Views\\Home\\Register.cshtml",
@@ -406,7 +429,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\tai16\\OneDrive\\Desktop\\gitNew\\course-management\\DigComp\\appsettings.json",
               "RelativeDocumentMoniker": "DigComp\\appsettings.json",
@@ -418,7 +441,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\tai16\\OneDrive\\Desktop\\gitNew\\course-management\\DigComp\\Program.cs",
               "RelativeDocumentMoniker": "DigComp\\Program.cs",
@@ -430,7 +453,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "C:\\Users\\tai16\\OneDrive\\Desktop\\gitNew\\course-management\\DigComp\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "DigComp\\Views\\Home\\Privacy.cshtml",

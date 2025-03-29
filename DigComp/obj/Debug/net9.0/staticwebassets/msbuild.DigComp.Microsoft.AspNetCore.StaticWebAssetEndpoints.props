@@ -1128,6 +1128,18 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-M7RwXiNubbvgdNuJvdKyAPXouCr10Nquma9yMVTAUBQ="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"510"},{"Name":"Content-Type","Value":"image/svg\u002Bxml"},{"Name":"ETag","Value":"\u0022M7RwXiNubbvgdNuJvdKyAPXouCr10Nquma9yMVTAUBQ=\u0022"},{"Name":"Last-Modified","Value":"Sun, 23 Mar 2025 06:25:47 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DigComp/assets/images/icons/Screenshot 2025-03-25 193150.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\icons\Screenshot 2025-03-25 193150.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-7K0j7nOE8zBXH2a1s4Silf101LX9xdqrQqPT8QC9JUw="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"40423"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u00227K0j7nOE8zBXH2a1s4Silf101LX9xdqrQqPT8QC9JUw=\u0022"},{"Name":"Last-Modified","Value":"Tue, 25 Mar 2025 12:31:50 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DigComp/assets/images/icons/Screenshot 2025-03-25 193150.wz6mh4e3sn.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\icons\Screenshot 2025-03-25 193150.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"wz6mh4e3sn"},{"Name":"integrity","Value":"sha256-7K0j7nOE8zBXH2a1s4Silf101LX9xdqrQqPT8QC9JUw="},{"Name":"label","Value":"_content/DigComp/assets/images/icons/Screenshot 2025-03-25 193150.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"40423"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u00227K0j7nOE8zBXH2a1s4Silf101LX9xdqrQqPT8QC9JUw=\u0022"},{"Name":"Last-Modified","Value":"Tue, 25 Mar 2025 12:31:50 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/DigComp/assets/images/instagram/instagram_img_1.gqqf5oj3h0.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\instagram\instagram_img_1.jpg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
