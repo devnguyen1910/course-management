@@ -20,12 +20,7 @@ namespace DigComp.Controllers
         {
             ViewBag.Username = HttpContext.Session.GetString("Username"); // Kiểm tra xem user có đăng nhập không
             ViewBag.SuccessMessage = TempData["SuccessMessage"] as string; // Lấy thông báo từ TempData
-            var banners = new List<Banner>
-            {
-            new Banner { ImageUrl = "~/assets/images/slider/slider_image_1.png", IsActive = true },
-            new Banner { ImageUrl = "~/assets/images/slider/slider_image_2.png", IsActive = false },
-            new Banner { ImageUrl = "~/assets/images/slider/slider_image_3.png", IsActive = false }
-        };
+       
             return View();
 
         }
@@ -218,7 +213,17 @@ namespace DigComp.Controllers
             return View();
         }
 
-        public IActionResult DetailTeacher()
+        public IActionResult DoanXuanHien()
+        {
+            return View();
+        }
+
+        public IActionResult LuongTranNgocKhiet()
+        {
+            return View();
+        }
+
+        public IActionResult LeNguyenKhang()
         {
             return View();
         }
@@ -234,5 +239,31 @@ namespace DigComp.Controllers
         {
             return View();
         }
+
+        //============================HƯỚNG DẪN ĐĂNG KÝ===================================================================================================
+        public IActionResult RegisterGuide()
+        {
+            return View();
+        }
+
+        public IActionResult Service()
+        {
+            return View();
+        }
+
+        public IActionResult AllCourses()
+        {
+            return View();
+        }
+
+        public IActionResult Details(int id)
+        {
+            return View();
+        }
+        public IActionResult Partner()
+        {
+            return View();
+        }
+
     }
 }

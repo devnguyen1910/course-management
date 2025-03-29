@@ -1,4 +1,4 @@
-/* table of content - start
+﻿/* table of content - start
 ================================================== */
 /* 
 * Project Name   :  Getyootech - Gadgets Ecommerce Site Template
@@ -64,7 +64,7 @@
 ================================================== */
 @import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 
 :root {
     --bs-primary: #2742fd;
@@ -78,7 +78,7 @@
 /* 1.1 - Template Fonts - start
 ================================================== */
 @font-face {
-    font-family: "Allison Tessa";
+    font-family: Roboto;
     font-weight: 900;
     font-style: normal;
     font-display: swap;
@@ -96,7 +96,7 @@ body {
     line-height: 1.65;
     font-style: normal;
     color: #636363;
-    font-family: "Roboto", sans-serif;
+    font-family: Roboto, sans-serif;
     background-color: #ffffff;
     text-rendering: optimizelegibility;
     -moz-osx-font-smoothing: grayscale;
@@ -189,7 +189,7 @@ button {
 h1, h2, h3, h4, h5, h6 {
     font-weight: 500;
     color: #252525;
-    font-family: "Roboto", sans-serif;
+    font-family: Roboto, sans-serif;
 }
 
 hr {
@@ -1458,7 +1458,7 @@ hr {
         position: absolute;
         color: #ffffff;
         border-radius: 45px;
-        font-family: "Roboto", sans-serif;
+        font-family: Roboto, sans-serif;
         background-color: #f3970d;
     }
 
@@ -2077,7 +2077,7 @@ hr {
         line-height: 1;
         font-weight: 700;
         color: #f03d3f;
-        font-family: "Roboto", sans-serif;
+        font-family: Roboto, sans-serif;
     }
 
 .livechat_btn .btn {
@@ -2443,7 +2443,7 @@ hr {
         display: block;
         padding: 8px 0;
         font-size: 18px;
-        font-family: "Allison Tessa";
+        font-family: Roboto;
     }
 
 /* 3.4 - Sidebar Section - end
@@ -3122,6 +3122,11 @@ hr {
             font-size: 30px;
         }
 
+        .banner_slider img {
+    width: 100%; /* Đảm bảo ảnh chiếm toàn bộ chiều rộng của slider */
+    height: 400px; /* Thiết lập chiều cao cố định cho tất cả các ảnh */
+    object-fit: cover; /* Đảm bảo ảnh không bị méo, sẽ cắt bớt nếu cần */
+}
 /* 3.8 - Banner Style - end
 ================================================== */
 /* 3.9 - Policy Section - start
@@ -4234,7 +4239,7 @@ hr {
         font-size: 17px;
         font-weight: 700;
         margin-bottom: 4px;
-        font-family: "Lato", sans-serif;
+        font-family: Roboto, sans-serif;
     }
 
         .recent_post_item .item_title > a {
@@ -4286,7 +4291,7 @@ hr {
         font-size: 28px;
         font-weight: 700;
         margin-bottom: 13px;
-        font-family: "Lato", sans-serif;
+        font-family: Roboto, sans-serif;
     }
 
         .bolg_standard .item_title a {
@@ -4498,7 +4503,7 @@ hr {
         font-size: 22px;
         font-weight: 700;
         margin-bottom: 15px;
-        font-family: "Lato", sans-serif;
+        font-family: Roboto, sans-serif;
     }
 
         .blog_split_layout .item_title a {
@@ -4815,7 +4820,7 @@ hr {
     font-size: 18px;
     font-weight: 700;
     margin-bottom: 20px;
-    font-family: "Lato", sans-serif;
+    font-family: Roboto, sans-serif;
 }
 
 .product_details_content p {
@@ -5449,7 +5454,7 @@ hr {
     margin-top: 16px;
     font-weight: 600;
     text-align: center;
-    font-family: "Lato", sans-serif;
+    font-family: Roboto, sans-serif;
 }
 
 .compare_table p {

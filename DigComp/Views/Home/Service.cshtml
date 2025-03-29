@@ -1,0 +1,184 @@
+﻿@{
+    ViewData["Title"] = "Khám Phá Các Khóa Học";
+}
+
+<style>
+    /* Bootstrap tùy chỉnh cho Service View - sử dụng class riêng tránh xung đột */
+    .svc-card {
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s, box-shadow 0.3s;
+        height: 100%;
+        position: relative;
+        overflow: visible;
+    }
+
+        .svc-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            z-index: 5;
+        }
+
+    .svc-card-title {
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+    .svc-popup {
+        position: absolute;
+        top: 0;
+        width: 400px;
+        background: white;
+        border-radius: 15px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+        padding: 20px;
+        transition: opacity 0.3s;
+        opacity: 0;
+        pointer-events: none;
+        z-index: 20;
+    }
+
+    .svc-card:hover .svc-popup {
+        opacity: 1;
+        pointer-events: auto;
+    }
+
+    .svc-more {
+        display: none;
+    }
+
+    .btn-sm {
+        padding: 8px 20px;
+        font-size: 1rem; /* Kích thước chữ vừa phải */
+        border-radius: 25px; /* Bo góc cho nút */
+    }
+
+    .btn-info{
+        background-color: #ffffff; /* Xanh dương đậm */
+        border-color: #2742FD;
+        color: #2742FD;
+
+    }
+         .btn-info:hover{
+            background-color: #2742FD; /* Màu đậm khi hover */
+        border-color: #2742FD;
+        color: #ffffff;
+
+         }
+    /* Màu cho nút "Xem thêm khóa học" */
+    .btn-primary {
+        background-color: #ffffff; /* Xanh dương đậm */
+        border-color: #2742FD;
+        color: #2742FD;
+    }
+
+        .btn-primary:hover {
+            background-color: #2742FD; /* Màu đậm khi hover */
+            border-color: #2742FD;
+        }
+
+    .btn-secondary{
+        background-color: #ffffff; /* Xanh dương đậm */
+        border-color: #2742FD;
+        color: #2742FD;
+    
+    }
+
+    .btn-secondary:hover{
+        background-color: #2742FD; /* Màu đậm khi hover */
+        border-color: #2742FD;
+        color: #ffffff;
+    
+    }
+    /* Màu cho nút "Đi đến các khóa học" */
+    .btn-success {
+        background-color: #2742FD; /* Xanh lá cây nhạt */
+        border-color: #2742FD;
+    }
+
+        .btn-success:hover {
+            background-color: #1d35d0; /* Màu đậm khi hover */
+            border-color: #2742FD;
+        }
+
+    /* Thêm khoảng cách giữa các nút */
+    .ml-2 {
+        margin-left: 10px;
+    }
+</style>
+
+<div class="container my-5">
+    <h2 class="mb-4 text-center">Khám Phá Các Khóa Học</h2>
+    <div id="card-container" class="row row-cols-1 row-cols-md-4 g-4">
+        @for (int i = 1; i <= 10; i++)
+        {
+            <div class="col svc-card-item @(i > 4 ? "svc-more" : "")">
+                <div class="svc-card">
+                    <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Course Image">
+                    <div class="card-body">
+                        <h5 class="svc-card-title">Khóa học số @i</h5>
+                        <p class="text-muted">Tác giả @i</p>
+                        <p class="rating">★ 4.8 (100)</p>
+                        <h6 class="text-danger">1.000.000 đ</h6>
+
+                        <div class="svc-popup">
+                            <a href="/Course/Details/@i" class="text-decoration-none text-dark">
+                                <h5>Chi tiết Khóa học số @i</h5>
+                                <p>
+                                    ✅ Mô tả khóa học.<br>
+                                    ✅ Nội dung đầy đủ và chi tiết.<br>
+                                    ✅ Đăng ký học ngay.
+                                </p>
+                            </a>
+                            <button class="btn btn-primary">Thêm vào giỏ hàng</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+
+    <div class="text-center mt-4">
+        <button id="showMoreBtn" class="btn btn-info">Xem thêm khóa học</button>
+        <button id="hideMoreBtn" class="btn btn-secondary" style="display: none;">Thu gọn</button>
+        <a asp-controller="Home" asp-action="AllCourses" class="btn btn-success ml-2">Đi đến các khóa học</a>
+    </div>
+</div>
+
+<script>
+    const showMoreBtn = document.getElementById('showMoreBtn');
+    const hideMoreBtn = document.getElementById('hideMoreBtn');
+    const moreCards = document.querySelectorAll('.svc-more');
+
+    // Hiển thị thêm khóa học khi click "Xem thêm"
+    showMoreBtn.addEventListener('click', function () {
+        moreCards.forEach(card => card.style.display = 'block');
+        showMoreBtn.style.display = 'none';
+        hideMoreBtn.style.display = 'inline-block';
+    });
+
+    // Thu gọn khóa học khi click "Thu gọn"
+    hideMoreBtn.addEventListener('click', function () {
+        moreCards.forEach(card => card.style.display = 'none');
+        hideMoreBtn.style.display = 'none';
+        showMoreBtn.style.display = 'inline-block';
+    });
+
+    // Di chuột qua thẻ khóa học để hiển thị popup
+    const cards = document.querySelectorAll('.svc-card');
+    cards.forEach(card => {
+        card.addEventListener('mouseover', function () {
+            const popup = this.querySelector('.svc-popup');
+            const rect = this.getBoundingClientRect();
+
+            if (rect.right + 400 > window.innerWidth) {
+                popup.style.left = 'auto';
+                popup.style.right = '105%';
+            } else {
+                popup.style.left = '105%';
+                popup.style.right = 'auto';
+            }
+        });
+    });
+</script>

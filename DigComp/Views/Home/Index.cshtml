@@ -1,534 +1,961 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
     Layout = "_Layout";
 }
-
-<div id="bannerSlider" class="carousel slide" data-ride="carousel">
-    <div class="carousel-inner">
-        <div class="carousel-item active">
-            <a href="/Course/Index">
-                <img src="~/assets/images/slider/slider_image_1.jpg" class="d-block w-100" alt="Banner 1">
-            </a>
-        </div>
-        <div class="carousel-item">
-            <a href="ServicePackage/Index">
-                <img src="~/assets/images/slider/banner Mac.jpg" class="d-block w-100" alt="Banner 2">
-            </a>
-        </div>
-    </div>
-    <a class="carousel-control-prev" href="#bannerSlider" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#bannerSlider" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-    </a>
-</div>
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>4 Lý Do Nên Chọn Chúng Tôi</title>
-    <link rel="stylesheet">
-    <style>
-        /* Your existing styles here */
-        #bannerSlider {
-            left: 50px;
-            width: 95%;
-            height: auto;
-        }
-
-        .carousel-item img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
-
-        body, h1, h2, h3, p, div {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: sans-serif;
-        }
-
-        .main-title {
-            color: #3498db;
-            font-size: 2.5em;
+ <style>
+    /* 4 LÝ DO NÊN CHỌN CHÚNG TÔI SECTION */
+    .reasons_section .title_text {
+        color: var(--bs-primary); /* Tiêu đề màu xanh chủ đạo */
+        font-size: 2rem;
+        font-weight: bold;
+        margin-bottom: 40px;
+    }
+    .reasons_section .service_boxed {
+        background-color: var(--bs-light); /* Màu nền sáng */
+        border: 2px solid var(--bs-secondary); /* Đường viền màu xám nhẹ */
+        padding: 30px;
+        text-align: center;
+        transition: all 0.3s ease;
+    }
+        .reasons_section .service_boxed .item_icon span {
+            color: var(--bs-primary); /* Màu xanh cho số thứ tự */
+            font-size: 3rem; /* Tăng kích thước số */
             font-weight: bold;
-            text-align: center;
+        }
+        .reasons_section .service_boxed .item_title {
+            color: #000000; /* Màu chữ đen cho tiêu đề */
+            font-size: 1.5rem; /* Tăng kích thước chữ tiêu đề */
+            font-weight: 600;
+            margin-top: 15px;
+        }
+        .reasons_section .service_boxed p {
+            color: #000000; /* Màu chữ đen cho phần mô tả */
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 1.5;
+        }
+        .reasons_section .service_boxed:hover {
+            background-color: var(--bs-light); /* Giữ nguyên khi hover */
+            color: #000000; /* Chữ đen khi hover */
+        }
+    .item_icon {
+        color: #2742fd;
+    }
+
+    /* KHÓA HOC NỔI BẬT SECTION */
+    /* Section Khóa Học Nổi Bật */
+    .featured_courses_section {
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+        .featured_courses_section .title_text {
+            color: var(--bs-primary);
+            font-size: 2rem;
+            font-weight: bold;
             margin-bottom: 30px;
         }
-
-        .reasons-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 20px;
+    .course_card {
+        border: 1px solid #ededed;
+        border-radius: 10px;
+        overflow: hidden;
+        transition: all 0.3s ease;
+        background-color: #ffffff;
+        position: relative;
+        box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+        height: 450px; /* Cố định chiều cao của card */
+    }
+        .course_card:hover {
+            box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.2);
+            transform: translateY(-5px);
+        }
+    .course_image {
+        width: 100%;
+        height: 250px; /* Cố định chiều cao của hình ảnh */
+        display: block;
+        object-fit: cover;
+        border-bottom: 1px solid #ededed;
+    }
+    .course_info {
+        padding: 20px;
+        text-align: left; /* Căn trái thông tin */
+        height: 200px; /* Đảm bảo chiều cao của thông tin trong card */
+    }
+    .course_title {
+        font-size: 1.25rem;
+        color: #252525;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    .course_instructor {
+        font-size: 1rem;
+        color: #636363;
+        margin-bottom: 10px;
+    }
+    .course_rating {
+        font-size: 0.875rem;
+        color: #f3970d;
+        margin-bottom: 10px;
+    }
+    .course_price {
+        font-size: 1.25rem;
+        color: #252525;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    .course_start_date {
+        font-size: 1rem;
+        color: #636363;
+        margin-bottom: 10px;
+    }
+    .best_seller {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        background-color: #f3970d;
+        color: #ffffff;
+        font-size: 0.875rem;
+        padding: 5px 10px;
+        border-radius: 5px;
+    }
+    .btn_more_info {
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: var(--bs-primary);
+        color: #ffffff;
+        padding: 10px 10px;
+        font-size: 1rem;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+        .btn_more_info:hover {
+            background-color: #1a36d4;
+        }
+    .popup_details {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #ffffff;
+        border: 1px solid #ededed;
+        border-radius: 10px;
+        padding: 20px;
+        width: 90%;
+        max-width: 300px;
+        box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity 0.3s ease;
+    }
+    .course_card:hover .popup_details {
+        opacity: 1;
+        visibility: visible;
+    }
+    .popup_details h3 {
+        font-size: 1.25rem;
+        color: #252525;
+        margin-bottom: 10px;
+    }
+    .popup_details p {
+        color: #636363;
+        font-size: 1rem;
+        margin-bottom: 10px;
+    }
+    .add_to_cart {
+        background-color: var(--bs-primary);
+        color: #ffffff;
+        padding: 10px 20px;
+        font-size: 1rem;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: bold;
+        display: block;
+        margin-top: 10px;
+        text-align: center;
+    }
+        .add_to_cart:hover {
+            background-color: #1a36d4;
         }
 
-        .reason-item {
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 8px;
-            text-align: center;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        }
-
-        .reason-number {
-            font-size: 2.5em;
+    /* Đội ngũ giảng viên Section */
+    .team_section {
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+        .team_section .title_text {
+            color: var(--bs-primary);
+            font-size: 2rem;
             font-weight: bold;
-            color: #ecf0f1;
-            margin-bottom: 10px;
-            position: relative;
-            z-index: -1;
-        }
-
-        .reason-title {
-            color: #3498db;
-            font-size: 1.4em;
-            font-weight: bold;
-            margin-bottom: 10px;
-        }
-
-        .reason-description {
-            color: #555;
-            font-size: 0.9em;
-            line-height: 1.6;
-        }
-
-        .reason-item > div {
-            position: relative;
-        }
-
-            .reason-item > div::before {
-                content: attr(class);
-                position: absolute;
-                top: -20px;
-                left: 50%;
-                transform: translateX(-50%);
-                font-size: 2.5em;
-                font-weight: bold;
-                color: #ecf0f1;
-                z-index: -1;
-            }
-
-        .reason-item:nth-child(1) > div::before {
-            content: "01.";
-        }
-
-        .reason-item:nth-child(2) > div::before {
-            content: "02.";
-        }
-
-        .reason-item:nth-child(3) > div::before {
-            content: "03.";
-        }
-
-        .reason-item:nth-child(4) > div::before {
-            content: "04.";
-        }
-
-        .main-title {
-            font-size: 2em;
             margin-bottom: 20px;
         }
-
-        .reason-item {
-            text-align: left;
-        }
-
-            .reason-item > div::before {
-                left: 10px;
-                transform: translateX(0);
-            }
-
-        .reasons-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 20px;
-        }
-
-        .button-container {
-            grid-column: 2 / 4;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-            .button-container p {
-                margin-bottom: 0;
-            }
-
-        .course-card {
-            border: 1px solid #dee2e6;
-            border-radius: 8px;
+        .team_section .team_member {
+            background-color: #ffffff;
+            border: 1px solid #ededed;
+            border-radius: 10px;
             overflow: hidden;
-            height: 400px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+            box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
             position: relative;
-            transition: filter 0.3s ease;
-        }
-
-            .course-card:hover {
-                filter: brightness(80%);
-            }
-
-            .course-card img {
-                width: 100%;
-                height: 200px;
-                object-fit: cover;
-                transition: opacity 0.3s ease;
-            }
-
-            .course-card .card-body {
-                padding: 15px;
-                text-align: center;
-                min-height: 200px;
-            }
-
-            .course-card .card-title {
-                font-size: 1.1em;
-                font-weight: bold;
-                margin-bottom: 10px;
-                color: #343a40;
-            }
-
-            .course-card .card-text {
-                font-size: 0.9em;
-                color: #6c757d;
-                margin-bottom: 15px;
-                line-height: 1.5;
-                height: 60px;
-                overflow: hidden;
-                margin-bottom: 10px;
-            }
-
-        .btn-primary {
-            background-color: #007bff;
-            border-color: #007bff;
-            color: #fff;
-            font-size: 0.9em;
-            padding: 8px 15px;
-            border-radius: 5px;
-            text-decoration: none;
-            transition: background-color 0.3s ease;
-        }
-
-            .btn-primary:hover {
-                background-color: #0056b3;
-                border-color: #0056b3;
-            }
-
-        .btn-outline-primary {
-            color: #007bff;
-            border-color: #007bff;
-            transition: color 0.3s ease, border-color 0.3s ease;
-        }
-
-            .btn-outline-primary:hover {
-                background-color: #007bff;
-                color: #fff;
-            }
-
-        .quick-view-btn {
-            position: absolute;
-            top: 90%;
-            left: 45%;
-            transform: translate(-50%, -50%);
-            background-color: rgba(0, 0, 0, 0.7);
-            color: white;
-            border: none;
-            padding: 10px 20px;
-            border-radius: 5px;
-            cursor: pointer;
-            opacity: 0;
-            transition: opacity 0.3s ease;
-            z-index: 10;
-            margin: 10px;
-        }
-
-        .course-card:hover .quick-view-btn {
-            opacity: 1;
-        }
-
-        .quick-view-btn:hover {
-            background-color: rgba(0, 0, 0, 0.9);
-        }
-
-        .section-title-bar {
             display: flex;
-            justify-content: space-between;
+            flex-direction: column;
+            height: 100%;
+            padding-bottom: 20px; /* Đảm bảo có không gian cho nút */
+        }
+            .team_section .team_member:hover {
+                transform: translateY(-5px);
+            }
+        .team_section .team_image {
+            width: 100%;
+            height: 350px; /* Cố định chiều cao hình ảnh */
+            object-fit: cover;
+            display: block;
+        }
+        .team_section .team_info {
+            padding: 20px;
+            text-align: center;
+            flex-grow: 1; /* Cho phép phần thông tin chiếm phần còn lại của card */
+        }
+        .team_section .team_name {
+            font-size: 1.5rem;
+            color: #252525;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .team_section .team_position,
+        .team_section .team_details {
+            font-size: 1rem;
+            color: #636363;
+            margin-bottom: 10px;
+        }
+        .team_section .team_action {
+            text-align: center;
+            padding: 15px 20px; /* Tăng thêm khoảng cách */
+        }
+    .btn_more_info_gv {
+        background-color: var(--bs-primary);
+        color: #ffffff;
+        padding: 10px 30px; /* Thêm padding ngang để nút rộng hơn */
+        font-size: 1rem;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: bold;
+        display: inline-block;
+        margin-top: 10px;
+    }
+        .btn_more_info_gv:hover {
+            background-color: #1a36d4;
+        }
+    /* Section Dịch Vụ Nổi Bật */
+    .services_section {
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+
+        .services_section .title_text {
+            color: var(--bs-primary);
+            font-size: 2rem;
+            font-weight: bold;
+            margin-bottom: 40px;
+        }
+
+    .service_card {
+        border: 1px solid #ededed;
+        border-radius: 10px;
+        background-color: #ffffff;
+        box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        transition: all 0.3s ease;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+
+        .service_card:hover {
+            box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.2);
+            transform: translateY(-5px);
+        }
+
+    .service_header {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: #f3970d;
+        color: #ffffff;
+        font-weight: bold;
+        padding: 5px 15px;
+        border-radius: 5px;
+        font-size: 0.8rem;
+        margin-top: 10px;
+    }
+
+    .service_title {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #252525;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .service_subtitle {
+        font-size: 1rem;
+        color: #636363;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .service_description {
+        font-size: 1rem;
+        color: #636363;
+        margin-top: 10px;
+    }
+
+    .service_features {
+        list-style: none;
+        padding-left: 0;
+        margin-top: 20px;
+        font-size: 1rem;
+        color: #636363;
+    }
+
+        .service_features li {
+            margin-bottom: 10px;
+            display: flex;
             align-items: center;
-            margin-bottom: 30px;
-            padding: 0 15px;
         }
 
-        .section-title {
-            color: #3498db;
-            font-size: 2.2em;
-            font-weight: 700;
-            text-align: left;
-            margin-bottom: 0;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            .service_features li::before {
+                content: '\2713';
+                margin-right: 10px;
+                color: #28a745;
+            }
+
+    .btn_get_started, .btn_contact_pricing {
+        background-color: var(--bs-primary);
+        color: #ffffff;
+        padding: 10px 20px;
+        font-size: 1rem;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: bold;
+        margin-top: 20px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        text-align: center;
+    }
+
+        .btn_get_started:hover, .btn_contact_pricing:hover {
+            background-color: #1a36d4;
         }
 
-        .section-date {
-            color: #777;
-            font-size: 1.1em;
-            font-weight: 400;
-            margin-bottom: 0;
-            font-style: italic;
-            font-family: 'Open Sans', sans-serif;
+    .btn_primary {
+        background-color: var(--bs-primary);
+        color: #ffffff;
+        padding: 12px 30px;
+        font-size: 1rem;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+        .btn_primary:hover {
+            background-color: #1a36d4;
         }
 
-        .teacher-card {
-            border: 1px solid #dee2e6;
-            border-radius: 8px;
-            overflow: hidden;
+    hr {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border: 0;
+        border-top: 1px solid #ededed;
+    }
+
+    /* Responsive design */
+    @@media (max-width: 768px) {
+        .service_card
+
+    {
+        padding: 15px;
+    }
+
+    .service_title {
+        font-size: 1.25rem;
+    }
+
+    .service_description {
+        font-size: 0.875rem;
+    }
+
+    }
+
+    /* Section Đối Tác */
+    .partners_section {
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+
+        .partners_section .title_text {
+            color: var(--bs-primary);
+            font-size: 2rem;
+            font-weight: bold;
+            margin-bottom: 40px;
+        }
+
+    .partner_logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+        .partner_logo img {
+            max-width: 100%;
             height: auto;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-            transition: filter 0.3s ease;
+            margin: 0 auto;
+            max-height: 120px; /* Adjust based on logo size */
         }
 
-            .teacher-card:hover {
-                filter: brightness(80%);
-            }
+    /* Điều chỉnh hiển thị cho màn hình nhỏ hơn */
+    @@media (max-width: 768px) {
+        .partner_logo img
 
-            .teacher-card img {
-                width: 100%;
-                height: 200px;
-                object-fit: cover;
-                transition: opacity 0.3s ease;
-            }
+    {
+        max-height: 100px;
+    }
 
-            .teacher-card .card-body {
-                padding: 15px;
-                text-align: center;
-            }
+    }
+</style>
+<!-- slider_section - start ================================================== -->
+<section class="slider_section">
+    <div class="main_slider" data-slick='{"arrows": false, "dots": true, "autoplay": true, "autoplaySpeed": 3000}'>
+        <!-- Khóa học banner -->
+        <div class="slider_item">
+            <div class="container">
+                <div class="row align-items-center justify-content-lg-between">
+                    <div class="order-last col col-lg-6 col-md-6 col-sm-6">
+                        <div class="slider_image" data-animation="fadeInRight" data-delay=".2s">
+                            <img src="~/image/banner/gg wp fundamental.png" alt="Google Workspace Fundamental">
+                        </div>
+                    </div>
+                    <div class="col col-lg-5 col-md-6 col-sm-6">
+                        <div class="slider_content">
+                            <h3 class="small_title" data-animation="fadeInUp2" data-delay=".2s">Khóa học Google Workspace Fundamental</h3>
+                            <h4 class="big_title" data-animation="fadeInUp2" data-delay=".4s">Nâng cao năng suất với Google Workspace</h4>
+                            <p data-animation="fadeInUp2" data-delay=".6s">Khóa học cơ bản về Google Workspace dành cho giáo viên và học sinh</p>
+                            <a class="btn btn_primary" href="#" data-animation="fadeInUp2" data-delay=".8s">Đăng ký ngay</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-            .teacher-card .card-title {
-                font-size: 1.1em;
-                font-weight: bold;
-                margin-bottom: 10px;
-                color: #343a40;
-            }
+        <div class="slider_item">
+            <div class="container">
+                <div class="row align-items-center justify-content-lg-between">
+                    <div class="order-last col col-lg-6 col-md-6 col-sm-6">
+                        <div class="slider_image" data-animation="fadeInRight" data-delay=".2s">
+                            <img src="~/image/banner/gg educator lv1.png" alt="Google Certified Educator Level 1">
+                        </div>
+                    </div>
+                    <div class="col col-lg-5 col-md-6 col-sm-6">
+                        <div class="slider_content">
+                            <h3 class="small_title" data-animation="fadeInUp2" data-delay=".2s">Google Certified Educator Level 1</h3>
+                            <h4 class="big_title" data-animation="fadeInUp2" data-delay=".4s">Chứng nhận giảng dạy Google</h4>
+                            <p data-animation="fadeInUp2" data-delay=".6s">Khóa học giúp bạn đạt chứng nhận Google Educator Level 1</p>
+                            <a class="btn btn_primary" href="#" data-animation="fadeInUp2" data-delay=".8s">Đăng ký ngay</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-            .teacher-card .card-text {
-                font-size: 0.9em;
-                color: #6c757d;
-                margin-bottom: 15px;
-                line-height: 1.5;
-                height: 60px;
-                overflow: hidden;
-                margin-bottom: 10px;
-            }
+        <div class="slider_item">
+            <div class="container">
+                <div class="row align-items-center justify-content-lg-between">
+                    <div class="order-last col col-lg-6 col-md-6 col-sm-6">
+                        <div class="slider_image" data-animation="fadeInRight" data-delay=".2s">
+                            <img src="~/image/banner/GfE-Badges-Vertical_Certified-Educator-Level2.png" alt="Google Certified Educator Level 2">
+                        </div>
+                    </div>
+                    <div class="col col-lg-5 col-md-6 col-sm-6">
+                        <div class="slider_content">
+                            <h3 class="small_title" data-animation="fadeInUp2" data-delay=".2s">Google Certified Educator Level 2</h3>
+                            <h4 class="big_title" data-animation="fadeInUp2" data-delay=".4s">Nâng cao kỹ năng giảng dạy Google</h4>
+                            <p data-animation="fadeInUp2" data-delay=".6s">Khóa học chuyên sâu Google Educator Level 2 dành cho giảng viên</p>
+                            <a class="btn btn_primary" href="#" data-animation="fadeInUp2" data-delay=".8s">Đăng ký ngay</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-        .btn-primary {
-            background-color: #007bff;
-            border-color: #007bff;
-            color: #fff;
-            font-size: 0.9em;
-            padding: 8px 15px;
-            border-radius: 5px;
-            text-decoration: none;
-            transition: background-color 0.3s ease;
-        }
+        <div class="slider_item">
+            <div class="container">
+                <div class="row align-items-center justify-content-lg-between">
+                    <div class="order-last col col-lg-6 col-md-6 col-sm-6">
+                        <div class="slider_image" data-animation="fadeInRight" data-delay=".2s">
+                            <img src="~/image/banner/luyện thi lv1 lv 2.png" alt="Luyện thi Google Certified Educator Level 1&2">
+                        </div>
+                    </div>
+                    <div class="col col-lg-5 col-md-6 col-sm-6">
+                        <div class="slider_content">
+                            <h3 class="small_title" data-animation="fadeInUp2" data-delay=".2s">Luyện thi Google Certified Educator Level 1&2</h3>
+                            <h4 class="big_title" data-animation="fadeInUp2" data-delay=".4s">Chuẩn bị cho kỳ thi chứng nhận Google Educator</h4>
+                            <p data-animation="fadeInUp2" data-delay=".6s">Khóa luyện thi giúp bạn chuẩn bị cho cả Level 1 và Level 2</p>
+                            <a class="btn btn_primary" href="#" data-animation="fadeInUp2" data-delay=".8s">Đăng ký ngay</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-            .btn-primary:hover {
-                background-color: #0056b3;
-                border-color: #0056b3;
-            }
-    </style>
-</head>
-<body>
+        <!-- Dịch vụ banner -->
+        <div class="slider_item">
+            <div class="container">
+                <div class="row align-items-center justify-content-lg-between">
+                    <div class="order-last col col-lg-6 col-md-6 col-sm-6">
+                        <div class="slider_image" data-animation="fadeInRight" data-delay=".2s">
+                            <img src="~/image/banner/banner_1.png" alt="Google Education Foundation">
+                        </div>
+                    </div>
+                    <div class="col col-lg-5 col-md-6 col-sm-6">
+                        <div class="slider_content">
+                            <h3 class="small_title" data-animation="fadeInUp2" data-delay=".2s">Google Education Foundation</h3>
+                            <h4 class="big_title" data-animation="fadeInUp2" data-delay=".4s">Gói hỗ trợ giáo dục và học bổng</h4>
+                            <p data-animation="fadeInUp2" data-delay=".6s">Khám phá gói hỗ trợ giáo dục của Google và các cơ hội học bổng cho học sinh, giáo viên.</p>
+                            <div class="item_price" data-animation="fadeInUp2" data-delay=".6s">
+                                <span class="sale_price">Liên hệ để biết thêm chi tiết</span>
+                            </div>
+                            <a class="btn btn_primary" href="#" data-animation="fadeInUp2" data-delay=".8s">Đăng ký ngay</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="slider_item">
+            <div class="container">
+                <div class="row align-items-center justify-content-lg-between">
+                    <div class="order-last col col-lg-6 col-md-6 col-sm-6">
+                        <div class="slider_image" data-animation="fadeInRight" data-delay=".2s">
+                            <img src="~/image/banner/google-workspace-education-standard.jpg" alt="Google for Education Standard">
+                        </div>
+                    </div>
+                    <div class="col col-lg-5 col-md-6 col-sm-6">
+                        <div class="slider_content">
+                            <h3 class="small_title" data-animation="fadeInUp2" data-delay=".2s">Google for Education Standard</h3>
+                            <h4 class="big_title" data-animation="fadeInUp2" data-delay=".4s">Gói dịch vụ tiêu chuẩn Google</h4>
+                            <p data-animation="fadeInUp2" data-delay=".6s">Trang bị các công cụ và tài nguyên tiêu chuẩn cho giáo viên và học sinh.</p>
+                            <div class="item_price" data-animation="fadeInUp2" data-delay=".6s">
+                                <span class="sale_price">Giá: Liên hệ để biết thêm</span>
+                            </div>
+                            <a class="btn btn_primary" href="#" data-animation="fadeInUp2" data-delay=".8s">Đăng ký ngay</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="slider_item">
+            <div class="container">
+                <div class="row align-items-center justify-content-lg-between">
+                    <div class="order-last col col-lg-6 col-md-6 col-sm-6">
+                        <div class="slider_image" data-animation="fadeInRight" data-delay=".2s">
+                            <img src="~/image/banner/google-workspace-education-plus.jpg" alt="Google for Education Plus">
+                        </div>
+                    </div>
+                    <div class="col col-lg-5 col-md-6 col-sm-6">
+                        <div class="slider_content">
+                            <h3 class="small_title" data-animation="fadeInUp2" data-delay=".2s">Google for Education Plus</h3>
+                            <h4 class="big_title" data-animation="fadeInUp2" data-delay=".4s">Gói dịch vụ nâng cao Google for Education</h4>
+                            <p data-animation="fadeInUp2" data-delay=".6s">Nâng cao trải nghiệm học tập với các công cụ nâng cao từ Google for Education Plus.</p>
+                            <div class="item_price" data-animation="fadeInUp2" data-delay=".6s">
+                                <span class="sale_price">Giá: Liên hệ để biết thêm</span>
+                            </div>
+                            <a class="btn btn_primary" href="#" data-animation="fadeInUp2" data-delay=".8s">Đăng ký ngay</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+<!-- slider_section - end ================================================== -->
+<!-- reasons_section - start -->
+<section class="reasons_section section_space">
     <div class="container">
-        <h2 class="main-title">4 LÝ DO NÊN CHỌN CHÚNG TÔI</h2>
-        <div class="reasons-grid">
-            <div class="reason-item">
-                <div class="reason-number">01.</div>
-                <h3 class="reason-title">Giải pháp</h3>
-                <p class="reason-description">Đổi mới sáng tạo nhằm tối ưu hóa hiệu suất làm việc trên nền tảng Google Workspace và các công nghệ khác của Google</p>
-            </div>
-            <div class="reason-item">
-                <div class="reason-number">02.</div>
-                <h3 class="reason-title">Chương trình đào tạo</h3>
-                <p class="reason-description">Chương trình đào tạo phát triển chuyên môn dành cho nhà Giáo dục của Google, được hướng dẫn bởi chuyên gia do Google chứng nhận</p>
-            </div>
-            <div class="reason-item">
-                <div class="reason-number">03.</div>
-                <h3 class="reason-title">Chương trình tập huấn</h3>
-                <p class="reason-description">Chương trình tập huấn cộng đồng, hội thảo miễn phí nhằm nâng cao năng lực số cho cộng đồng.</p>
-            </div>
-            <div class="reason-item">
-                <div class="reason-number">04.</div>
-                <h3 class="reason-title">Giải pháp chuyển đổi số</h3>
-                <p class="reason-description">Giải pháp chuyển đổi số trong trường học và tổ chức giáo dục thông qua hệ sinh thái Google</p>
-            </div>
-            <div class="button-container">
-                <p class="mt-3 text-center">
-                    <a href="/Rate/Index" class="btn btn-primary">XEM ĐÁNH GIÁ TỪ HỌC VIÊN</a>
-                </p>
-            </div>
-        </div>
-        <div class="container mt-5">
-            <div class="section-title-bar">
-                <h2 class="section-title">KHÓA HỌC NỔI BẬT</h2>
-                <p class="section-date">Ngày khai giảng: 23/5</p>
-            </div>
-            <div class="row">
-                <div class="col-md-3 mb-4">
-                    <div class="card course-card">
-                        <img src="~/assets/images/icons/Screenshot 2025-03-25 193150.png" class="card-img-top" alt="Khóa học 1">
-                        <div class="card-body">
-                            <h5 class="card-title">Google Workspace Cơ Bản</h5>
-                            <p class="card-text">Nắm vững các công cụ cơ bản của Google Workspace để làm việc hiệu quả.</p>
-                        </div>
-                        <button class="btn btn-sm btn-outline-info quick-view-btn" data-course="1">Quick View</button>
-                    </div>
-                </div>
-                <div class="col-md-3 mb-4">
-                    <div class="card course-card">
-                        <img src="~/assets/images/icons/Screenshot 2025-03-25 193150.png" class="card-img-top" alt="Khóa học 2">
-                        <div class="card-body">
-                            <h5 class="card-title">Google Sheets Nâng Cao</h5>
-                            <p class="card-text">Trở thành chuyên gia phân tích dữ liệu với các tính năng nâng cao của Google Sheets.</p>
-                        </div>
-                        <button class="btn btn-sm btn-outline-info quick-view-btn" data-course="2">Quick View</button>
-                    </div>
-                </div>
-                <div class="col-md-3 mb-4">
-                    <div class="card course-card">
-                        <img src="~/assets/images/icons/Screenshot 2025-03-25 193150.png" class="card-img-top" alt="Khóa học 3">
-                        <div class="card-body">
-                            <h5 class="card-title">Xây Dựng Trang Web Với Google Sites</h5>
-                            <p class="card-text">Tự tay tạo trang web chuyên nghiệp một cách dễ dàng với Google Sites.</p>
-                        </div>
-                        <button class="btn btn-sm btn-outline-info quick-view-btn" data-course="3">Quick View</button>
-                    </div>
-                </div>
-                <div class="col-md-3 mb-4">
-                    <div class="card course-card">
-                        <img src="~/assets/images/icons/Screenshot 2025-03-25 193150.png" class="card-img-top" alt="Khóa học 4">
-                        <div class="card-body">
-                            <h5 class="card-title">Google Slides Chuyên Nghiệp</h5>
-                            <p class="card-text">Thiết kế bài thuyết trình ấn tượng và hiệu quả với Google Slides.</p>
-                        </div>
-                        <button class="btn btn-sm btn-outline-info quick-view-btn" data-course="4">Quick View</button>
-                    </div>
-                </div>
-            </div>
-            <div class="button-container">
-                <p class="mt-3 text-center">
-                    <a href="/Course/Index" class="btn btn-primary">XEM TẤT CẢ KHÓA HỌC</a>
-                </p>
-            </div>
-            <div class="container mt-5">
-    <div class="row">
-        <!-- Giảng viên Card -->
-        <div class="col-md-3 mb-4">
-            <div class="card teacher-card">
-                <!-- Ảnh giảng viên -->
-                <img src="~/assets/images/about/Screenshot 2025-03-27 210436.png" class="card-img-top" alt="Giảng viên 1">
-                <div class="card-body">
-                    <!-- Tên giảng viên -->
-                    <h5 class="card-title">Nguyễn Văn A</h5>
-                    <!-- Mô tả ngắn về giảng viên -->
-                    <p class="card-text">Giảng viên chuyên ngành Tin học với hơn 10 năm kinh nghiệm giảng dạy.</p>
-                    <!-- Nút xem chi tiết -->
-                                <a href="/Home/DetailTeacher" class="btn btn-primary">Xem Chi Tiết</a>
-                </div>
+        <!-- Tiêu đề section -->
+        <div class="row justify-content-center mb-5">
+            <div class="col col-lg-8 text-center">
+                <h2 class="title_text">4 LÝ DO NÊN CHỌN CHÚNG TÔI</h2>
             </div>
         </div>
 
-        <!-- Thêm các giảng viên khác tương tự -->
-        <div class="col-md-3 mb-4">
-            <div class="card teacher-card">
-                            <img src="~/assets/images/about/Screenshot 2025-03-27 210436.png" class="card-img-top" alt="Giảng viên 2">
-                <div class="card-body">
-                    <h5 class="card-title">Trần Thị B</h5>
-                    <p class="card-text">Giảng viên với chuyên môn vững và nhiệt huyết trong việc truyền đạt kiến thức.</p>
-                    <a href="/Home/DetailTeacher" class="btn btn-primary">Xem Chi Tiết</a>
+        <!-- Danh sách lý do (Dùng flexbox để căn đều chiều cao) -->
+        <div class="row justify-content-center g-4">
+            <div class="col col-lg-3 col-md-6 col-sm-12 d-flex">
+                <div class="service_boxed text-center w-100 p-4 border border-secondary rounded-3">
+                    <div class="item_icon mb-3">
+                        <span class="display-1 fw-bold text-secondary">01</span>
+                    </div>
+                    <h3 class="item_title">Giải pháp</h3>
+                    <p>
+                        Đổi mới sáng tạo nhằm tối ưu hóa hiệu suất làm việc trên nền tảng Google Workspace và các công nghệ khác của Google. Chúng tôi đảm bảo cung cấp những giải pháp toàn diện và hiệu quả.
+                    </p>
                 </div>
             </div>
-        </div>
-        </div>
-    </div>
 
-    <!-- The Modal -->
-    <div class="modal fade" id="quickViewModal" tabindex="-1" role="dialog" aria-labelledby="quickViewModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="quickViewModalLabel">Product Quick View</h5>
-     
-                </div>
-                <div class="modal-body">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <img src="~/assets/images/icons/Screenshot 2025-03-25 193150.png" class="img-fluid" alt="Course Image">
-                        </div>
-                        <div class="col-md-6">
-                            <h5 id="modalCourseTitle"></h5>
-                            <p id="modalCourseDescription"></p>
-                            <ul id="modalCourseDetails">
-                                <li>Bài học: <span id="modalLessons"></span></li>
-                                <li>Thời lượng: <span id="modalDuration"></span></li>
-                                <li>Trình độ: <span id="modalLevel"></span></li>
-                            </ul>
-                            <button class="btn btn-primary btn-block">Enroll Now</button>
-                        </div>
+            <div class="col col-lg-3 col-md-6 col-sm-12 d-flex">
+                <div class="service_boxed text-center w-100 p-4 border border-secondary rounded-3">
+                    <div class="item_icon mb-3">
+                        <span class="display-1 fw-bold text-secondary">02</span>
                     </div>
+                    <h3 class="item_title">Chương trình đào tạo</h3>
+                    <p>
+                        Chương trình đào tạo phát triển chuyên môn dành cho nhà Giáo dục của Google, được hướng dẫn bởi chuyên gia do Google chứng nhận. Các khóa học được thiết kế chuyên sâu và cập nhật liên tục để đáp ứng nhu cầu học tập và phát triển của bạn.
+                    </p>
                 </div>
-    
+            </div>
+
+            <div class="col col-lg-3 col-md-6 col-sm-12 d-flex">
+                <div class="service_boxed text-center w-100 p-4 border border-secondary rounded-3">
+                    <div class="item_icon mb-3">
+                        <span class="display-1 fw-bold text-secondary">03</span>
+                    </div>
+                    <h3 class="item_title">Chương trình tập huấn</h3>
+                    <p>
+                        Chương trình tập huấn cộng đồng, hội thảo miễn phí nhằm nâng cao năng lực số cho cộng đồng. Các buổi tập huấn được tổ chức thường xuyên và mở rộng đến nhiều đối tượng khác nhau.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col col-lg-3 col-md-6 col-sm-12 d-flex">
+                <div class="service_boxed text-center w-100 p-4 border border-secondary rounded-3">
+                    <div class="item_icon mb-3">
+                        <span class="display-1 fw-bold text-secondary">04</span>
+                    </div>
+                    <h3 class="item_title">Giải pháp chuyển đổi số</h3>
+                    <p>
+                        Giải pháp chuyển đổi số trong trường học và tổ chức giáo dục thông qua hệ sinh thái Google. Chúng tôi mang đến các công cụ hiện đại giúp tối ưu hóa hoạt động quản lý và giảng dạy.
+                    </p>
+                </div>
             </div>
         </div>
     </div>
-    
+</section>
+<!-- reasons_section - end -->
+<!-- Khóa Học Nổi Bật Của Chúng Tôi - start -->
+<section class="featured_courses_section">
+    <div class="container">
+        <!-- Tiêu đề section -->
+        <div class="row justify-content-center mb-5">
+            <div class="col col-lg-8 text-center">
+                <h2 class="title_text">KHÓA HỌC NỔI BẬT CỦA CHÚNG TÔI</h2>
+            </div>
+        </div>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script>
-        $(document).ready(function() {
-            $('.quick-view-btn').click(function() {
-                var courseId = $(this).data('course');
-                var card = $(this).closest('.course-card');
-                var courseTitle = card.find('.card-title').text();
-                var courseDescription = card.find('.card-text').text();
-                var courseDetails = {};
+        <!-- Các Card Khóa Học -->
+        <div class="row justify-content-center g-4">
+            <!-- Card 1: Google Workspace Fundamental -->
+            <div class="col col-lg-3 col-md-6 col-sm-12">
+                <div class="course_card">
+                    <img src="~/image/banner/banner_1.png" alt="100 Days of Code" class="course_image">
+                    <div class="course_info">
+                        <h3 class="course_title">Google Workspace Fundamental</h3>
+                        <h5 class="course_instructor">Lương Trần Ngọc Khiết</h5>
+                        <p class="course_rating">4.7 ★ (243,236 reviews)</p>
+                        <p class="course_price">Giá: Liên hệ chi tiết</p>
+                        <p class="course_start_date">Ngày khai giảng: 23/5/2025</p>
+                        <span class="best_seller">Bestseller</span>
+                        <a href="#" class="btn_more_info">Tìm hiểu thêm</a>
+                    </div>
+                    <!-- Popup Hover -->
+                    <div class="popup_details">
+                        <h3>Google Workspace Fundamental</h3>
+                        <p>Learn how to use Google Workspace tools for better productivity and collaboration in the workplace.</p>
+                        <p><strong>Giảng viên:</strong> Lương Trần Ngọc Khiết</p>
+                        <p><strong>Ngày khai giảng:</strong> 23/5/2025</p>
+                        <button class="add_to_cart">Add to cart</button>
+                    </div>
+                </div>
+            </div>
 
-                if (courseId === 1) {
-                    courseDetails = { lessons: '10', duration: '2 hours', level: 'Basic' };
-                } else if (courseId === 2) {
-                    courseDetails = { lessons: '15', duration: '3 hours', level: 'Advanced' };
-                } else if (courseId === 3) {    
-                    courseDetails = { lessons: '12', duration: '2.5 hours', level: 'All Levels' };
-                } else if (courseId === 4) {
-                    courseDetails = { lessons: '8', duration: '1.5 hours', level: 'Intermediate' };
-                }
+            <!-- Card 2: Google Certified Educator Level 1 -->
+            <div class="col col-lg-3 col-md-6 col-sm-12">
+                <div class="course_card">
+                    <img src="~/image/banner/banner_3.png" alt="Google Certified Educator Level 1" class="course_image">
+                    <div class="course_info">
+                        <h3 class="course_title">Google Certified Educator Level 1</h3>
+                        <h5 class="course_instructor">Đoàn Xuân Hiển</h5>
+                        <p class="course_rating">4.7 ★ (360,601 reviews)</p>
+                        <p class="course_price">Giá: Liên hệ chi tiết</p>
+                        <p class="course_start_date">Ngày khai giảng: 23/5/2025</p>
+                        <span class="best_seller">Bestseller</span>
+                        <a href="#" class="btn_more_info">Tìm hiểu thêm</a>
+                    </div>
+                    <!-- Popup Hover -->
+                    <div class="popup_details">
+                        <h3>Google Certified Educator Level 1</h3>
+                        <p>This certification proves your ability to integrate Google tools into the classroom to improve productivity.</p>
+                        <p><strong>Giảng viên:</strong> Đoàn Xuân Hiển</p>
+                        <p><strong>Ngày khai giảng:</strong> 23/5/2025</p>
+                        <button class="add_to_cart">Add to cart</button>
+                    </div>
+                </div>
+            </div>
 
-                $('#quickViewModalLabel').text(courseTitle);
-                $('#modalCourseTitle').text(courseTitle);
-                $('#modalCourseDescription').text(courseDescription);
-                $('#modalLessons').text(courseDetails.lessons);
-                $('#modalDuration').text(courseDetails.duration);
-                $('#modalLevel').text(courseDetails.level);
+            <!-- Card 3: Google Certified Educator Level 2 -->
+            <div class="col col-lg-3 col-md-6 col-sm-12">
+                <div class="course_card">
+                    <img src="~/image/banner/banner_3.png" alt="Google Certified Educator Level 2" class="course_image">
+                    <div class="course_info">
+                        <h3 class="course_title">Google Certified Educator Level 2</h3>
+                        <h5 class="course_instructor">Đoàn Xuân Hiển</h5>
+                        <p class="course_rating">4.7 ★ (253,102 reviews)</p>
+                        <p class="course_price">Giá: Liên hệ chi tiết</p>
+                        <p class="course_start_date">Ngày khai giảng: 23/5/2025</p>
+                        <span class="best_seller">Bestseller</span>
+                        <a href="#" class="btn_more_info">Tìm hiểu thêm</a>
+                    </div>
+                    <!-- Popup Hover -->
+                    <div class="popup_details">
+                        <h3>Google Certified Educator Level 2</h3>
+                        <p>This advanced certification covers how to integrate Google tools into your classroom at a deeper level.</p>
+                        <p><strong>Giảng viên:</strong> Đoàn Xuân Hiển</p>
+                        <p><strong>Ngày khai giảng:</strong> 23/5/2025</p>
+                        <button class="add_to_cart">Add to cart</button>
+                    </div>
+                </div>
+            </div>
 
-                $('#quickViewModal').modal('show');
-            });
-        });
-    </script>
-</body>
-<!--Start of Tawk.to Script-->
-<script type="text/javascript">
-    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-    (function(){
-    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-    s1.async=true;
-    s1.src='https://embed.tawk.to/67e3fef01c67d81908a52879/1in99nnb3';
-    s1.charset='UTF-8';
-    s1.setAttribute('crossorigin','*');
-    s0.parentNode.insertBefore(s1,s0);
-    })();
-</script>
-<!--End of Tawk.to Script-->
+            <!-- Card 4: AWS Certified Solutions Architect -->
+            <div class="col col-lg-3 col-md-6 col-sm-12">
+                <div class="course_card">
+                    <img src="~/image/banner/maxresdefault.jpg" alt="AWS Certified Solutions Architect" class="course_image">
+                    <div class="course_info">
+                        <h3 class="course_title">Luyện thi Google Certified Educator</h3>
+                        <h5 class="course_instructor">Lê Nguyên Khang</h5>
+                        <p class="course_rating">4.7 ★ (240,102 reviews)</p>
+                        <p class="course_price">Giá: Liên hệ chi tiết</p>
+                        <p class="course_start_date">Ngày khai giảng: 23/5/2025</p>
+                        <span class="best_seller">Bestseller</span>
+                        <a href="#" class="btn_more_info">Tìm hiểu thêm</a>
+                    </div>
+                    <!-- Popup Hover -->
+                    <div class="popup_details">
+                        <h3>Luyện thi Google Certified Educator</h3>
+                        <p>Prepare for your Google Educator certification exams with practice tests and focused training.</p>
+                        <p><strong>Giảng viên:</strong> Lê Nguyên Khang</p>
+                        <p><strong>Ngày khai giảng:</strong> 23/5/2025</p>
+                        <button class="add_to_cart">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Nút "Xem tất cả các khóa học" -->
+        <div class="text-center mt-5">
+            <a href="#" class="btn btn_primary">Xem tất cả các khóa học</a>
+        </div>
+    </div>
+</section>
+<!-- Khóa Học Nổi Bật Của Chúng Tôi - end -->
+<!-- Đội ngũ giảng viên - start -->
+<section class="team_section">
+    <div class="container">
+        <!-- Tiêu đề section -->
+        <div class="row justify-content-center mb-5">
+            <div class="col col-lg-8 text-center">
+                <h2 class="title_text">ĐỘI NGŨ GIẢNG VIÊN</h2>
+                <p>DigComp Edu được thành lập bởi đội ngũ chuyên gia kinh nghiệm và tận tâm, với mong muốn phát triển năng lực Việt Nam.</p>
+            </div>
+        </div>
+
+        <!-- Các Giảng Viên -->
+        <div class="row justify-content-center g-4">
+            <!-- Giảng viên 1: Đoàn Xuân Hiển -->
+            <div class="col col-lg-4 col-md-6 col-sm-12">
+                <div class="team_member">
+                    <img src="~/image/doanxuanhien/1.jpg" alt="Đoàn Xuân Hiển" class="team_image">
+                    <div class="team_info">
+                        <h4 class="team_name">Đoàn Xuân Hiển</h4>
+                        <p class="team_position"><strong>Founder DigComp Edu</strong></p>
+                        <p class="team_details">Google Certified Trainer</p>
+                    </div>
+                    <div class="team_action">
+                        <a href="@Url.Action("DoanXuanHien", "Home")" class="btn_more_info_gv">Tìm hiểu thêm</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Giảng viên 2: Lương Trần Ngọc Khiết -->
+            <div class="col col-lg-4 col-md-6 col-sm-12">
+                <div class="team_member">
+                    <img src="~/image/khiettran/1.jpg" alt="Lương Trần Ngọc Khiết" class="team_image">
+                    <div class="team_info">
+                        <h4 class="team_name">Lương Trần Ngọc Khiết</h4>
+                        <p class="team_position">Thạc sĩ Khoa học máy tính</p>
+                        <p class="team_details">Giảng viên Khoa CNTT ĐH Sư Phạm HCM</p>
+                    </div>
+                    <div class="team_action">
+                        <a href="@Url.Action("LuongTranNgocKhiet", "Home")" class="btn_more_info_gv">Tìm hiểu thêm</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Giảng viên 3: Lê Nguyên Khang -->
+            <div class="col col-lg-4 col-md-6 col-sm-12">
+                <div class="team_member">
+                    <img src="~/image/lenguyenkhang/1.jpg" alt="Lê Nguyên Khang" class="team_image">
+                    <div class="team_info">
+                        <h4 class="team_name">Lê Nguyên Khang</h4>
+                        <p class="team_position">Founder FLASH VN</p>
+                        <p class="team_details">Google Certified Trainer</p>
+                    </div>
+                    <div class="team_action">
+                        <a href="@Url.Action("LeNguyenKhang", "Home")" class="btn_more_info_gv">Tìm hiểu thêm</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Đội ngũ giảng viên - end -->
+<!-- Các Dịch Vụ Nổi Bật Của Chúng Tôi - start -->
+<section class="services_section">
+    <div class="container">
+        <!-- Tiêu đề section -->
+        <div class="row justify-content-center mb-5">
+            <div class="col col-lg-8 text-center">
+                <h2 class="title_text">CÁC DỊCH VỤ NỔI BẬT CỦA CHÚNG TÔI</h2>
+            </div>
+        </div>
+
+        <!-- Các Gói Dịch Vụ -->
+        <div class="row justify-content-center g-4">
+            <!-- Card 1: Google Education Foundation -->
+            <div class="col col-lg-4 col-md-6 col-sm-12">
+                <div class="service_card">
+                    <div class="service_body">
+                        <h3 class="service_title">Google Education Foundation</h3>
+                        <p class="service_subtitle"><a href="#">Khám phá Google Education Foundation</a></p>
+                        <p class="service_description">
+                            Một bộ công cụ giúp tạo cơ hội học tập hợp tác trên nền tảng bảo mật.
+                        </p>
+                        <a href="#" class="btn_get_started">Bắt đầu</a>
+                        <hr>
+                        <ul class="service_features">
+                            <li>Hợp tác với Classroom, Docs, Sheets, Slides, Forms, Gmail, Drive, Meet, Sites, Chat và Calendar.</li>
+                            <li>Công cụ bảo mật và quản trị trong Google Admin Console.</li>
+                            <li>100 TB bộ nhớ đám mây chia sẻ cho tổ chức của bạn.</li>
+                            <li>Ứng dụng Gemini - trợ lý AI với bảo vệ dữ liệu bổ sung.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2: Google Education Standard -->
+            <div class="col col-lg-4 col-md-6 col-sm-12">
+                <div class="service_card">
+                    <div class="service_body">
+                        <h3 class="service_title">Google Education Standard</h3>
+                        <p class="service_subtitle"><a href="#">Khám phá Google Education Standard</a></p>
+                        <p class="service_description">
+                            Bảo mật tiên tiến và phân tích giúp bạn bảo vệ cộng đồng khỏi các mối đe dọa kỹ thuật số.
+                        </p>
+                        <a href="#" class="btn_contact_pricing">Liên hệ giá</a>
+                        <hr>
+                        <ul class="service_features">
+                            <li>Bảng điều khiển bảo mật tập trung giúp bảo vệ cộng đồng của bạn.</li>
+                            <li>Kiểm soát và hiển thị toàn diện qua AppSheet Core.</li>
+                            <li>Công cụ bảo mật giúp phát hiện và ngăn chặn các mối đe dọa.</li>
+                            <li>Ứng dụng Gemini với bảo vệ dữ liệu bổ sung.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3: Google Education Plus -->
+            <div class="col col-lg-4 col-md-6 col-sm-12">
+                <div class="service_card">
+                    <div class="service_header">
+                        <span class="recommended_label">RECOMMENDED</span>
+                    </div>
+                    <div class="service_body">
+                        <h3 class="service_title">Google Education Plus</h3>
+                        <p class="service_subtitle"><a href="#">Khám phá Google Education Plus</a></p>
+                        <p class="service_description">
+                            Giải pháp toàn diện với bảo mật nâng cao, phân tích và các công cụ học tập.
+                        </p>
+                        <a href="#" class="btn_contact_pricing">Liên hệ giá</a>
+                        <hr>
+                        <ul class="service_features">
+                            <li>Bảo mật và phân tích nâng cao giúp bảo vệ cộng đồng khỏi các mối đe dọa kỹ thuật số.</li>
+                            <li>Công cụ học tập nâng cao giúp giáo viên cải thiện hiệu quả giảng dạy.</li>
+                            <li>Công cụ tìm kiếm đám mây cá nhân giúp tìm kiếm thông tin dễ dàng.</li>
+                            <li>Ổ đĩa Google bổ sung cho từng tài khoản nhân viên và học sinh.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Nút "Xem tất cả dịch vụ" -->
+        <div class="text-center mt-5">
+            <a href="#" class="btn btn_primary">Xem tất cả dịch vụ</a>
+        </div>
+    </div>
+</section>
+<!-- Các Dịch Vụ Nổi Bật Của Chúng Tôi - end -->
+<!-- Đối Tác Phát Triển Của Chúng Tôi - start -->
+<section class="partners_section">
+    <div class="container">
+        <!-- Tiêu đề section -->
+        <div class="row justify-content-center mb-5">
+            <div class="col col-lg-8 text-center">
+                <h2 class="title_text">ĐỐI TÁC PHÁT TRIỂN CỦA CHÚNG TÔI</h2>
+            </div>
+        </div>
+
+        <!-- Các Đối Tác -->
+        <div class="row justify-content-center g-4">
+            <!-- Partner 1 -->
+            <div class="col col-lg-6 col-md-6 col-sm-12">
+                <div class="partner_logo text-center">
+                    <img src="~/image/partner/GfE-Partner-Badges-Horizontal.png" alt="Google Education Partner" class="img-fluid">
+                </div>
+            </div>
+
+            <!-- Partner 2 -->
+            <div class="col col-lg-6 col-md-6 col-sm-12">
+                <div class="partner_logo text-center">
+                    <img src="~/image/partner/Logo-HCMUE---ENG-2.png" alt="HCMUE" class="img-fluid">
+                </div>
+            </div>
+
+            <!-- Partner 3 -->
+            <div class="col col-lg-6 col-md-6 col-sm-12">
+                <div class="partner_logo text-center">
+                    <img src="~/image/partner/Logo-ACHISON-with-ISO-9001_WEB.jpeg" alt="Achison" class="img-fluid">
+                </div>
+            </div>
+
+            <!-- Partner 4 -->
+            <div class="col col-lg-6 col-md-6 col-sm-12">
+                <div class="partner_logo text-center">
+                    <img src="~/image/partner/SGU-LOGO.png" alt="SGU" class="img-fluid">
+                </div>
+            </div>
+
+            <!-- Partner 5 -->
+            <div class="col col-lg-6 col-md-6 col-sm-12">
+                <div class="partner_logo text-center">
+                    <img src="~/image/partner/cloud-logo.svg" alt="Cloud" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Đối Tác Phát Triển Của Chúng Tôi - end -->

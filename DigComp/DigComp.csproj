@@ -153,11 +153,6 @@
     <None Include="wwwroot\assets\images\shop\product_img_7.png" />
     <None Include="wwwroot\assets\images\shop\product_img_8.png" />
     <None Include="wwwroot\assets\images\shop\product_img_9.png" />
-    <None Include="wwwroot\assets\images\slider\slider_image_1.png" />
-    <None Include="wwwroot\assets\images\slider\slider_image_2.png" />
-    <None Include="wwwroot\assets\images\slider\slider_image_3.png" />
-    <None Include="wwwroot\assets\images\slider\slider_image_4.png" />
-    <None Include="wwwroot\assets\images\slider\slider_image_5.png" />
     <None Include="wwwroot\assets\images\team\team_1.jpg" />
     <None Include="wwwroot\assets\images\team\team_2.jpg" />
     <None Include="wwwroot\assets\images\team\team_3.jpg" />
@@ -253,6 +248,7 @@
 
   <ItemGroup>
     <Folder Include="Repository\" />
+    <Folder Include="Resources\Views\Home\" />
   </ItemGroup>
 
 </Project>
