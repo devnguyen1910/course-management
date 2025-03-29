@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DigComp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+247691516da717e999c56465046c39557f72cdb0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6079934d791d54d775cd553830c52b65317a5242")]
 [assembly: System.Reflection.AssemblyProductAttribute("DigComp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DigComp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
