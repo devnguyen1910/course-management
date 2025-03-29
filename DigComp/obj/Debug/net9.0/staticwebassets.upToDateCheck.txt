@@ -1,102 +1,103 @@
-D:\Thực tập 2025\DigComp Project\DigComp\DigComp\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
-D:\Thực tập 2025\DigComp Project\DigComp\DigComp\wwwroot\assets\js\jquery-ui.js
-D:\Thực tập 2025\DigComp Project\DigComp\DigComp\wwwroot\js\site.js
-D:\Thực tập 2025\DigComp Project\DigComp\DigComp\wwwroot\assets\js\magnific-popup.min.js
-D:\Thực tập 2025\DigComp Project\DigComp\DigComp\wwwroot\assets\js\countdown.js
-D:\Thực tập 2025\DigComp Project\DigComp\DigComp\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
-D:\Thực tập 2025\DigComp Project\DigComp\DigComp\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
-D:\Thực tập 2025\DigComp Project\DigComp\DigComp\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
-D:\Thực tập 2025\DigComp Project\DigComp\DigComp\wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
-D:\Thực tập 2025\DigComp Project\DigComp\DigComp\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
-D:\Thực tập 2025\DigComp Project\DigComp\DigComp\wwwroot\assets\css\animate.css
-D:\Thực tập 2025\DigComp Project\DigComp\DigComp\wwwroot\assets\js\wow.min.js
-D:\Thực tập 2025\DigComp Project\DigComp\DigComp\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
-D:\Thực tập 2025\DigComp Project\DigComp\DigComp\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.min.js
-D:\Thực tập 2025\DigComp Project\DigComp\DigComp\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
-D:\Thực tập 2025\DigComp Project\DigComp\DigComp\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
-D:\Thực tập 2025\DigComp Project\DigComp\DigComp\wwwroot\lib\jquery-validation\dist\jquery.validate.js
-D:\Thực tập 2025\DigComp Project\DigComp\DigComp\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
-D:\Thực tập 2025\DigComp Project\DigComp\DigComp\wwwroot\assets\js\counterup.min.js
-D:\Thực tập 2025\DigComp Project\DigComp\DigComp\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
-D:\Thực tập 2025\DigComp Project\DigComp\DigComp\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
-D:\Thực tập 2025\DigComp Project\DigComp\DigComp\wwwroot\assets\css\bootstrap.min.css
-D:\Thực tập 2025\DigComp Project\DigComp\DigComp\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
-D:\Thực tập 2025\DigComp Project\DigComp\DigComp\wwwroot\assets\css\icofont.css
-D:\Thực tập 2025\DigComp Project\DigComp\DigComp\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
-D:\Thực tập 2025\DigComp Project\DigComp\DigComp\wwwroot\lib\bootstrap\dist\css\bootstrap.css
-D:\Thực tập 2025\DigComp Project\DigComp\DigComp\wwwroot\assets\images\icons\left_align.svg
-D:\Thực tập 2025\DigComp Project\DigComp\DigComp\wwwroot\assets\fonts\stroke-gap-icons\selection.json
-D:\Thực tập 2025\DigComp Project\DigComp\DigComp\wwwroot\assets\js\main.js
-D:\Thực tập 2025\DigComp Project\DigComp\DigComp\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
-D:\Thực tập 2025\DigComp Project\DigComp\DigComp\wwwroot\assets\fonts\icofont.svg
-D:\Thực tập 2025\DigComp Project\DigComp\DigComp\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
-D:\Thực tập 2025\DigComp Project\DigComp\DigComp\wwwroot\assets\js\waypoints.min.js
-D:\Thực tập 2025\DigComp Project\DigComp\DigComp\wwwroot\assets\js\gmaps.min.js
-D:\Thực tập 2025\DigComp Project\DigComp\DigComp\wwwroot\assets\js\popper.min.js
-D:\Thực tập 2025\DigComp Project\DigComp\DigComp\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
-D:\Thực tập 2025\DigComp Project\DigComp\DigComp\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
-D:\Thực tập 2025\DigComp Project\DigComp\DigComp\wwwroot\assets\css\nice-select.css
-D:\Thực tập 2025\DigComp Project\DigComp\DigComp\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
-D:\Thực tập 2025\DigComp Project\DigComp\DigComp\wwwroot\assets\fonts\stroke-gap-icons\Stroke-Gap-Icons.svg
-D:\Thực tập 2025\DigComp Project\DigComp\DigComp\wwwroot\lib\jquery\dist\jquery.min.map
-D:\Thực tập 2025\DigComp Project\DigComp\DigComp\wwwroot\lib\bootstrap\dist\js\bootstrap.js
-D:\Thực tập 2025\DigComp Project\DigComp\DigComp\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
-D:\Thực tập 2025\DigComp Project\DigComp\DigComp\wwwroot\assets\fonts\stroke-gap-icons\stroke-gap-icons.css
-D:\Thực tập 2025\DigComp Project\DigComp\DigComp\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
-D:\Thực tập 2025\DigComp Project\DigComp\DigComp\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
-D:\Thực tập 2025\DigComp Project\DigComp\DigComp\wwwroot\assets\css\magnific-popup.css
-D:\Thực tập 2025\DigComp Project\DigComp\DigComp\wwwroot\lib\jquery\LICENSE.txt
-D:\Thực tập 2025\DigComp Project\DigComp\DigComp\wwwroot\assets\css\fontawesome.css
-D:\Thực tập 2025\DigComp Project\DigComp\DigComp\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
-D:\Thực tập 2025\DigComp Project\DigComp\DigComp\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
-D:\Thực tập 2025\DigComp Project\DigComp\DigComp\wwwroot\lib\jquery\dist\jquery.slim.min.map
-D:\Thực tập 2025\DigComp Project\DigComp\DigComp\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
-D:\Thực tập 2025\DigComp Project\DigComp\DigComp\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
-D:\Thực tập 2025\DigComp Project\DigComp\DigComp\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
-D:\Thực tập 2025\DigComp Project\DigComp\DigComp\wwwroot\assets\js\jquery.min.js
-D:\Thực tập 2025\DigComp Project\DigComp\DigComp\wwwroot\lib\jquery-validation\dist\additional-methods.js
-D:\Thực tập 2025\DigComp Project\DigComp\DigComp\wwwroot\lib\jquery-validation\LICENSE.md
-D:\Thực tập 2025\DigComp Project\DigComp\DigComp\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
-D:\Thực tập 2025\DigComp Project\DigComp\DigComp\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
-D:\Thực tập 2025\DigComp Project\DigComp\DigComp\wwwroot\assets\images\about\about_image.svg
-D:\Thực tập 2025\DigComp Project\DigComp\DigComp\wwwroot\lib\jquery\dist\jquery.slim.min.js
-D:\Thực tập 2025\DigComp Project\DigComp\DigComp\wwwroot\assets\js\imagesloaded.pkgd.min.js
-D:\Thực tập 2025\DigComp Project\DigComp\DigComp\wwwroot\assets\fonts\stroke-gap-icons\demo.js
-D:\Thực tập 2025\DigComp Project\DigComp\DigComp\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
-D:\Thực tập 2025\DigComp Project\DigComp\DigComp\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
-D:\Thực tập 2025\DigComp Project\DigComp\DigComp\wwwroot\assets\images\preloader.svg
-D:\Thực tập 2025\DigComp Project\DigComp\DigComp\wwwroot\lib\jquery\dist\jquery.js
-D:\Thực tập 2025\DigComp Project\DigComp\DigComp\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
-D:\Thực tập 2025\DigComp Project\DigComp\DigComp\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
-D:\Thực tập 2025\DigComp Project\DigComp\DigComp\wwwroot\assets\js\mCustomScrollbar.js
-D:\Thực tập 2025\DigComp Project\DigComp\DigComp\wwwroot\lib\jquery\dist\jquery.min.js
-D:\Thực tập 2025\DigComp Project\DigComp\DigComp\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
-D:\Thực tập 2025\DigComp Project\DigComp\DigComp\wwwroot\css\site.css
-D:\Thực tập 2025\DigComp Project\DigComp\DigComp\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.js
-D:\Thực tập 2025\DigComp Project\DigComp\DigComp\wwwroot\assets\css\stroke-gap-icons.css
-D:\Thực tập 2025\DigComp Project\DigComp\DigComp\wwwroot\assets\css\slick.css
-D:\Thực tập 2025\DigComp Project\DigComp\DigComp\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
-D:\Thực tập 2025\DigComp Project\DigComp\DigComp\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
-D:\Thực tập 2025\DigComp Project\DigComp\DigComp\wwwroot\assets\js\bootstrap.min.js
-D:\Thực tập 2025\DigComp Project\DigComp\DigComp\wwwroot\lib\jquery\dist\jquery.slim.js
-D:\Thực tập 2025\DigComp Project\DigComp\DigComp\wwwroot\favicon.ico
-D:\Thực tập 2025\DigComp Project\DigComp\DigComp\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
-D:\Thực tập 2025\DigComp Project\DigComp\DigComp\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
-D:\Thực tập 2025\DigComp Project\DigComp\DigComp\wwwroot\assets\fonts\stroke-gap-icons\index.html
-D:\Thực tập 2025\DigComp Project\DigComp\DigComp\wwwroot\assets\css\style.css
-D:\Thực tập 2025\DigComp Project\DigComp\DigComp\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
-D:\Thực tập 2025\DigComp Project\DigComp\DigComp\wwwroot\assets\css\jquery-ui.css
-D:\Thực tập 2025\DigComp Project\DigComp\DigComp\wwwroot\assets\css\slick-theme.css
-D:\Thực tập 2025\DigComp Project\DigComp\DigComp\wwwroot\assets\fonts\stroke-gap-icons\demo.css
-D:\Thực tập 2025\DigComp Project\DigComp\DigComp\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
-D:\Thực tập 2025\DigComp Project\DigComp\DigComp\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
-D:\Thực tập 2025\DigComp Project\DigComp\DigComp\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
-D:\Thực tập 2025\DigComp Project\DigComp\DigComp\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
-D:\Thực tập 2025\DigComp Project\DigComp\DigComp\wwwroot\assets\js\slick.min.js
-D:\Thực tập 2025\DigComp Project\DigComp\DigComp\wwwroot\assets\js\nice-select.min.js
-D:\Thực tập 2025\DigComp Project\DigComp\DigComp\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
-D:\Thực tập 2025\DigComp Project\DigComp\DigComp\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
-D:\Thực tập 2025\DigComp Project\DigComp\DigComp\wwwroot\assets\js\bootstrap5-dropdown-ml-hack.js
+D:\DigComp\course-management\DigComp\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
+D:\DigComp\course-management\DigComp\wwwroot\assets\js\jquery-ui.js
+D:\DigComp\course-management\DigComp\wwwroot\js\site.js
+D:\DigComp\course-management\DigComp\wwwroot\assets\js\magnific-popup.min.js
+D:\DigComp\course-management\DigComp\wwwroot\assets\js\countdown.js
+D:\DigComp\course-management\DigComp\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
+D:\DigComp\course-management\DigComp\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+D:\DigComp\course-management\DigComp\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
+D:\DigComp\course-management\DigComp\wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+D:\DigComp\course-management\DigComp\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+D:\DigComp\course-management\DigComp\wwwroot\assets\css\animate.css
+D:\DigComp\course-management\DigComp\wwwroot\assets\js\wow.min.js
+D:\DigComp\course-management\DigComp\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+D:\DigComp\course-management\DigComp\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.min.js
+D:\DigComp\course-management\DigComp\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+D:\DigComp\course-management\DigComp\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+D:\DigComp\course-management\DigComp\wwwroot\lib\jquery-validation\dist\jquery.validate.js
+D:\DigComp\course-management\DigComp\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
+D:\DigComp\course-management\DigComp\wwwroot\assets\js\counterup.min.js
+D:\DigComp\course-management\DigComp\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+D:\DigComp\course-management\DigComp\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+D:\DigComp\course-management\DigComp\wwwroot\assets\css\bootstrap.min.css
+D:\DigComp\course-management\DigComp\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+D:\DigComp\course-management\DigComp\wwwroot\assets\css\icofont.css
+D:\DigComp\course-management\DigComp\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+D:\DigComp\course-management\DigComp\wwwroot\lib\bootstrap\dist\css\bootstrap.css
+D:\DigComp\course-management\DigComp\wwwroot\assets\images\icons\left_align.svg
+D:\DigComp\course-management\DigComp\wwwroot\assets\fonts\stroke-gap-icons\selection.json
+D:\DigComp\course-management\DigComp\wwwroot\assets\js\main.js
+D:\DigComp\course-management\DigComp\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+D:\DigComp\course-management\DigComp\wwwroot\assets\fonts\icofont.svg
+D:\DigComp\course-management\DigComp\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+D:\DigComp\course-management\DigComp\wwwroot\assets\js\waypoints.min.js
+D:\DigComp\course-management\DigComp\wwwroot\assets\js\gmaps.min.js
+D:\DigComp\course-management\DigComp\wwwroot\assets\js\popper.min.js
+D:\DigComp\course-management\DigComp\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+D:\DigComp\course-management\DigComp\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
+D:\DigComp\course-management\DigComp\wwwroot\assets\css\nice-select.css
+D:\DigComp\course-management\DigComp\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
+D:\DigComp\course-management\DigComp\wwwroot\assets\fonts\stroke-gap-icons\Stroke-Gap-Icons.svg
+D:\DigComp\course-management\DigComp\wwwroot\lib\jquery\dist\jquery.min.map
+D:\DigComp\course-management\DigComp\wwwroot\lib\bootstrap\dist\js\bootstrap.js
+D:\DigComp\course-management\DigComp\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+D:\DigComp\course-management\DigComp\wwwroot\assets\fonts\stroke-gap-icons\stroke-gap-icons.css
+D:\DigComp\course-management\DigComp\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
+D:\DigComp\course-management\DigComp\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+D:\DigComp\course-management\DigComp\wwwroot\assets\css\magnific-popup.css
+D:\DigComp\course-management\DigComp\wwwroot\lib\jquery\LICENSE.txt
+D:\DigComp\course-management\DigComp\wwwroot\assets\css\fontawesome.css
+D:\DigComp\course-management\DigComp\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+D:\DigComp\course-management\DigComp\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+D:\DigComp\course-management\DigComp\wwwroot\lib\jquery\dist\jquery.slim.min.map
+D:\DigComp\course-management\DigComp\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
+D:\DigComp\course-management\DigComp\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
+D:\DigComp\course-management\DigComp\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+D:\DigComp\course-management\DigComp\wwwroot\assets\js\jquery.min.js
+D:\DigComp\course-management\DigComp\wwwroot\lib\jquery-validation\dist\additional-methods.js
+D:\DigComp\course-management\DigComp\wwwroot\lib\jquery-validation\LICENSE.md
+D:\DigComp\course-management\DigComp\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+D:\DigComp\course-management\DigComp\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+D:\DigComp\course-management\DigComp\wwwroot\assets\images\about\about_image.svg
+D:\DigComp\course-management\DigComp\wwwroot\lib\jquery\dist\jquery.slim.min.js
+D:\DigComp\course-management\DigComp\wwwroot\assets\js\imagesloaded.pkgd.min.js
+D:\DigComp\course-management\DigComp\wwwroot\assets\fonts\stroke-gap-icons\demo.js
+D:\DigComp\course-management\DigComp\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+D:\DigComp\course-management\DigComp\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+D:\DigComp\course-management\DigComp\wwwroot\assets\images\preloader.svg
+D:\DigComp\course-management\DigComp\wwwroot\lib\jquery\dist\jquery.js
+D:\DigComp\course-management\DigComp\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
+D:\DigComp\course-management\DigComp\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+D:\DigComp\course-management\DigComp\wwwroot\assets\js\mCustomScrollbar.js
+D:\DigComp\course-management\DigComp\wwwroot\assets\images\logoPartner\cloud-logo.svg
+D:\DigComp\course-management\DigComp\wwwroot\lib\jquery\dist\jquery.min.js
+D:\DigComp\course-management\DigComp\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+D:\DigComp\course-management\DigComp\wwwroot\css\site.css
+D:\DigComp\course-management\DigComp\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.js
+D:\DigComp\course-management\DigComp\wwwroot\assets\css\stroke-gap-icons.css
+D:\DigComp\course-management\DigComp\wwwroot\assets\css\slick.css
+D:\DigComp\course-management\DigComp\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+D:\DigComp\course-management\DigComp\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+D:\DigComp\course-management\DigComp\wwwroot\assets\js\bootstrap.min.js
+D:\DigComp\course-management\DigComp\wwwroot\lib\jquery\dist\jquery.slim.js
+D:\DigComp\course-management\DigComp\wwwroot\favicon.ico
+D:\DigComp\course-management\DigComp\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+D:\DigComp\course-management\DigComp\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
+D:\DigComp\course-management\DigComp\wwwroot\assets\fonts\stroke-gap-icons\index.html
+D:\DigComp\course-management\DigComp\wwwroot\assets\css\style.css
+D:\DigComp\course-management\DigComp\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+D:\DigComp\course-management\DigComp\wwwroot\assets\css\jquery-ui.css
+D:\DigComp\course-management\DigComp\wwwroot\assets\css\slick-theme.css
+D:\DigComp\course-management\DigComp\wwwroot\assets\fonts\stroke-gap-icons\demo.css
+D:\DigComp\course-management\DigComp\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
+D:\DigComp\course-management\DigComp\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
+D:\DigComp\course-management\DigComp\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+D:\DigComp\course-management\DigComp\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
+D:\DigComp\course-management\DigComp\wwwroot\assets\js\slick.min.js
+D:\DigComp\course-management\DigComp\wwwroot\assets\js\nice-select.min.js
+D:\DigComp\course-management\DigComp\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+D:\DigComp\course-management\DigComp\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
+D:\DigComp\course-management\DigComp\wwwroot\assets\js\bootstrap5-dropdown-ml-hack.js
 wwwroot\assets\css\animate.css
 wwwroot\assets\css\bootstrap.min.css
 wwwroot\assets\css\fontawesome.css
@@ -197,12 +198,26 @@ wwwroot\assets\images\instagram\instagram_img_3.jpg
 wwwroot\assets\images\instagram\instagram_img_4.jpg
 wwwroot\assets\images\instagram\instagram_img_5.jpg
 wwwroot\assets\images\instagram\instagram_img_6.jpg
+wwwroot\assets\images\KhoahocAI.jpg
 wwwroot\assets\images\latest_product\latest_product_1.png
 wwwroot\assets\images\latest_product\latest_product_2.png
 wwwroot\assets\images\latest_product\latest_product_3.png
 wwwroot\assets\images\latest_product\latest_product_4.png
 wwwroot\assets\images\logo\DCE-logo.png
+wwwroot\assets\images\logo\logopage.png
 wwwroot\assets\images\logo\NEW_-GfE-Badges-Horizontal_Certified-Trainer-1.png
+wwwroot\assets\images\logoPartner\cloud-logo.svg
+wwwroot\assets\images\logoPartner\GfE-Partner-Badges-Horizontal.png
+wwwroot\assets\images\logoPartner\GfE-Partner-Badge-Vertical.png
+wwwroot\assets\images\logoPartner\Google_Cloud_logo.png
+wwwroot\assets\images\logoPartner\Google_for_Education_logo.svg.png
+wwwroot\assets\images\logoPartner\google_logo-1536x922.png
+wwwroot\assets\images\logoPartner\Google-Education-Logo.webp
+wwwroot\assets\images\logoPartner\logo_e_vs1_big.png
+wwwroot\assets\images\logoPartner\Logo-ACHISON-with-ISO-9001_WEB.jpeg
+wwwroot\assets\images\logoPartner\Logo-HCMUE---ENG-2.png
+wwwroot\assets\images\logoPartner\New-Google-Logo.jpg
+wwwroot\assets\images\logoPartner\SGU-LOGO.png
 wwwroot\assets\images\payments_icon.png
 wwwroot\assets\images\payments_icon_2.png
 wwwroot\assets\images\payments_icon_3.png

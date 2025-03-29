@@ -122,7 +122,6 @@ namespace DigComp.Controllers
             return View();
         }
 
-
         public IActionResult AccountInfo()
         {
             if (string.IsNullOrEmpty(HttpContext.Session.GetString("Username")))
@@ -201,5 +200,28 @@ namespace DigComp.Controllers
             return RedirectToAction("ChangePassword");
         }
 
+        public IActionResult RegisterGuide()
+        {
+            return View();
+        }
+
+        public IActionResult Service()
+        {
+            return View();
+        }
+
+        public IActionResult AllCourses()
+        {
+            return View();
+        }
+
+        public IActionResult Details(int id)
+        {
+          return View();
+        }
+        public IActionResult Partner()
+        {
+            return View();
+        }
     }
 }

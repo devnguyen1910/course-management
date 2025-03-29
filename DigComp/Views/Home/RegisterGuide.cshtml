@@ -1,0 +1,172 @@
+﻿@{
+    ViewData["Title"] = "Hướng Dẫn Đăng Ký";
+}
+
+<style>
+    .guide-container {
+        background-color: #f4f4f9;
+        border-radius: 15px;
+        padding: 30px;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* căn giữa theo chiều ngang */
+
+    }
+
+    .guide-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        align-items: stretch; /* Quan trọng để các cột cùng chiều cao */
+    }
+
+    .guide-col {
+        flex: 1;
+        min-width: 300px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .guide-card {
+        flex: 1; /* Quan trọng: cho phép card tự kéo dài để bằng nhau */
+        display: flex;
+        flex-direction: column;
+        background-color: #ffffff;
+        border: 3px solid #2742FD;
+        border-radius: 15px;
+        padding: 0;
+        box-shadow: none;
+
+    .guide-card-header {
+        background-color: #2742FD;
+        color: #fff;
+        border-radius: 10px 10px 0 0;
+        padding: 15px 20px;
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+
+    .guide-card-body {
+        padding: 20px;
+    }
+
+    .guide-list {
+        list-style: none;
+        padding: 0;
+        margin-bottom: 1rem;
+    }
+
+    .guide-list-item {
+        background-color: #e9ecef;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        margin-bottom: 8px;
+        padding: 10px 15px;
+        transition: none;
+        box-shadow: none;
+        cursor: default;
+    }
+
+    .guide-section h5 {
+        color: #6c757d;
+        margin-top: 15px;
+        font-weight: bold;
+    }
+
+    .guide-title {
+        text-align: center;
+        margin-bottom: 40px;
+        color: #333;
+        width: 100%;
+        display: block;
+    }
+
+</style>
+
+<div class="guide-container">
+    <h2 class="guide-title">Hướng Dẫn Đăng Ký</h2>
+
+    <div class="guide-row">
+        <!-- Cột trái -->
+        <div class="guide-col">
+            <div class="guide-card">
+                <div class="guide-card-header">
+                    Hướng Dẫn Đăng Ký dịch vụ
+                </div>
+                <div class="guide-card-body">
+                    <p>Để đăng ký dịch vụ của chúng tôi, vui lòng làm theo các bước dưới đây:</p>
+
+                    <div class="guide-section">
+                        <h5>Bước 1: Chọn Dịch Vụ</h5>
+                        <p>Chúng tôi cung cấp các dịch vụ sau:</p>
+                        <ul class="guide-list">
+                            <li class="guide-list-item">Dịch vụ WordSpace 1</li>
+                            <li class="guide-list-item">Dịch vụ WordSpace 2</li>
+                            <li class="guide-list-item">Dịch vụ WordSpace 3</li>
+                        </ul>
+
+                        <h5>Bước 2: Nhấn Đăng Ký và Nhập Thông Tin</h5>
+                        <p>Sau khi chọn dịch vụ mong muốn, bạn sẽ điền thông tin cá nhân vào form đăng ký.</p>
+
+                        <h5>Bước 3: Nhập Thông Tin Cơ Bản</h5>
+                        <ul class="guide-list">
+                            <li class="guide-list-item">Họ và tên</li>
+                            <li class="guide-list-item">Email</li>
+                            <li class="guide-list-item">Số điện thoại</li>
+                        </ul>
+
+                        <h5>Bước 4: Hoàn Thành Đăng Ký</h5>
+                        <p>Sau khi điền thông tin, bạn sẽ nhận được email xác nhận dịch vụ đã đăng ký.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Cột phải -->
+        <div class="guide-col">
+            <div class="guide-card">
+                <div class="guide-card-header">
+                    Hướng Dẫn Đăng Ký Khóa Học
+                </div>
+                <div class="guide-card-body">
+                    <p>Để đăng ký khóa học, vui lòng làm theo các bước dưới đây:</p>
+
+                    <div class="guide-section">
+                        <h5>Bước 1: Xem Danh Sách Khóa Học</h5>
+                        <p>Bạn có thể xem danh sách các khóa học hiện có:</p>
+                        <ul class="guide-list">
+                            <li class="guide-list-item" onclick="selectCourse('Khóa học Lập trình Web')">Khóa học Lập trình Web</li>
+                            <li class="guide-list-item" onclick="selectCourse('Khóa học Phát triển ứng dụng')">Khóa học Phát triển ứng dụng</li>
+                            <li class="guide-list-item" onclick="selectCourse('Khóa học Thiết kế giao diện')">Khóa học Thiết kế giao diện</li>
+                        </ul>
+
+                        <h5>Bước 2: Nhấn Vào Khóa Học Để Xem Chi Tiết</h5>
+                        <p>Click vào tên khóa học bạn muốn tìm hiểu để xem thông tin chi tiết.</p>
+
+                        <h5>Bước 3: Đăng Ký Khóa Học</h5>
+                        <p>Kéo xuống dưới cùng và click vào nút đăng ký.</p>
+
+                        <h5>Bước 4: Nhập Thông Tin Cơ Bản</h5>
+                        <p id="course-title">Chọn khóa học để đăng ký.</p>
+                        <ul class="guide-list">
+                            <li class="guide-list-item">Họ và tên</li>
+                            <li class="guide-list-item">Email</li>
+                            <li class="guide-list-item">Số điện thoại</li>
+                            <li class="guide-list-item">Khóa học đã chọn trước đó</li>
+                        </ul>
+
+                        <h5>Bước 5: Nhận Xác Nhận Đăng Ký</h5>
+                        <p>Bạn sẽ nhận được email xác nhận kèm thông tin khóa học.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    function selectCourse(courseName) {
+        document.getElementById("course-title").innerText = "Khóa học bạn đã chọn: " + courseName;
+    }
+</script>

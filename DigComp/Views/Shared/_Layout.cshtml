@@ -184,32 +184,41 @@
         <main>
             @RenderBody()
 
+            @if (ViewContext.RouteData.Values["Action"]?.ToString() != "AllCourses" &&
+            ViewContext.RouteData.Values["Action"]?.ToString() != "Details")
+            {
+                @Html.Partial("RegisterGuide")
+                @Html.Partial("Service")
+                @Html.Partial("Partner")
+                
 
-            <!-- newsletter_section - start
-            ================================================== -->
-            <section class="newsletter_section">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col col-lg-6">
-                            <h2 class="newsletter_title text-white">
-                                <i class="icofont-paper-plane"></i>
-                                Đăng ký để nhận bản tin
-                            </h2>
-                        </div>
-                        <div class="col col-lg-6">
-                            <form action="#!">
-                                <div class="newsletter_form">
-                                    <input type="email" name="email" placeholder="Nhập địa chỉ email của bạn">
-                                    <button type="submit" class="btn btn_danger">Gửi</button>
-                                </div>
-                            </form>
+                <!-- newsletter_section - start -->
+                <section class="newsletter_section">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col col-lg-6">
+                                <h2 class="newsletter_title text-white">
+                                    <i class="icofont-paper-plane"></i>
+                                    Đăng ký để nhận bản tin
+                                </h2>
+                            </div>
+                            <div class="col col-lg-6">
+                                <form action="#!">
+                                    <div class="newsletter_form">
+                                        <input type="email" name="email" placeholder="Nhập địa chỉ email của bạn">
+                                        <button type="submit" class="btn btn_danger">Gửi</button>
+                                    </div>
+                                </form>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </section>
-            <!-- newsletter_section - end
-            ================================================== -->
+                </section>
+                <!-- newsletter_section - end -->
+            }
         </main>
+
+
+
         <!-- main body - end
         ================================================== -->
         <!-- footer_section - start
@@ -218,15 +227,16 @@
             <div class="footer_widget_area">
                 <div class="container">
                     <div class="row">
+                        <!-- Brand Logo and Social Media -->
                         <div class="col col-lg-4 col-md-6 col-sm-6">
                             <div class="footer_widget footer_about">
                                 <div class="brand_logo">
                                     <a class="brand_link" href="index.html">
-                                        <img src="~/assets/images/logo/NEW_-GfE-Badges-Horizontal_Certified-Trainer-1.png" alt="DigComp Education - Đổi mới tương lai">
+                                        <img src="~/assets/images/logo/logopage.png" alt="DigComp Education - Đổi mới tương lai">
                                     </a>
                                 </div>
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    DigComp Education - Kết nối cộng đồng học tập và phát triển kỹ năng số. Theo dõi chúng tôi trên các nền tảng xã hội để cập nhật thông tin và ưu đãi mới nhất!.
                                 </p>
                                 <ul class="social_round ul_li">
                                     <li><a href="#!"><i class="icofont-youtube-play"></i></a></li>
@@ -238,22 +248,24 @@
                             </div>
                         </div>
 
+                        <!-- Quick Links -->
                         <div class="col col-lg-2 col-md-3 col-sm-6">
                             <div class="footer_widget footer_useful_links">
                                 <h3 class="footer_widget_title text-uppercase">Quick Links</h3>
                                 <ul class="ul_li_block">
-                                    <li><a href="about.html">About Us</a></li>
-                                    <li><a href="contact.html">Contact</a></li>
-                                    <li><a href="shop.html">Products</a></li>
-                                    <li><a href="register.html">Login</a></li>
-                                    <li><a href="register.html">Sign Up</a></li>
+                                    <li><a href="#why-choose-us">Why Choose Us</a></li>
+                                    <li><a href="#instructors">Đội ngũ giảng viên</a></li>
+                                    <li><a href="#partners">Đối tác</a></li>
+                                    <li><a href="#guide">Hướng dẫn đăng ký</a></li>
+                                    <li><a href="#offers">Ưu đãi & Khuyến mãi</a></li>
                                 </ul>
                             </div>
                         </div>
 
+                        <!-- Custom Area Links -->
                         <div class="col col-lg-2 col-md-3 col-sm-6">
                             <div class="footer_widget footer_useful_links">
-                                <h3 class="footer_widget_title text-uppercase">Custom area</h3>
+                                <h3 class="footer_widget_title text-uppercase">Custom Area</h3>
                                 <ul class="ul_li_block">
                                     <li><a href="account.html">My Account</a></li>
                                     <li><a href="wishlist.html">Wishlist</a></li>
@@ -263,11 +275,12 @@
                             </div>
                         </div>
 
+                        <!-- Contact Information -->
                         <div class="col col-lg-4 col-md-6 col-sm-6">
                             <div class="footer_widget footer_contact">
-                                <h3 class="footer_widget_title text-uppercase">Contact Onfo</h3>
+                                <h3 class="footer_widget_title text-uppercase">Contact Info</h3>
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
+                                    Tính năng chat trực tuyến giúp khách hàng liên hệ với bạn ngay lập tức và nhận phản hồi nhanh chóng.
                                 </p>
                                 <div class="hotline_wrap">
                                     <div class="footer_hotline">
@@ -275,7 +288,7 @@
                                             <i class="icofont-headphone-alt"></i>
                                         </div>
                                         <div class="item_content">
-                                            <h4 class="item_title">Have any question?</h4>
+                                            <h4 class="item_title">Bất cứ câu hỏi gì?</h4>
                                             <span class="hotline_number">(+880)1680636189</span>
                                         </div>
                                     </div>
@@ -283,18 +296,44 @@
                                         <a class="btn border_primary" href="#!">Live Chat</a>
                                     </div>
                                 </div>
-                                <ul class="store_btns_group ul_li">
-                                    <li><a href="#!"><img src="~/assets/images/app_store.png" alt="app_store"></a></li>
-                                    <li><a href="#!"><img src="~/assets/images/play_store.png" alt="play_store"></a></li>
-                                </ul>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            
+            <!-- Thanh ngang divider dưới footer -->
+            <div class="footer_divider">
+                <div class="container">
+                    <div class="footer-links">
+                        <a href="#privacy-policy">Privacy Policy</a>
+                        <a href="#legal-policy">Legal Policy</a>
+                        <a href="#terms-of-service">Terms of Service</a>
+                        <a href="#accessibility">Accessibility</a>
+                    </div>
+                </div>
+            </div>
         </footer>
+
+
+
+        <!-- Add smooth scroll for links -->
+        <script>
+            // Smooth scroll to sections
+            const links = document.querySelectorAll('a[href^="#"]');
+            links.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute('href').substring(1);
+                    const targetElement = document.getElementById(targetId);
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 70, // Adjust for header space
+                        behavior: 'smooth'
+                    });
+                });
+            });
+        </script>
+
         <!-- footer_section - end
         ================================================== -->
 

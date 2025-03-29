@@ -1,0 +1,189 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Chi Tiết Khóa Học";
+}
+
+<!-- breadcrumb_section - start -->
+<div class="breadcrumb_section">
+    <div class="container">
+        <ul class="breadcrumb_nav ul_li">
+            <li><a asp-controller="Home" asp-action="Index">Trang chủ</a></li>
+            <li><a asp-controller="Course" asp-action="AllCourses">Danh sách khóa học</a></li>
+            <li>Chi tiết khóa học</li>
+        </ul>
+    </div>
+</div>
+<!-- breadcrumb_section - end -->
+
+<div class="container my-5">
+    <!-- Title & Badge -->
+    <div class="row">
+        <div class="col-lg-8">
+            <h1 class="display-4">Khóa học Phát triển Web Nâng Cao <span class="badge bg-danger">Hot</span></h1>
+            <p class="lead">Từ cơ bản đến nâng cao chỉ trong 4 tuần, học 1 kèm 1 qua Google Meet.</p>
+        </div>
+    </div>
+
+    <!-- Course Image/Video -->
+    <div class="row">
+        <div class="col-lg-8">
+            <img src="~/assets/images/KhoahocAI.jpg" class="img-fluid" alt="Course Image">
+            <!-- hoặc có thể là video YouTube -->
+            <!-- <iframe width="100%" height="500" src="https://www.youtube.com/embed/xyz"></iframe> -->
+        </div>
+    </div>
+
+    <!-- Course Information -->
+    <div class="row my-4">
+        <div class="col-lg-8">
+            <h5><strong>Thông Tin Khóa Học</strong></h5>
+            <p>
+                <strong>Giảng viên:</strong> Thầy A <br>
+                <img src="https://via.placeholder.com/50" alt="Instructor" class="rounded-circle me-2"> <br>
+                <small>Giới thiệu: Thầy A là chuyên gia với 10 năm kinh nghiệm trong lĩnh vực phát triển web.</small>
+            </p>
+
+            <p><strong>Thời gian học:</strong> 8 buổi học - 60 phút/buổi</p>
+            <p><strong>Lịch học:</strong> Linh hoạt theo giờ bạn chọn</p>
+            <p><strong>Hình thức học:</strong> 1 kèm 1 qua Google Meet</p>
+            <p><strong>Mục tiêu khóa học:</strong> Trở thành lập trình viên web chuyên nghiệp, thành thạo HTML, CSS, JavaScript, PHP.</p>
+            <p><strong>Ngôn ngữ giảng dạy:</strong> Tiếng Việt</p>
+            <p><strong>Yêu cầu đầu vào:</strong> Không cần kiến thức nền tảng.</p>
+        </div>
+    </div>
+
+    <!-- Curriculum -->
+    <div class="row my-4">
+        <div class="col-lg-8">
+            <h5><strong>Nội Dung Khóa Học (Lộ trình học)</strong></h5>
+            <div class="accordion" id="curriculumAccordion">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Buổi 1: Giới thiệu, làm quen, định hướng
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#curriculumAccordion">
+                        <div class="accordion-body">
+                            Giới thiệu về các công cụ cần thiết và cách setup môi trường học.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Buổi 2: Làm quen với HTML & CSS
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#curriculumAccordion">
+                        <div class="accordion-body">
+                            Tìm hiểu về cấu trúc HTML và cách sử dụng CSS để định dạng trang web.
+                        </div>
+                    </div>
+                </div>
+                <!-- Thêm các buổi học tiếp theo -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Reviews -->
+    <div class="row my-4">
+        <div class="col-lg-8">
+            <h5><strong>Đánh Giá Khóa Học</strong></h5>
+            <p class="rating">★★★★★ (100 học viên)</p>
+            <div>
+                <strong>Nhận xét:</strong>
+                <ul>
+                    <li>“Khóa học rất dễ hiểu và đầy đủ kiến thức cần thiết.” - Học viên A</li>
+                    <li>“Giảng viên rất nhiệt tình và chuyên nghiệp.” - Học viên B</li>
+                    <li>“Sau khi học xong, tôi có thể tự xây dựng website.” - Học viên C</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Price -->
+    <div class="row my-4">
+        <div class="col-lg-8">
+            <h5><strong>Học Phí</strong></h5>
+            <p><del>3.000.000 đ</del> <strong>Giảm còn: 2.000.000 đ</strong></p>
+            <p><small>Học thử miễn phí buổi đầu tiên!</small></p>
+        </div>
+    </div>
+
+    <!-- Register Button -->
+    <div class="row my-4">
+        <div class="col-lg-8">
+            <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#registerModal">Đăng Ký Khóa Học</button>
+        </div>
+    </div>
+
+    <!-- FAQ -->
+    <div class="row my-4">
+        <div class="col-lg-8">
+            <h5><strong>Câu Hỏi Thường Gặp</strong></h5>
+            <ul>
+                <li><strong>Học online có hiệu quả không?</strong> - Khóa học được thiết kế cho học viên học trực tuyến 1 kèm 1 với giảng viên, vì vậy rất hiệu quả.</li>
+                <li><strong>Có cần cài đặt phần mềm gì không?</strong> - Bạn chỉ cần cài đặt trình duyệt và phần mềm Zoom/Google Meet.</li>
+                <li><strong>Học không kịp buổi nào thì sao?</strong> - Bạn có thể yêu cầu giảng viên dạy lại hoặc học bù vào buổi sau.</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Related Courses -->
+    <div class="row my-4">
+        <div class="col-lg-8">
+            <h5><strong>Các Khóa Học Liên Quan</strong></h5>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Course Image">
+                        <div class="card-body">
+                            <h6 class="card-title">Khóa học React JS</h6>
+                            <a href="#" class="btn btn-primary">Xem Chi Tiết</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Thêm các khóa học liên quan khác -->
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal đăng ký khóa học -->
+<div class="modal fade" id="registerModal" tabindex="-1" aria-labelledby="registerModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="registerModalLabel">Đăng ký khóa học</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Họ và tên</label>
+                        <input type="text" class="form-control" id="name" placeholder="Nhập họ và tên của bạn">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Nhập email của bạn">
+                    </div>
+                    <div class="mb-3">
+                        <label for="phone" class="form-label">Số điện thoại</label>
+                        <input type="text" class="form-control" id="phone" placeholder="Nhập số điện thoại của bạn">
+                    </div>
+                    <div class="mb-3">
+                        <label for="time" class="form-label">Giờ học mong muốn</label>
+                        <input type="text" class="form-control" id="time" placeholder="Nhập giờ học mong muốn">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Đăng ký</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
