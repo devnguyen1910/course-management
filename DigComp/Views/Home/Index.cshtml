@@ -1,5 +1,534 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
+    Layout = "_Layout";
 }
 
-<h2> Chào mừng đến với DigComp</h2>
+<div id="bannerSlider" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <a href="/Course/Index">
+                <img src="~/assets/images/slider/slider_image_1.jpg" class="d-block w-100" alt="Banner 1">
+            </a>
+        </div>
+        <div class="carousel-item">
+            <a href="ServicePackage/Index">
+                <img src="~/assets/images/slider/banner Mac.jpg" class="d-block w-100" alt="Banner 2">
+            </a>
+        </div>
+    </div>
+    <a class="carousel-control-prev" href="#bannerSlider" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#bannerSlider" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4 Lý Do Nên Chọn Chúng Tôi</title>
+    <link rel="stylesheet">
+    <style>
+        /* Your existing styles here */
+        #bannerSlider {
+            left: 50px;
+            width: 95%;
+            height: auto;
+        }
+
+        .carousel-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        body, h1, h2, h3, p, div {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+
+        .main-title {
+            color: #3498db;
+            font-size: 2.5em;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .reasons-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .reason-item {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .reason-number {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #ecf0f1;
+            margin-bottom: 10px;
+            position: relative;
+            z-index: -1;
+        }
+
+        .reason-title {
+            color: #3498db;
+            font-size: 1.4em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .reason-description {
+            color: #555;
+            font-size: 0.9em;
+            line-height: 1.6;
+        }
+
+        .reason-item > div {
+            position: relative;
+        }
+
+            .reason-item > div::before {
+                content: attr(class);
+                position: absolute;
+                top: -20px;
+                left: 50%;
+                transform: translateX(-50%);
+                font-size: 2.5em;
+                font-weight: bold;
+                color: #ecf0f1;
+                z-index: -1;
+            }
+
+        .reason-item:nth-child(1) > div::before {
+            content: "01.";
+        }
+
+        .reason-item:nth-child(2) > div::before {
+            content: "02.";
+        }
+
+        .reason-item:nth-child(3) > div::before {
+            content: "03.";
+        }
+
+        .reason-item:nth-child(4) > div::before {
+            content: "04.";
+        }
+
+        .main-title {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        .reason-item {
+            text-align: left;
+        }
+
+            .reason-item > div::before {
+                left: 10px;
+                transform: translateX(0);
+            }
+
+        .reasons-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .button-container {
+            grid-column: 2 / 4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+            .button-container p {
+                margin-bottom: 0;
+            }
+
+        .course-card {
+            border: 1px solid #dee2e6;
+            border-radius: 8px;
+            overflow: hidden;
+            height: 400px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+            position: relative;
+            transition: filter 0.3s ease;
+        }
+
+            .course-card:hover {
+                filter: brightness(80%);
+            }
+
+            .course-card img {
+                width: 100%;
+                height: 200px;
+                object-fit: cover;
+                transition: opacity 0.3s ease;
+            }
+
+            .course-card .card-body {
+                padding: 15px;
+                text-align: center;
+                min-height: 200px;
+            }
+
+            .course-card .card-title {
+                font-size: 1.1em;
+                font-weight: bold;
+                margin-bottom: 10px;
+                color: #343a40;
+            }
+
+            .course-card .card-text {
+                font-size: 0.9em;
+                color: #6c757d;
+                margin-bottom: 15px;
+                line-height: 1.5;
+                height: 60px;
+                overflow: hidden;
+                margin-bottom: 10px;
+            }
+
+        .btn-primary {
+            background-color: #007bff;
+            border-color: #007bff;
+            color: #fff;
+            font-size: 0.9em;
+            padding: 8px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+            .btn-primary:hover {
+                background-color: #0056b3;
+                border-color: #0056b3;
+            }
+
+        .btn-outline-primary {
+            color: #007bff;
+            border-color: #007bff;
+            transition: color 0.3s ease, border-color 0.3s ease;
+        }
+
+            .btn-outline-primary:hover {
+                background-color: #007bff;
+                color: #fff;
+            }
+
+        .quick-view-btn {
+            position: absolute;
+            top: 90%;
+            left: 45%;
+            transform: translate(-50%, -50%);
+            background-color: rgba(0, 0, 0, 0.7);
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            z-index: 10;
+            margin: 10px;
+        }
+
+        .course-card:hover .quick-view-btn {
+            opacity: 1;
+        }
+
+        .quick-view-btn:hover {
+            background-color: rgba(0, 0, 0, 0.9);
+        }
+
+        .section-title-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 30px;
+            padding: 0 15px;
+        }
+
+        .section-title {
+            color: #3498db;
+            font-size: 2.2em;
+            font-weight: 700;
+            text-align: left;
+            margin-bottom: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .section-date {
+            color: #777;
+            font-size: 1.1em;
+            font-weight: 400;
+            margin-bottom: 0;
+            font-style: italic;
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        .teacher-card {
+            border: 1px solid #dee2e6;
+            border-radius: 8px;
+            overflow: hidden;
+            height: auto;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: filter 0.3s ease;
+        }
+
+            .teacher-card:hover {
+                filter: brightness(80%);
+            }
+
+            .teacher-card img {
+                width: 100%;
+                height: 200px;
+                object-fit: cover;
+                transition: opacity 0.3s ease;
+            }
+
+            .teacher-card .card-body {
+                padding: 15px;
+                text-align: center;
+            }
+
+            .teacher-card .card-title {
+                font-size: 1.1em;
+                font-weight: bold;
+                margin-bottom: 10px;
+                color: #343a40;
+            }
+
+            .teacher-card .card-text {
+                font-size: 0.9em;
+                color: #6c757d;
+                margin-bottom: 15px;
+                line-height: 1.5;
+                height: 60px;
+                overflow: hidden;
+                margin-bottom: 10px;
+            }
+
+        .btn-primary {
+            background-color: #007bff;
+            border-color: #007bff;
+            color: #fff;
+            font-size: 0.9em;
+            padding: 8px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+            .btn-primary:hover {
+                background-color: #0056b3;
+                border-color: #0056b3;
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2 class="main-title">4 LÝ DO NÊN CHỌN CHÚNG TÔI</h2>
+        <div class="reasons-grid">
+            <div class="reason-item">
+                <div class="reason-number">01.</div>
+                <h3 class="reason-title">Giải pháp</h3>
+                <p class="reason-description">Đổi mới sáng tạo nhằm tối ưu hóa hiệu suất làm việc trên nền tảng Google Workspace và các công nghệ khác của Google</p>
+            </div>
+            <div class="reason-item">
+                <div class="reason-number">02.</div>
+                <h3 class="reason-title">Chương trình đào tạo</h3>
+                <p class="reason-description">Chương trình đào tạo phát triển chuyên môn dành cho nhà Giáo dục của Google, được hướng dẫn bởi chuyên gia do Google chứng nhận</p>
+            </div>
+            <div class="reason-item">
+                <div class="reason-number">03.</div>
+                <h3 class="reason-title">Chương trình tập huấn</h3>
+                <p class="reason-description">Chương trình tập huấn cộng đồng, hội thảo miễn phí nhằm nâng cao năng lực số cho cộng đồng.</p>
+            </div>
+            <div class="reason-item">
+                <div class="reason-number">04.</div>
+                <h3 class="reason-title">Giải pháp chuyển đổi số</h3>
+                <p class="reason-description">Giải pháp chuyển đổi số trong trường học và tổ chức giáo dục thông qua hệ sinh thái Google</p>
+            </div>
+            <div class="button-container">
+                <p class="mt-3 text-center">
+                    <a href="/Rate/Index" class="btn btn-primary">XEM ĐÁNH GIÁ TỪ HỌC VIÊN</a>
+                </p>
+            </div>
+        </div>
+        <div class="container mt-5">
+            <div class="section-title-bar">
+                <h2 class="section-title">KHÓA HỌC NỔI BẬT</h2>
+                <p class="section-date">Ngày khai giảng: 23/5</p>
+            </div>
+            <div class="row">
+                <div class="col-md-3 mb-4">
+                    <div class="card course-card">
+                        <img src="~/assets/images/icons/Screenshot 2025-03-25 193150.png" class="card-img-top" alt="Khóa học 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Google Workspace Cơ Bản</h5>
+                            <p class="card-text">Nắm vững các công cụ cơ bản của Google Workspace để làm việc hiệu quả.</p>
+                        </div>
+                        <button class="btn btn-sm btn-outline-info quick-view-btn" data-course="1">Quick View</button>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="card course-card">
+                        <img src="~/assets/images/icons/Screenshot 2025-03-25 193150.png" class="card-img-top" alt="Khóa học 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Google Sheets Nâng Cao</h5>
+                            <p class="card-text">Trở thành chuyên gia phân tích dữ liệu với các tính năng nâng cao của Google Sheets.</p>
+                        </div>
+                        <button class="btn btn-sm btn-outline-info quick-view-btn" data-course="2">Quick View</button>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="card course-card">
+                        <img src="~/assets/images/icons/Screenshot 2025-03-25 193150.png" class="card-img-top" alt="Khóa học 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Xây Dựng Trang Web Với Google Sites</h5>
+                            <p class="card-text">Tự tay tạo trang web chuyên nghiệp một cách dễ dàng với Google Sites.</p>
+                        </div>
+                        <button class="btn btn-sm btn-outline-info quick-view-btn" data-course="3">Quick View</button>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="card course-card">
+                        <img src="~/assets/images/icons/Screenshot 2025-03-25 193150.png" class="card-img-top" alt="Khóa học 4">
+                        <div class="card-body">
+                            <h5 class="card-title">Google Slides Chuyên Nghiệp</h5>
+                            <p class="card-text">Thiết kế bài thuyết trình ấn tượng và hiệu quả với Google Slides.</p>
+                        </div>
+                        <button class="btn btn-sm btn-outline-info quick-view-btn" data-course="4">Quick View</button>
+                    </div>
+                </div>
+            </div>
+            <div class="button-container">
+                <p class="mt-3 text-center">
+                    <a href="/Course/Index" class="btn btn-primary">XEM TẤT CẢ KHÓA HỌC</a>
+                </p>
+            </div>
+            <div class="container mt-5">
+    <div class="row">
+        <!-- Giảng viên Card -->
+        <div class="col-md-3 mb-4">
+            <div class="card teacher-card">
+                <!-- Ảnh giảng viên -->
+                <img src="~/assets/images/about/Screenshot 2025-03-27 210436.png" class="card-img-top" alt="Giảng viên 1">
+                <div class="card-body">
+                    <!-- Tên giảng viên -->
+                    <h5 class="card-title">Nguyễn Văn A</h5>
+                    <!-- Mô tả ngắn về giảng viên -->
+                    <p class="card-text">Giảng viên chuyên ngành Tin học với hơn 10 năm kinh nghiệm giảng dạy.</p>
+                    <!-- Nút xem chi tiết -->
+                                <a href="/Home/DetailTeacher" class="btn btn-primary">Xem Chi Tiết</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Thêm các giảng viên khác tương tự -->
+        <div class="col-md-3 mb-4">
+            <div class="card teacher-card">
+                            <img src="~/assets/images/about/Screenshot 2025-03-27 210436.png" class="card-img-top" alt="Giảng viên 2">
+                <div class="card-body">
+                    <h5 class="card-title">Trần Thị B</h5>
+                    <p class="card-text">Giảng viên với chuyên môn vững và nhiệt huyết trong việc truyền đạt kiến thức.</p>
+                    <a href="/Home/DetailTeacher" class="btn btn-primary">Xem Chi Tiết</a>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <!-- The Modal -->
+    <div class="modal fade" id="quickViewModal" tabindex="-1" role="dialog" aria-labelledby="quickViewModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="quickViewModalLabel">Product Quick View</h5>
+     
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="~/assets/images/icons/Screenshot 2025-03-25 193150.png" class="img-fluid" alt="Course Image">
+                        </div>
+                        <div class="col-md-6">
+                            <h5 id="modalCourseTitle"></h5>
+                            <p id="modalCourseDescription"></p>
+                            <ul id="modalCourseDetails">
+                                <li>Bài học: <span id="modalLessons"></span></li>
+                                <li>Thời lượng: <span id="modalDuration"></span></li>
+                                <li>Trình độ: <span id="modalLevel"></span></li>
+                            </ul>
+                            <button class="btn btn-primary btn-block">Enroll Now</button>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.quick-view-btn').click(function() {
+                var courseId = $(this).data('course');
+                var card = $(this).closest('.course-card');
+                var courseTitle = card.find('.card-title').text();
+                var courseDescription = card.find('.card-text').text();
+                var courseDetails = {};
+
+                if (courseId === 1) {
+                    courseDetails = { lessons: '10', duration: '2 hours', level: 'Basic' };
+                } else if (courseId === 2) {
+                    courseDetails = { lessons: '15', duration: '3 hours', level: 'Advanced' };
+                } else if (courseId === 3) {    
+                    courseDetails = { lessons: '12', duration: '2.5 hours', level: 'All Levels' };
+                } else if (courseId === 4) {
+                    courseDetails = { lessons: '8', duration: '1.5 hours', level: 'Intermediate' };
+                }
+
+                $('#quickViewModalLabel').text(courseTitle);
+                $('#modalCourseTitle').text(courseTitle);
+                $('#modalCourseDescription').text(courseDescription);
+                $('#modalLessons').text(courseDetails.lessons);
+                $('#modalDuration').text(courseDetails.duration);
+                $('#modalLevel').text(courseDetails.level);
+
+                $('#quickViewModal').modal('show');
+            });
+        });
+    </script>
+</body>
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/67e3fef01c67d81908a52879/1in99nnb3';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+    })();
+</script>
+<!--End of Tawk.to Script-->

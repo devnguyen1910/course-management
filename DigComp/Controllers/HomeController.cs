@@ -1,4 +1,5 @@
 ﻿using System.Diagnostics;
+using System.Reflection;
 using DigComp.Models;
 using Microsoft.AspNetCore.Mvc;
 
@@ -19,7 +20,14 @@ namespace DigComp.Controllers
         {
             ViewBag.Username = HttpContext.Session.GetString("Username"); // Kiểm tra xem user có đăng nhập không
             ViewBag.SuccessMessage = TempData["SuccessMessage"] as string; // Lấy thông báo từ TempData
+            var banners = new List<Banner>
+            {
+            new Banner { ImageUrl = "~/assets/images/slider/slider_image_1.png", IsActive = true },
+            new Banner { ImageUrl = "~/assets/images/slider/slider_image_2.png", IsActive = false },
+            new Banner { ImageUrl = "~/assets/images/slider/slider_image_3.png", IsActive = false }
+        };
             return View();
+
         }
 
 
